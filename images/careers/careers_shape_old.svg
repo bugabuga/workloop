@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1360px" height="1161px" viewBox="0 0 1360 1161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>AD4231EA-FF6E-4F16-B776-BA74149B40EB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="54.6572843%" x2="42.8768647%" y2="47.0558219%" id="linearGradient-1">
+            <stop stop-color="#06DAED" stop-opacity="0.11013986" offset="0%"></stop>
+            <stop stop-color="#06DAED" stop-opacity="0.291165865" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.9475554%" y1="57.1720428%" x2="60.9472052%" y2="60.5975055%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F4FBFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M520.277722,406.932109 L2222.79107,261.253674 C2266.81299,257.486864 2305.5534,290.120076 2309.32021,334.141993 C2309.54346,336.751076 2309.63848,339.369547 2309.60491,341.987949 L2295.01049,1480.36765 L2099.11687,1269.82103 C2075.4998,1244.43737 2040.4197,1233.09829 2006.4134,1239.85609 L463.935663,1546.38073 C432.559048,1552.61597 400.093099,1543.46332 376.593448,1521.75764 L162.005694,1323.55159 C131.510368,1295.38429 121.589128,1251.30499 137.075412,1212.78828 L436.021835,469.263717 C450.097956,434.254297 482.681873,410.149062 520.277722,406.932109 Z" id="path-3"></path>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONNEX-CAREER-3" transform="translate(0.000000, -676.000000)">
+            <g id="OUR-STORY" transform="translate(-1006.000000, 435.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Mask" opacity="0.495605469" transform="translate(1219.732207, 904.628831) scale(-1, 1) rotate(-345.000000) translate(-1219.732207, -904.628831) ">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.5" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

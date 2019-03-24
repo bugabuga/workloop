@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22502ea3-4368-4da2-b2a5-cd35274ed076" name="ipage" url="http://ftp.atlanticfinancials.com">
+        <fileTransfer host="ftp.atlanticfinancials.com" port="21" rootFolder="/connex/wp-content/themes/workloop/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

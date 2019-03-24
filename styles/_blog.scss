@@ -1,0 +1,383 @@
+.blog {
+
+	.resources {
+		padding-top: em(120);
+	}
+
+	.articles {
+		@include container();
+		position: relative;
+		z-index: 10;
+	}
+
+	.right-border {
+		width: em(24);
+		height: 250%;
+		max-height: 300%;
+		position: absolute;
+		right: 0;
+		top: em(760);
+		z-index: 3;
+		background-color: #693AF9;
+		overflow: visible !important;
+	}
+
+	.left-border {
+		width: em(21);
+		height: 200%;
+		position: absolute;
+		left: 0;
+		top: em(1170);
+		z-index: 2;
+		background: #FFD002;
+	}
+
+	&-purple-shape {
+		background: url("./images/blog/blog_purple_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(285);
+		height: em(491);
+		position: absolute;
+		top: em(299);
+		right: em(-6);
+		z-index: 10;
+	}
+
+	&-yellow-shape {
+		background: url("./images/blog/blog_yellow_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(585);
+		height: em(890);
+		position: absolute;
+		top: em(299);
+		left: em(-1);
+		z-index: -1;
+	}
+
+	.blog {
+		@include flexbox();
+		@include flex_util(between);
+		flex-wrap: wrap;
+
+		&:not(.resources-blog) {
+
+			.blog-post:first-child {
+				width: 100%;
+				flex: 0 0 100%;
+				margin-bottom: em(160);
+				@include flexbox();
+				@include flex_util(between);
+
+				.blog-image {
+					width: 43%;
+					flex: 0 0 43%;
+					height: em(300);
+				}
+
+				.blog-content {
+					width: 51%;
+					flex: 0 0 51%;
+				}
+
+				.blog-specs {
+					margin-top: em(22);
+				}
+
+				.blog-title {
+					font-size: em(24);
+					line-height: em(36,24);
+				}
+
+				.blog-text {
+					font-size: em(20);
+					margin-bottom: em(60, 20);
+				}
+
+				.btn {
+					font-size: 19px;
+				}
+			}
+		}
+
+		&-post {
+			width: em(340);
+			margin-bottom: em(100);
+		}
+
+		&-image {
+			width: 100%;
+			height: em(200);
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&-specs {
+			font-size: em(18);
+			line-height: em(24, 18);
+			margin-bottom: em(10);
+			margin-top: em(20);
+		}
+
+		&-title {
+			font-size: em(18);
+			line-height: em(24, 18);
+			font-weight: bold;
+			margin-bottom: em(10);
+
+			&-link {
+				text-decoration: none;
+				color: inherit;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		&-text {
+			font-size: em(18);
+			line-height: em(24, 18);
+			margin-bottom: em(36);
+		}
+	}
+}
+
+.article {
+	padding-top: em(200);
+
+	.right-border {
+		width: em(24);
+		height: 250%;
+		max-height: 300%;
+		position: absolute;
+		right: 0;
+		top: em(300);
+		z-index: 3;
+		background-color: #693AF9;
+		overflow: visible !important;
+	}
+
+	.left-border {
+		width: em(21);
+		height: 200%;
+		position: absolute;
+		left: 0;
+		top: em(630);
+		z-index: 2;
+		background: #F1055C;
+	}
+
+	&-purple-shape {
+		background: url("./images/blog/article_purple_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(158);
+		height: em(218);
+		position: absolute;
+		top: em(256);
+		right: em(-1);
+		z-index: 10;
+	}
+
+	&-red-shape {
+		background: url("./images/blog/article_red_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(73);
+		height: em(180);
+		position: absolute;
+		top: em(610);
+		left: em(-1);
+		z-index: 10;
+	}
+
+	&-container {
+		display: grid;
+		grid-template-columns:repeat(12, 1fr);;
+		grid-template-rows: em(540) auto;
+		grid-template-areas:
+						"thumbnail thumbnail thumbnail thumbnail thumbnail post post post post post post post"
+						"related related related related related post post post post post post post";
+		grid-column-gap: em(36);
+		grid-row-gap: em(36);
+
+		@include container();
+	}
+
+	&-thumbnail {
+		grid-area: thumbnail;
+	}
+
+	&-share {
+		width: em(118);
+		display: block;
+		margin-left: auto;
+
+		&-title {
+			width: 100%;
+			font-size: em(14);
+			color: #9A9A9A;
+			line-height: em(24, 14);
+			margin-bottom: em(4, 14);
+		}
+
+		&-links {
+			width: 100%;
+			@include flexbox();
+			@include flex_util(between);
+		}
+
+		&-link {
+			display: block;
+			width: em(23);
+			height: em(23);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			@include transition(opacity);
+
+			&:hover {
+				opacity: 0.8;
+			}
+
+			&._linkedin {
+				background-image: url("./images/blog/linkedin.svg");
+			}
+
+			&._facebook {
+				background-image: url("./images/blog/facebook.svg");
+			}
+
+			&._twitter {
+				background-image: url("./images/blog/twitter.svg");
+			}
+		}
+	}
+
+	&-related {
+		grid-area: related;
+
+		&-title {
+			color: #F1055C;
+			font-size: em(24);
+			line-height: em(42, 24);
+			font-weight: 500;
+			margin-bottom: em(10, 24);
+		}
+	}
+
+	.blog {
+
+		&-post {
+			width: 100%;
+			flex: 0 0 100%;
+			height: em(100);
+			margin-bottom: em(12);
+			padding-left: em(16);
+			@include flexbox();
+			@include flex_util(between, middle);
+			border: em(1) solid transparent;
+			border-radius: em(11);
+			@include transition(border);
+
+			&:hover {
+				border: em(1) solid rgba(217,217,217,0.5);
+			}
+
+			.blog-image {
+				width: em(90);
+				flex: 0 0 em(90);
+				height: em(55);
+			}
+
+			.blog-content {
+				width: 75%;
+				flex: 0 0 75%;
+			}
+
+			.blog-specs {
+				font-size: em(12);
+				line-height: em(20, 12);
+				color: #9A9A9A;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			.blog-title {
+				font-size: em(13);
+				line-height: em(17,13);
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&-post {
+		grid-area: post;
+		padding-left: em(30);
+
+		&-title {
+			font-size: em(40);
+			line-height: em(60, 40);
+			color: #693AF9;
+			font-weight: bold;
+			margin-bottom: em(66, 40);
+		}
+
+		&-excerpt, &-text {
+			font-size: em(17);
+			line-height: em(26, 17);
+			margin-bottom: em(65, 17);
+		}
+
+		pre {
+			font-family: 'FuturaNDAlt', Arial, sans-serif;
+			text-transform: uppercase;
+			margin: 0;
+		}
+
+		p + pre {
+			margin-top: em(60);
+		}
+
+		p + p {
+			margin-top: em(20);
+		}
+
+		h2 {
+			margin-top: 0;
+			margin-bottom: em(26, 21);
+			line-height: em(30, 21);
+		}
+	}
+
+	&-specs {
+		@include flexbox();
+		@include flex_util(between, middle);
+		font-size: em(14);
+		height: em(34, 14);
+		margin-bottom: em(16, 14);
+
+		.back-to-list {
+			text-decoration: none;
+			color: inherit;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		&-info {
+			@include flexbox();
+			@include flex_util(between);
+
+			span {
+			opacity: 0.5;
+			}
+
+			.author {
+				margin-left: em(24);
+			}
+		}
+	}
+}

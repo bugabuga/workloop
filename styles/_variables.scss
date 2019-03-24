@@ -1,0 +1,18 @@
+$browser-context: 14;
+
+@function em($px, $base: $browser-context) {
+	@if $px == 0 { @return 0 }
+	@if (unitless($px)) {
+		$px: $px * 1px;
+	}
+
+	@if (unitless($base)) {
+		$base: $base * 1px;
+	}
+	@return $px / $base + 0em;
+}
+
+@function rem($px, $base: $browser-context) {
+	@if $px == 0 { @return 0 }
+	@return $px / $base + 0rem;
+}

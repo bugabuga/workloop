@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="297px" height="706px" viewBox="0 0 297 706" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M201.692767,120 L775.283126,689.188169 C859.161626,764.075958 898.421544,813.966277 893.06288,838.859125 C885.024883,876.198398 855.232808,1020.59126 798.013456,963.254271 C740.794104,905.91728 625.276961,969.375862 543.465475,974.475571 C461.65399,979.57528 318.645546,949.829831 321.183145,805.405051 C321.682851,776.964803 325.340458,714.506199 332.155965,618.02924 L338.488606,465.434972 L201.692767,120 Z" id="path-1"></path>
+        <path d="M188,121.313557 L650.729327,580.491531 C718.396158,640.905336 750.068091,681.153072 745.745126,701.23474 C739.260678,731.357242 715.226685,847.842486 669.066439,801.587337 C622.906192,755.332188 529.715697,806.525774 463.716377,810.639833 C397.717057,814.753893 282.348659,790.757514 284.395802,674.246523 C284.798927,651.303081 287.749607,600.916203 293.247843,523.085887 L298.356538,399.984371 L188,121.313557 Z" id="path-3"></path>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONNEX-SOLUTIONS-2" transform="translate(0.000000, -723.000000)">
+            <g id="SERVICES" transform="translate(-644.000000, 375.652879)">
+                <g id="Group" transform="translate(0.681554, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#00D2AB" transform="translate(547.619163, 548.275144) scale(-1, 1) rotate(-315.000000) translate(-547.619163, -548.275144) " xlink:href="#path-1"></use>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask-Copy-4" fill="#00C9A4" transform="translate(467.067258, 466.813557) scale(-1, 1) rotate(-315.000000) translate(-467.067258, -466.813557) " xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

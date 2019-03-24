@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="267px" height="584px" viewBox="0 0 267 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>93770858-232F-4B6C-ABF5-6A488ABAA109</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M201.454521,120.225945 L775.04488,689.414114 C858.92338,764.301903 898.183298,814.192222 892.824634,839.08507 C884.786637,876.424343 869.843805,1005.96797 812.624452,948.630974 C755.4051,891.293982 625.038715,969.601807 543.227229,974.701516 C461.415744,979.801225 318.4073,950.055776 320.944899,805.630996 C321.444605,777.190748 325.102212,714.732144 331.917719,618.255185 L338.25036,465.660917 L201.454521,120.225945 Z" id="path-1"></path>
+        <path d="M316.645322,284.133237 L646.61286,743.31121 C694.865384,803.725015 717.450315,843.972752 714.367652,864.05442 C709.743659,894.176922 692.605265,1010.66217 659.688867,964.407017 C626.772468,918.151868 560.319281,969.345454 513.255843,973.459513 C466.192404,977.573572 383.924383,953.577193 385.384179,837.066202 C385.671644,814.122761 387.775744,763.735882 391.69648,685.905567 L395.339438,562.804051 L316.645322,284.133237 Z" id="path-3"></path>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONNEX-CONTACT" transform="translate(0.000000, -60.000000)">
+            <g id="SERVICES" transform="translate(-675.000000, -76.000000)">
+                <g id="services-shape" transform="translate(548.681554, 547.500000) scale(1, -1) translate(-548.681554, -547.500000) translate(0.681554, 0.000000)">
+                    <g id="Mask-Copy-4" transform="translate(0.692767, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#693AF9" transform="translate(547.380917, 547.729664) scale(-1, 1) rotate(-315.000000) translate(-547.380917, -547.729664) " xlink:href="#path-1"></use>
+                        <text id="G" mask="url(#mask-2)" transform="translate(910.625679, 661.652879) scale(1, -1) translate(-910.625679, -661.652879) " font-family="FuturaNDAlt-DemiBold" font-size="74" font-weight="500" line-spacing="34" fill="#FFFFFF">
+                            <tspan x="878.625679" y="701.652879">G</tspan>
+                        </text>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use fill="#6132F2" transform="translate(515.645322, 629.633237) scale(-1, 1) rotate(-315.000000) translate(-515.645322, -629.633237) " xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

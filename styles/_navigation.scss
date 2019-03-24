@@ -1,0 +1,323 @@
+.navigation {
+	padding: 0;
+	height: em(95);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: em(-1);
+	z-index: 1000;
+	transition: all 0.3s ease-out;
+	will-change: height;
+
+	// To avoid jittery on window.scroll function
+	-webkit-backface-visibility:hidden;
+	-webkit-transform: translateZ(0);
+
+	font-size: 14px;
+
+	@include breakpoint(1350px) {
+		font-size: 13px;
+	}
+
+	@include breakpoint(1250px) {
+		font-size: 12px;
+	}
+
+	@include breakpoint(1150px) {
+		font-size: 1vw;
+	}
+
+	&:hover {
+		background: rgba(255,255,255,0.98);
+		box-shadow: 0 em(6) em(21) 0 rgba(0,0,0,0.11);
+	}
+
+	@include flexbox();
+	@include flex_util(middle);
+
+	.container {
+		@include flexbox();
+		@include flex_util(between, middle);
+	}
+
+	.logo-wrapper {
+		position: relative;
+		display: inline-block;
+		width: em(200);
+		height: em(40);
+		top: em(2);
+	}
+
+	.logo {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+	}
+
+	&.animate .logo {
+		will-change: transform;
+		transform: translate(0, 0);
+
+		-webkit-animation: logo-oo-reverse 0.3s ease; /* Safari 4+ */
+		-moz-animation:    logo-oo-reverse 0.3s ease; /* Fx 5+ */
+		-o-animation:      logo-oo-reverse 0.3s ease; /* Opera 12+ */
+		animation:         logo-oo-reverse 0.3s ease; /* IE 10+, Fx 29+ */
+
+		.fade {
+			will-change: opacity;
+			opacity: 1;
+
+			-webkit-animation: logo-reverse 0.3s ease; /* Safari 4+ */
+			-moz-animation:    logo-reverse 0.3s ease; /* Fx 5+ */
+			-o-animation:      logo-reverse 0.3s ease; /* Opera 12+ */
+			animation:         logo-reverse 0.3s ease; /* IE 10+, Fx 29+ */
+		}
+	}
+
+	@-webkit-keyframes logo-reverse {
+		0% { opacity: 0; }
+		100%   { opacity: 1; }
+	}
+
+	@-moz-keyframes logo-reverse {
+		0% { opacity: 0; }
+		100%   { opacity: 1; }
+	}
+
+	@-o-keyframes logo-reverse {
+		0% { opacity: 0; }
+		100%   { opacity: 1; }
+	}
+
+	@keyframes logo-reverse {
+		0% { opacity: 0; }
+		100%   { opacity: 1; }
+	}
+
+	@-webkit-keyframes logo-oo-reverse {
+		0% { transform: translate(em(-107), 0); }
+		100%   { transform: translate(0, 0); }
+	}
+
+	@-moz-keyframes logo-oo-reverse {
+		0% { transform: translate(em(-107), 0); }
+		100%   { transform: translate(0, 0); }
+	}
+
+	@-o-keyframes logo-oo-reverse {
+		0% { transform: translate(em(-107), 0); }
+		100%   { transform: translate(0, 0); }
+	}
+
+	@keyframes logo-oo-reverse {
+		0% { transform: translate(em(-107), 0); }
+		100%   { transform: translate(0, 0); }
+	}
+
+	&._floating {
+		background: rgba(255,255,255,0.9);
+		box-shadow: 0 em(6) em(21) 0 rgba(0,0,0,0.11);
+		height: em(70);
+
+		.submenu {
+			top: em(43);
+		}
+
+		.logo {
+			transform: translate(em(-107), 0);
+
+			-webkit-animation: logo-oo 0.3s ease; /* Safari 4+ */
+			-moz-animation:    logo-oo 0.3s ease; /* Fx 5+ */
+			-o-animation:      logo-oo 0.3s ease; /* Opera 12+ */
+			animation:         logo-oo 0.3s ease; /* IE 10+, Fx 29+ */
+
+			.fade {
+				opacity: 0;
+
+				-webkit-animation: logo 0.3s ease; /* Safari 4+ */
+				-moz-animation:    logo 0.3s ease; /* Fx 5+ */
+				-o-animation:      logo 0.3s ease; /* Opera 12+ */
+				animation:         logo 0.3s ease; /* IE 10+, Fx 29+ */
+			}
+		}
+	}
+
+	@-webkit-keyframes logo {
+		0%   { opacity: 1; }
+		100% { opacity: 0; }
+	}
+
+	@-moz-keyframes logo {
+		0%   { opacity: 1; }
+		100% { opacity: 0; }
+	}
+
+	@-o-keyframes logo {
+		0%   { opacity: 1; }
+		100% { opacity: 0; }
+	}
+
+	@keyframes logo {
+		0%   { opacity: 1; }
+		100% { opacity: 0; }
+	}
+
+	@-webkit-keyframes logo-oo {
+		0%   { transform: translate(0, 0); }
+		100% { transform: translate(em(-107), 0); }
+	}
+
+	@-moz-keyframes logo-oo {
+		0%   { transform: translate(0, 0); }
+		100% { transform: translate(em(-107), 0); }
+	}
+
+	@-o-keyframes logo-oo {
+		0%   { transform: translate(0, 0); }
+		100% { transform: translate(em(-107), 0); }
+	}
+
+	@keyframes logo-oo {
+		0%   { transform: translate(0, 0); }
+		100% { transform: translate(em(-107), 0); }
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		position: relative;
+		top: em(3);
+
+		li {
+			display: inline-block;
+			margin: 0 em(13);
+			position: relative;
+
+			&.contact-link {
+				position: relative;
+				margin: 0;
+
+				&:before {
+					content: '';
+					display: inline-block;
+					width: em(1);
+					height: em(13);
+					background-color: #C8C9CC;
+					margin: 0 em(32) 0 em(10);
+				}
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				width: 100%;
+				height: em(30);
+				position: absolute;
+				left: 0;
+				bottom: em(-30);
+			}
+		}
+
+		.nav-link {
+			color: #4B4B4B;
+			font-size: em(15);
+			line-height: em(21, 15);
+			height: em(25, 15);
+			text-decoration: none;
+			overflow-y: hidden;
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+
+			&:before {
+				content: '';
+				display: block;
+				width: 100%;
+				height: 2px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				transform: translate(-103%,0);
+				@include transition(transform);
+
+				.page-template-solutions-page & {
+					background-color: #F1055C;
+				}
+
+				.page-template-back-office-page & {
+					background-color: #3693FF;
+				}
+
+				.home & {
+					background-color: #00D2AB;
+				}
+
+				.page-template-our-edge-page & {
+					background-color: #693AF9;
+				}
+
+				.page-template-our-story-page & {
+					background-color: #330040;
+				}
+
+				.page-template-careers-page & {
+					background-color: #D80458;
+				}
+
+				.blog & {
+					background-color: #693AF9;
+				}
+
+				.single & {
+					background-color: #693AF9;
+				}
+
+				.page-template-contact-page & {
+					background-color: #693AF9;
+				}
+			}
+
+			&:hover:before, &.active:before {
+				transform: translate(0,0);
+			}
+		}
+
+		.submenu {
+			position: absolute;
+			top: em(55);
+			left: em(-18);
+			display: block;
+			background: rgba(255,255,255,0.9);
+			width: em(200);
+			padding: em(14) em(18);
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.2s ease, visibility 0.01s linear 0.2s, background 0.2s ease;
+			box-shadow: 0 em(12) em(21) 0 rgba(0,0,0,0.11);
+
+			&:hover {
+				background: rgba(255,255,255,0.98);
+			}
+
+			.nav-link {
+				height: em(40);
+				line-height: em(40);
+
+				&:before {
+					bottom: em(8);
+				}
+			}
+		}
+
+		li:hover .submenu {
+			opacity: 1;
+			visibility: visible;
+			transition: opacity 0.2s ease, background 0.2s ease;
+		}
+	}
+}

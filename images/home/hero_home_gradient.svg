@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="792px" viewBox="0 0 1440 792" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>hero_gradient</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="33.0670332%" x2="22.0177664%" y2="66.9329668%" id="linearGradient-1">
+            <stop stop-color="#D5F1FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.500726">
+        <g id="CONNEX-HOME-GRADIENT" fill="url(#linearGradient-1)">
+            <path d="M1440,436.436079 C1415.84868,612.317347 1297.64179,606.342954 1100.80158,609.005092 C989.72822,610.507289 936.297924,610.888308 288.510689,610.148193 C225.530339,610.076232 165.485841,636.768673 123.343734,683.572224 C94.8084651,715.263851 77.0925711,752.916647 69.9586122,792 L0,792 L0,-46 L1440,-46 L1440,436.436089 Z" id="hero_gradient"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,315 @@
+.story {
+
+	.left-border {
+		width: em(21);
+		min-height: 4%;
+		max-height: 115%;
+		position: absolute;
+		left: 0;
+		top: em(240);
+		z-index: 10;
+		background: #330040;
+		overflow: visible !important;
+
+		&:before {
+			content: '';
+			background: url("./images/story/story_shape_part.png") center no-repeat;
+			background-size: contain;
+			width: 101%;
+			height: em(14);
+			position: absolute;
+			left: 0;
+			bottom: em(-7);
+		}
+	}
+
+	.right-border {
+		width: em(24);
+		height: em(1100);
+		position: absolute;
+		right: em(0);
+		top: em(1040);
+		z-index: 3;
+		background-color: #00be9a;
+		overflow: visible !important;
+
+		&:before {
+			content: '';
+			background: url("./images/careers/careers_shape_part.png") center no-repeat;
+			background-size: contain;
+			width: 101%;
+			height: em(7);
+			position: absolute;
+			left: 0;
+			bottom: em(-5);
+		}
+	}
+
+	&-purple-shape {
+		background: url("./images/story/story_purple_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(300);
+		height: em(636);
+		position: absolute;
+		left: 0;
+		top: em(524);
+		z-index: 4;
+	}
+
+	&-yellow-shape {
+		background: url("./images/story/story_yellow_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(236);
+		height: em(330);
+		position: absolute;
+		top: em(545);
+		right: 0;
+		z-index: 4;
+	}
+
+	&-blue-shape {
+		background: url("./images/story/story_shape.svg") center no-repeat;
+		background-size: contain;
+		width: em(1440);
+		height: em(1230);
+		position: absolute;
+		top: em(-250);
+		right: 0;
+		z-index: -1;
+	}
+
+	&-wrapper {
+		position: relative;
+		text-align: center;
+	}
+
+	.description-cloud {
+		$desc_cloud_fsz: 22px;
+
+		font-size: em($desc_cloud_fsz);
+		line-height: em(34, $desc_cloud_fsz);
+		color: #FFFFFF;
+		background-color: #D80458;
+		font-weight: normal;
+
+		position: relative;
+		top: 0;
+		width: 100%;
+		border-radius: em(34, $desc_cloud_fsz) em(100, $desc_cloud_fsz) em(100, $desc_cloud_fsz) em(100, $desc_cloud_fsz);
+		padding: em(50, $desc_cloud_fsz) em(150, $desc_cloud_fsz) em(60, $desc_cloud_fsz) em(80, $desc_cloud_fsz);
+		text-align: left;
+		z-index: 5;
+	}
+
+	&-title {
+		font-size: em(70);
+		line-height: em(100, 70);
+		color: #D80458;
+		font-weight: 500;
+		position: relative;
+		margin: em(160, 70) auto em(35, 70);
+		width: em(770, 70);
+		display: inline-block;
+		text-align: left;
+	}
+
+	&-description {
+		color: #484848;
+		font-size: em(18);
+		line-height: em(26, 18);
+		text-align: center;
+		width: em(800, 18);
+		margin: 0 auto em(230, 18);
+
+		.separator {
+			display: block;
+			width: em(230, 18);
+			height: em(4);
+			border-radius: em(4);
+			background-color: #FFD002;
+			margin: em(35, 18) auto;
+		}
+	}
+
+	&-principles {
+		position: relative;
+		padding-top: em(40);
+		height: em(1500);
+
+		&:before {
+			content: '';
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: block;
+			background-image: url("./images/story/principles_bg.png");
+			width: em(726);
+			height: em(1030);
+			position: absolute;
+			right: 0;
+			top: em(20);
+		}
+
+		&:after {
+			content: '';
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: block;
+			background-image: url("./images/story/hexagon_outline.svg");
+			width: em(1150);
+			height: em(1140);
+			position: absolute;
+			left: em(177);
+			top: em(90);
+			z-index: -1;
+		}
+
+		&-title {
+			font-size: em(70);
+			line-height: em(100, 70);
+			color: #00D2AB;
+			font-weight: 500;
+			position: relative;
+			margin: em(160, 70) auto em(35, 70);
+			display: inline-block;
+
+			&:before {
+				content: 'rinciples';
+				color: #ffffff;
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+		}
+	}
+
+	&-slide {
+		opacity: 0 !important;
+
+		&.swiper-slide-active {
+			opacity: 1 !important;
+		}
+
+		&-title {
+			font-size: em(30);
+			line-height: em(35, 30);
+			margin-bottom: em(35, 30);
+		}
+
+		&-description {
+			font-size: em(18);
+			line-height: em(26, 18);
+		}
+	}
+
+	.swiper {
+
+		&-container {
+			width:em(290);
+			position: absolute;
+			left: em(380);
+			top: em(560);
+		}
+
+		&-pagination {
+			height: em(1020);
+			width: em(1250);
+
+			&-bullet {
+				$story_bullet_fsz: 16px;
+
+				height: em(160, $story_bullet_fsz);
+				width: em(160, $story_bullet_fsz);
+				border-radius: 50%;
+				opacity: 1;
+				@include transition(all, 0.1s);
+
+				&.bullet {
+					font-size: em($story_bullet_fsz);
+					background-size: 102%;
+					background-position: center;
+					background-repeat: no-repeat;
+					position: absolute;
+
+					&:after {
+						font-weight: 500;
+						z-index: 2;
+						position: absolute;
+						left: 50%;
+						top: 112%;
+						transform: translate(-50%,0);
+						line-height: em(22, $story_bullet_fsz);
+						width: em(120, $story_bullet_fsz);
+					}
+
+					&-1 {
+						background-image: url("./images/story/slide_now.png");
+						top: em(-26, $story_bullet_fsz);
+						left: em(195, $story_bullet_fsz);
+
+						&:after {
+							content: 'Do it now, do it right';
+							width: em(100, $story_bullet_fsz);
+						}
+					}
+
+					&-2 {
+						background-image: url("./images/story/slide_empower.png");
+						left: em(118, $story_bullet_fsz);
+						top: em(237, $story_bullet_fsz);
+
+						&:after {
+							content: 'Empower the individual';
+						}
+					}
+
+					&-3 {
+						background-image: url("./images/story/slide_thinking.png");
+						top: em(497, $story_bullet_fsz);
+						left: em(172, $story_bullet_fsz);
+
+						&:after {
+							content: 'Forward, free thinking';
+						}
+					}
+
+					&-4 {
+						background-image: url("./images/story/slide_enjoy.png");
+						bottom: em(197, $story_bullet_fsz);
+						left: em(396, $story_bullet_fsz);
+
+						&:after {
+							content: 'Enjoy life';
+						}
+					}
+
+					&-5 {
+						background-image: url("./images/story/slide_respect.png");
+						bottom: em(133, $story_bullet_fsz);
+						left: em(650, $story_bullet_fsz);
+
+						&:after {
+							content: 'Respect';
+						}
+					}
+
+					&-6 {
+						background-image: url("./images/story/slide_introspection.png");
+						bottom: em(147, $story_bullet_fsz);
+						left: em(935, $story_bullet_fsz);
+
+						&:after {
+							content: 'Introspection';
+						}
+					}
+				}
+
+				&-active.bullet:after {
+					color: #00D2AB;
+				}
+			}
+		}
+	}
+}

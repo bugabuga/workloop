@@ -1,0 +1,46 @@
+.btn {
+	font-size: em(16);
+	line-height: em(20, 16);
+	text-align: center;
+	border-radius: em(5, 16);
+	letter-spacing: em(-0.2, 16);
+	text-decoration: none;
+	padding: em(14, 16) em(24, 16);
+
+	@include transition(all);
+
+	&-primary {
+		background-color: #0B7CFE;
+		color: #FFFFFF;
+		box-shadow: 0 em(7) em(21) 0 rgba(11,124,254,0.31);
+
+		.contact-link & {
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+			border-radius: 5px;
+			letter-spacing: -0.2px;
+			text-decoration: none;
+			padding: 10px 30px;
+			vertical-align: 2px;
+		}
+
+		&:hover {
+			background-color: #055fc5;
+		}
+	}
+
+	&-secondary {
+		box-shadow: 0 em(6) em(21) 0 rgba(0,0,0,0.11);
+		background-color: #FFFFFF;
+		color: #535869;
+
+		&:hover {
+			background-color: #f7f4f4;
+		}
+	}
+
+	& + .btn {
+		margin-left: em(20);
+	}
+}

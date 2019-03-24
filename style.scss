@@ -1,0 +1,26 @@
+/*
+Theme Name: Workloop
+Description: Workloop Custom Theme
+Author: Vitalii Buga
+Author Email: vitaliibuga@gmail.com
+*/
+
+@import "styles/normalize";
+@import "styles/mixins";
+@import "fonts/fonts.css";
+@import "styles/libs/swiper.css";
+@import "styles/variables";
+@import "styles/buttons";
+@import "styles/global";
+@import "styles/navigation";
+@import "styles/hero";
+@import "styles/footer";
+
+// Pages:
+@import "styles/home";
+@import "styles/solutions";
+@import "styles/our_edge";
+@import "styles/our_story";
+@import "styles/careers";
+@import "styles/blog";
+@import "styles/contact";

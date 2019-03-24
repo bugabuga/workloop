@@ -1,0 +1,140 @@
+.footer {
+	background: #6635FF;
+	color: #ffffff;
+	padding-top: em(88);
+	padding-bottom: em(24);
+	line-height: em(31);
+	position: relative;
+	z-index: 10;
+
+	.left-border-bottom {
+		width: em(21);
+		height: 60%;
+		position: absolute;
+		left: 0;
+		top: -59%;
+		z-index: 10;
+		background: linear-gradient(180deg, transparent 0%, transparent 60%, #6635FF 90%, #6635FF 100%);
+	}
+
+	.right-border-bottom {
+		width: em(24);
+		height: 60%;
+		position: absolute;
+		right: 0;
+		top: -59%;
+		z-index: 3;
+		background: linear-gradient(180deg, transparent 0%, transparent 60%, #6635FF 90%, #6635FF 100%);
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	&-flex {
+		@include flexbox();
+		@include flex_util(between);
+
+		&-col {
+			width: 50%;
+			flex: 0 0 50%;
+		}
+	}
+
+	&-logo {
+		display: inline-block;
+		background: url("./images/logo_white.svg") center no-repeat;
+		background-size: contain;
+		width: em(200);
+		height: em(40);
+		font-weight: 500;
+	}
+
+	&-content {
+		margin-bottom: em(46);
+	}
+
+	&-description-text {
+		font-size: em(18);
+		width: em(412, 18);
+	}
+
+	&-links {
+		@include flexbox();
+		@include flex_util(between);
+
+		&-block {
+
+			&-title {
+				font-size: em(16);
+				font-weight: bold;
+				line-height: em(19, 16);
+				margin-bottom: em(30, 16);
+			}
+		}
+	}
+
+	&-link {
+		display: block;
+		font-size: em(18);
+		line-height: em(41, 18);
+	}
+
+	&-social {
+		margin-bottom: em(64);
+
+		&-link {
+			display: inline-block;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: em(40);
+			height: em(28);
+			@include transition(opacity);
+
+			&:hover {
+				OPACITY: 0.7;
+			}
+
+			&._facebook {
+				background-image: url("./images/footer/social_fb.svg");
+			}
+
+			&._twitter {
+				background-image: url("./images/footer/social_twitter.svg");
+			}
+
+			&._instagram {
+				background-image: url("./images/footer/social_insta.svg");
+			}
+
+			&._linkedin {
+				background-image: url("./images/footer/social_in.svg");
+			}
+		}
+	}
+
+	&-location {
+		text-align: right;
+		font-size: em(18);
+		line-height: em(41, 18);
+	}
+
+	&-copyright-text {
+		font-size: em(18);
+	}
+
+	&-contacts {
+		font-size: em(18);
+		text-align: right;
+
+		a + a {
+			margin-left: em(24, 18);
+		}
+	}
+}
