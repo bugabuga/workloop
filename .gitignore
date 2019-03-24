@@ -1,0 +1,13 @@
+
+node_modules/
+.DS_Store
+.idea/workspace.xml
+.DS_Store
+.idea/codeStyles/codeStyleConfig.xml
+.idea/connex.iml
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/webServers.xml
+.idea/workspace.xml
