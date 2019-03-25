@@ -114,16 +114,11 @@
 	}
 
 	.right-border {
-		width: em(24);
-		//height: em(2230);
 		height: em(10);
 		max-height: em(2230);
-		position: absolute;
-		right: em(0);
 		top: em(-150);
 		z-index: 3;
 		background-color: #D80458;
-		overflow: visible !important;
 
 		&:before {
 			content: '';
@@ -138,10 +133,7 @@
 	}
 
 	.left-border {
-		width: em(21);
 		height: em(1800);
-		position: absolute;
-		left: 0;
 		top: em(230);
 		z-index: 2;
 		background-color: #FFD002;

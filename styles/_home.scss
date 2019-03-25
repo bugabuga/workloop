@@ -3,11 +3,20 @@
 	z-index: 2;
 	padding-bottom: em(104);
 
+	.home-shape {
+		display: block;
+		background: url("./images/home/impact_bg.svg") center no-repeat;
+		background-size: contain;
+		width: em(1360);
+		height: em(1000);
+		position: absolute;
+		right: 0;
+		top: em(-170);
+		z-index: -1;
+	}
+
 	.description-cloud {
-		//background: #00D2AB;
 		color: #ffffff;
-
-
 		$desc_cloud_fsz: 17px;
 		font-size: em($desc_cloud_fsz);
 		line-height: em(37, $desc_cloud_fsz);
@@ -17,19 +26,9 @@
 		margin: 0 auto;
 		padding:  em(150, $desc_cloud_fsz) em(60, $desc_cloud_fsz);
 		border-radius: em(60, $desc_cloud_fsz);
-
-		&:before {
-			content: '';
-			display: block;
-			background: url("./images/home/impact_bg.svg") center no-repeat;
-			background-size: contain;
-			width: em(1360, $desc_cloud_fsz);
-			height: em(1000, $desc_cloud_fsz);
-			position: absolute;
-			right: em(-1);
-			top: em(-170, $desc_cloud_fsz);
-			z-index: -1;
-		}
+		transform: translate(em(100, $desc_cloud_fsz),0);
+		opacity: 0;
+		transition: transform 0.2s ease-out, opacity 0.2s ease-out;
 
 		&-title {
 			font-size: em(70, $desc_cloud_fsz);
@@ -37,21 +36,19 @@
 			font-weight: 500;
 			margin-bottom: em(8, 70);
 		}
+
+		&._move {
+			transform: translate(0,0);
+			opacity: 1;
+		}
 	}
 
 	.right-border {
-		width: em(25);
 		height: em(20);
 		max-height: em(3400);
-		position: absolute;
-		right: em(-1);
 		top: em(780);
 		z-index: 3;
 		background-color: #00D2AB;
-		overflow: visible !important;
-
-		-webkit-backface-visibility:hidden;
-		-webkit-transform: translateZ(0);
 
 		&:before {
 			content: '';
@@ -176,6 +173,7 @@
 		position: relative;
 
 		&._agility {
+			bottom: em(100);
 
 			.edge-slide-title {
 				color: #6635FF;
@@ -191,6 +189,7 @@
 		}
 
 		&._cultural {
+			bottom: em(100);
 
 			.edge-slide-title {
 				color: #0A7CFE;
@@ -206,6 +205,7 @@
 		}
 
 		&._monsters {
+			bottom: em(-200);
 
 			.edge-slide-title {
 				color: #FF2963;
@@ -345,8 +345,8 @@
 	padding-top: em(110);
 	padding-bottom: em(136);
 	position: relative;
+	overflow: hidden;
 
-	@include container();
 	@include flexbox();
 	@include flex_util(between);
 	flex-wrap: wrap;
@@ -357,7 +357,7 @@
 		background: url("./images/home/connect_shape.svg") center no-repeat;
 		background-size: contain;
 		height: em(960);
-		width: 120%;
+		width: 112%;
 		position: absolute;
 		right: em(-180);
 		bottom: em(-420);
@@ -365,10 +365,7 @@
 	}
 
 	.left-border {
-		width: em(21);
 		height: 88%;
-		position: absolute;
-		left: em(-129);
 		top: em(200);
 		z-index: -2;
 		background: #FFD002;

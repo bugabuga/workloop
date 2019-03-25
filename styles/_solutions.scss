@@ -67,18 +67,11 @@
 	}
 
 	.right-border {
-		width: em(24);
 		height: em(10);
 		max-height: 300%;
-		position: absolute;
-		right: em(-1);
 		top: em(-170);
 		z-index: 3;
 		background-color: #F1055C;
-		overflow: visible !important;
-
-		-webkit-backface-visibility:hidden;
-		-webkit-transform: translateZ(0);
 
 		&._full {
 			height: 260% !important;
@@ -114,10 +107,7 @@
 	}
 
 	.left-border {
-		width: em(21);
 		height: 105%;
-		position: absolute;
-		left: 0;
 		top: em(30);
 		z-index: 2;
 		background: linear-gradient(180deg, #08E1F2 0%, #08E1F2 70%, #FFD002 90%, #FFD002 100%, #FFD002 100%);
@@ -441,7 +431,7 @@
 	.right-border {
 		background-color: #0B7CFE;
 		max-height: 370%;
-		width: em(25);
+		width: em(24);
 
 		.trigger:before {
 			background: url("./images/solutions_2_hero_shape_part.png") center no-repeat;

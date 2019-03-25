@@ -1,11 +1,8 @@
 .story {
 
 	.left-border {
-		width: em(21);
 		min-height: 4%;
 		max-height: 115%;
-		position: absolute;
-		left: 0;
 		top: em(240);
 		z-index: 10;
 		background: #330040;
@@ -24,14 +21,10 @@
 	}
 
 	.right-border {
-		width: em(24);
 		height: em(1100);
-		position: absolute;
-		right: em(0);
 		top: em(1040);
 		z-index: 3;
 		background-color: #00be9a;
-		overflow: visible !important;
 
 		&:before {
 			content: '';

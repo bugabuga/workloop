@@ -23,10 +23,12 @@ $(document).ready(function() {
 	});
 });
 
-var edge_even = $(".edge-block-slide._tech, .edge-block-slide._people");
+var edge_even = $(".edge-block-slide._tech, .edge-block-slide._people, .edge-block-slide._monsters");
+var edge_odd = $(".edge-block-slide._agility, .edge-block-slide._cultural");
 
-function channelsMove(odd) {
-	edge_even.css('transform', 'translate(0,' + odd + 'em)');
+function channelsMove(even, odd) {
+	edge_even.css('transform', 'translate(0,' + even + 'em)');
+	edge_odd.css('transform', 'translate(0,' + odd + 'em)');
 }
 
 var edge_trigger = false;
@@ -37,6 +39,7 @@ $(window).on('scroll', function(){
 	var scrollPosition = $(window).scrollTop();
 	var scroll_trigger = scrollPosition / window_ratio;
 	var edge_images = $('.edge-block-slide-image');
+	var home_welcome = $('.description-cloud');
 
 	if (scrollPosition >= 50) {
 		// Show back to top button
@@ -45,6 +48,11 @@ $(window).on('scroll', function(){
 		navigation.removeClass('_floating');
 	}
 
+	if (scroll_trigger >= 400) {
+		home_welcome.addClass('_move');
+	} else if (scroll_trigger < 200) {
+		home_welcome.removeClass('_move');
+	}
 
 	if (scroll_trigger >= 650) {
 
@@ -58,25 +66,23 @@ $(window).on('scroll', function(){
 		}
 	}
 
-	if (scroll_trigger >= 1600) {
+	if (scroll_trigger >= 1500) {
 
-		var edge_movement = - (scroll_trigger - 1600) / (14 * 2);
+		var edge_movement = - (scroll_trigger - 1500) / (14 * 2);
 
 		if (edge_movement < -200/14) {
 			edge_trigger = true;
-			channelsMove(-200/14);
+			channelsMove(-200/14, 100/14);
 		}
 
 		if (edge_trigger === false) {
-			channelsMove(edge_movement);
+			channelsMove(edge_movement, -edge_movement * 0.5);
 			edge_images.css('background-position', 'center ' + edge_movement * 0.75 + 'em');
 		}
 	}
 
 	if (this.oldScroll > this.scrollY) {
-		if (scroll_trigger < 1500) {
-			edge_trigger = false;
-		}
+		edge_trigger = false;
 	}
 
 	this.oldScroll = this.scrollY;

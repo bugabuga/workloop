@@ -13,8 +13,6 @@
 	-webkit-backface-visibility:hidden;
 	-webkit-transform: translateZ(0);
 
-	font-size: 14px;
-
 	@include breakpoint(1350px) {
 		font-size: 13px;
 	}

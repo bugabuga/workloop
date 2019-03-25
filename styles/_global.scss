@@ -104,3 +104,19 @@ body {
 		right: 40px !important;
 	}
 }
+
+.right-border {
+	width: em(24);
+	position: absolute;
+	right: 0;
+	overflow: visible !important;
+
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+}
+
+.left-border {
+	width: em(21);
+	position: absolute;
+	left: 0;
+}

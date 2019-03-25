@@ -432,6 +432,19 @@ body #olark-wrapper .olark-launch-button {
   bottom: 40px !important;
   right: 40px !important; }
 
+.right-border {
+  width: 1.71429em;
+  position: absolute;
+  right: 0;
+  overflow: visible !important;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0); }
+
+.left-border {
+  width: 1.5em;
+  position: absolute;
+  left: 0; }
+
 .navigation {
   padding: 0;
   height: 6.78571em;
@@ -444,7 +457,6 @@ body #olark-wrapper .olark-launch-button {
   will-change: height;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0);
-  font-size: 14px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -954,6 +966,16 @@ body #olark-wrapper .olark-launch-button {
   position: relative;
   z-index: 2;
   padding-bottom: 7.42857em; }
+  .solutions-block .home-shape {
+    display: block;
+    background: url("./images/home/impact_bg.svg") center no-repeat;
+    background-size: contain;
+    width: 97.14286em;
+    height: 71.42857em;
+    position: absolute;
+    right: 0;
+    top: -12.14286em;
+    z-index: -1; }
   .solutions-block .description-cloud {
     color: #ffffff;
     font-size: 1.21429em;
@@ -962,35 +984,24 @@ body #olark-wrapper .olark-launch-button {
     width: 67%;
     margin: 0 auto;
     padding: 8.82353em 3.52941em;
-    border-radius: 3.52941em; }
-    .solutions-block .description-cloud:before {
-      content: '';
-      display: block;
-      background: url("./images/home/impact_bg.svg") center no-repeat;
-      background-size: contain;
-      width: 80em;
-      height: 58.82353em;
-      position: absolute;
-      right: -0.07143em;
-      top: -10em;
-      z-index: -1; }
+    border-radius: 3.52941em;
+    transform: translate(5.88235em, 0);
+    opacity: 0;
+    transition: transform 0.2s ease-out, opacity 0.2s ease-out; }
     .solutions-block .description-cloud-title {
       font-size: 4.11765em;
       line-height: 2.5em;
       font-weight: 500;
       margin-bottom: 0.11429em; }
+    .solutions-block .description-cloud._move {
+      transform: translate(0, 0);
+      opacity: 1; }
   .solutions-block .right-border {
-    width: 1.78571em;
     height: 1.42857em;
     max-height: 242.85714em;
-    position: absolute;
-    right: -0.07143em;
     top: 55.71429em;
     z-index: 3;
-    background-color: #00D2AB;
-    overflow: visible !important;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0); }
+    background-color: #00D2AB; }
     .solutions-block .right-border:before {
       content: '';
       background: url("./images/home/border_bottom.png") center no-repeat;
@@ -1087,20 +1098,26 @@ body #olark-wrapper .olark-launch-button {
     width: 15.35714em;
     flex: 0 0 15.35714em;
     position: relative; }
-    .edge-block-slide._agility .edge-slide-title {
-      color: #6635FF; }
+    .edge-block-slide._agility {
+      bottom: 7.14286em; }
+      .edge-block-slide._agility .edge-slide-title {
+        color: #6635FF; }
     .edge-block-slide._tech {
       bottom: -14.28571em; }
       .edge-block-slide._tech .edge-slide-title {
         color: #00D2AB; }
-    .edge-block-slide._cultural .edge-slide-title {
-      color: #0A7CFE; }
+    .edge-block-slide._cultural {
+      bottom: 7.14286em; }
+      .edge-block-slide._cultural .edge-slide-title {
+        color: #0A7CFE; }
     .edge-block-slide._people {
       bottom: -14.28571em; }
       .edge-block-slide._people .edge-slide-title {
         color: #6635FF; }
-    .edge-block-slide._monsters .edge-slide-title {
-      color: #FF2963; }
+    .edge-block-slide._monsters {
+      bottom: -14.28571em; }
+      .edge-block-slide._monsters .edge-slide-title {
+        color: #FF2963; }
     .edge-block-slide-image {
       background-image: url("./images/home/agility.png");
       background-repeat: no-repeat;
@@ -1197,8 +1214,7 @@ body #olark-wrapper .olark-launch-button {
   padding-top: 7.85714em;
   padding-bottom: 9.71429em;
   position: relative;
-  width: 83.57143em;
-  margin: 0 auto;
+  overflow: hidden;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1214,16 +1230,13 @@ body #olark-wrapper .olark-launch-button {
     background: url("./images/home/connect_shape.svg") center no-repeat;
     background-size: contain;
     height: 68.57143em;
-    width: 120%;
+    width: 112%;
     position: absolute;
     right: -12.85714em;
     bottom: -30em;
     z-index: -1; }
   .connect .left-border {
-    width: 1.5em;
     height: 88%;
-    position: absolute;
-    left: -9.21429em;
     top: 14.28571em;
     z-index: -2;
     background: #FFD002; }
@@ -1277,17 +1290,11 @@ body #olark-wrapper .olark-launch-button {
     right: -0.42857em;
     z-index: 10; }
   .services .right-border {
-    width: 1.71429em;
     height: 0.71429em;
     max-height: 300%;
-    position: absolute;
-    right: -0.07143em;
     top: -12.14286em;
     z-index: 3;
-    background-color: #F1055C;
-    overflow: visible !important;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0); }
+    background-color: #F1055C; }
     .services .right-border._full {
       height: 260% !important; }
     .services .right-border._animate-down {
@@ -1311,10 +1318,7 @@ body #olark-wrapper .olark-launch-button {
         left: 0;
         top: -0.10714em; }
   .services .left-border {
-    width: 1.5em;
     height: 105%;
-    position: absolute;
-    left: 0;
     top: 2.14286em;
     z-index: 2;
     background: linear-gradient(180deg, #08E1F2 0%, #08E1F2 70%, #FFD002 90%, #FFD002 100%, #FFD002 100%); }
@@ -1544,7 +1548,7 @@ body #olark-wrapper .olark-launch-button {
   .page-template-back-office-page .services .right-border {
     background-color: #0B7CFE;
     max-height: 370%;
-    width: 1.78571em; }
+    width: 1.71429em; }
     .page-template-back-office-page .services .right-border .trigger:before {
       background: url("./images/solutions_2_hero_shape_part.png") center no-repeat;
       background-size: contain;
@@ -1955,11 +1959,8 @@ body #olark-wrapper .olark-launch-button {
     right: 0;
     z-index: 4; }
   .edge .left-border {
-    width: 1.53571em;
     min-height: 4%;
     max-height: 155%;
-    position: absolute;
-    left: 0;
     top: -5.71429em;
     z-index: 10;
     background: #693AF9;
@@ -2289,11 +2290,8 @@ body #olark-wrapper .olark-launch-button {
         color: #484848; }
 
 .story .left-border {
-  width: 1.5em;
   min-height: 4%;
   max-height: 115%;
-  position: absolute;
-  left: 0;
   top: 17.14286em;
   z-index: 10;
   background: #330040;
@@ -2309,14 +2307,10 @@ body #olark-wrapper .olark-launch-button {
     bottom: -0.5em; }
 
 .story .right-border {
-  width: 1.71429em;
   height: 78.57143em;
-  position: absolute;
-  right: 0;
   top: 74.28571em;
   z-index: 3;
-  background-color: #00be9a;
-  overflow: visible !important; }
+  background-color: #00be9a; }
   .story .right-border:before {
     content: '';
     background: url("./images/careers/careers_shape_part.png") center no-repeat;
@@ -2616,15 +2610,11 @@ body #olark-wrapper .olark-launch-button {
   margin-bottom: 8.33333em; }
 
 .careers .right-border {
-  width: 1.71429em;
   height: 0.71429em;
   max-height: 159.28571em;
-  position: absolute;
-  right: 0;
   top: -10.71429em;
   z-index: 3;
-  background-color: #D80458;
-  overflow: visible !important; }
+  background-color: #D80458; }
   .careers .right-border:before {
     content: '';
     background: url("./images/careers/careers_shape_part.png") center no-repeat;
@@ -2636,10 +2626,7 @@ body #olark-wrapper .olark-launch-button {
     bottom: -0.35714em; }
 
 .careers .left-border {
-  width: 1.5em;
   height: 128.57143em;
-  position: absolute;
-  left: 0;
   top: 16.42857em;
   z-index: 2;
   background-color: #FFD002; }
@@ -3233,20 +3220,14 @@ body #olark-wrapper .olark-launch-button {
 .article {
   padding-top: 14.28571em; }
   .article .right-border {
-    width: 1.71429em;
     height: 250%;
     max-height: 300%;
-    position: absolute;
-    right: 0;
     top: 21.42857em;
     z-index: 3;
     background-color: #693AF9;
     overflow: visible !important; }
   .article .left-border {
-    width: 1.5em;
     height: 200%;
-    position: absolute;
-    left: 0;
     top: 45em;
     z-index: 2;
     background: #F1055C; }
@@ -3614,10 +3595,7 @@ body #olark-wrapper .olark-launch-button {
   margin: 0 auto;
   padding-top: 21.42857em; }
   .contact-wrapper .left-border {
-    width: 1.5em;
     height: 60%;
-    position: absolute;
-    left: 0;
     top: 43.57143em;
     z-index: 2;
     background: #693AF9; }

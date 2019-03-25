@@ -149,11 +149,8 @@
 	padding-top: em(200);
 
 	.right-border {
-		width: em(24);
 		height: 250%;
 		max-height: 300%;
-		position: absolute;
-		right: 0;
 		top: em(300);
 		z-index: 3;
 		background-color: #693AF9;
@@ -161,10 +158,7 @@
 	}
 
 	.left-border {
-		width: em(21);
 		height: 200%;
-		position: absolute;
-		left: 0;
 		top: em(630);
 		z-index: 2;
 		background: #F1055C;

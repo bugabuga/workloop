@@ -60,42 +60,44 @@ get_header(); ?>
 	</section>
 
 	<section id="connect" class="connect">
+    
+        <div class="left-border"></div>
 
-		<div class="left-border"></div>
+        <div class="container">
+            <div class="connect-title">Connect with us</div>
+            <div class="connect-subtitle">
+                Pick a channel so we can get things started!
+            </div>
+            <div class="contact">
+                <form action="" class="contact-form">
+                    <input type="hidden" name="project_name" value="Workloop Contact Page">
+                    <input type="hidden" name="admin_email" value="admin@theworkloop.com">
+                    <!--<input type="hidden" name="admin_email" value="buha903@gmail.com">-->
+                    <input type="hidden" name="form_subject" value="Workloop Contact Page">
 
-		<div class="connect-title">Connect with us</div>
-		<div class="connect-subtitle">
-			Pick a channel so we can get things started!
-		</div>
-		<div class="contact">
-			<form action="" class="contact-form">
-                <input type="hidden" name="project_name" value="Workloop Home Page">
-                <input type="hidden" name="admin_email" value="admin@theworkloop.com">
-                <!--<input type="hidden" name="admin_email" value="buha903@gmail.com">-->
-                <input type="hidden" name="form_subject" value="Workloop Home Page">
+                    <div class="message-sent js-message-sent">
+                        Message Sent
+                    </div>
 
-                <div class="message-sent js-message-sent">
-                    Message Sent
+                    <div class="contact-info">
+                        <input type="text" name="name" id="name" class="contact-input" placeholder="Enter your name">
+                        <input type="text" name="email" id="email" class="contact-input" placeholder="Enter your e-mail">
+                    </div>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    <button class="contact-submit" type="submit">SEND</button>
+                </form>
+                <div class="contact-buttons">
+                    <a href="tel:+14162273400" class="contact-button lets-talk">
+                        <i class="icon"></i>
+                        <span>Let's talk</span>
+                    </a>
+                    <a href="javascript:void(0);" id="chat_now_js" class="contact-button chat-now">
+                        <i class="icon"></i>
+                        <span>Chat now!</span>
+                    </a>
                 </div>
-
-                <div class="contact-info">
-                    <input type="text" name="name" id="name" class="contact-input" placeholder="Enter your name">
-                    <input type="text" name="email" id="email" class="contact-input" placeholder="Enter your e-mail">
-                </div>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-                <button class="contact-submit" type="submit">SEND</button>
-            </form>
-			<div class="contact-buttons">
-				<a href="tel:+14162273400" class="contact-button lets-talk">
-					<i class="icon"></i>
-					<span>Let's talk</span>
-				</a>
-				<a href="javascript:void(0);" id="chat_now_js" class="contact-button chat-now">
-					<i class="icon"></i>
-					<span>Chat now!</span>
-				</a>
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 
 <?php  get_footer(); ?>
