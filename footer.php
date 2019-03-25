@@ -57,7 +57,7 @@
 				</div>
 
 				<div class="footer-contacts footer-flex-col">
-					<a href="mailto:contact@workloop.com" class="footer-email">contact@workloop.com</a>
+					<a href="mailto:admin@theworkloop.com" class="footer-email">admin@theworkloop.com</a>
 					<a href="tel:+14162273400" class="footer-phone">+1 416 227 3400</a>
 				</div>
 			</div>
@@ -101,6 +101,33 @@
 	<?php } elseif ( is_blog() ) { ?>
 
 	  <script type="text/javascript" src="/wp-content/themes/workloop/js/scripts_article.js"></script>
+	  <script>
+            var getWindowOptions = function() {
+            var width = 500;
+            var height = 350;
+            var left = (window.innerWidth / 2) - (width / 2);
+            var top = (window.innerHeight / 2) - (height / 2);
+
+            return [
+              'resizable,scrollbars,status',
+              'height=' + height,
+              'width=' + width,
+              'left=' + left,
+              'top=' + top,
+            ].join();
+            };
+
+            var twitterBtn = document.querySelector('.twitter-share');
+            var text = encodeURIComponent('Workloop Blog | <?php the_title(); ?>');
+            var shareUrl = 'https://twitter.com/intent/tweet?url=' + location.href + '&text=' + text;
+            twitterBtn.href = shareUrl; // 1
+
+            twitterBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                var win = window.open(shareUrl, 'ShareOnTwitter', getWindowOptions());
+                win.opener = null; // 2
+            });
+	  </script>
 
 	<?php } elseif ( is_home ()) { ?>
 

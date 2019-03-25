@@ -109,38 +109,56 @@
         Get in touch
         <div class="contact-purple-shape"></div>
     </div>
-    <div class="contact-subtitle">
-        Contact form
-    </div>
     <div class="contact">
-        <form action="" class="contact-form">
-            <input type="hidden" name="project_name" value="Workloop Contact Page">
-            <!--<input type="hidden" name="admin_email" value="admin@theworkloop.com">-->
-            <input type="hidden" name="admin_email" value="buha903@gmail.com">
-            <input type="hidden" name="form_subject" value="Workloop Contact Page">
-
-            <div class="message-sent js-message-sent">
-                Message Sent
+        <div class="contact-form-wrapper">
+            <div class="contact-subtitle">
+                Contact Form
             </div>
+            <form action="" class="contact-form">
+                <input type="hidden" name="project_name" value="Workloop Contact Page">
+                <!--<input type="hidden" name="admin_email" value="admin@theworkloop.com">-->
+                <input type="hidden" name="admin_email" value="buha903@gmail.com">
+                <input type="hidden" name="form_subject" value="Workloop Contact Page">
 
-            <div class="contact-info">
-                <input type="text" name="name" id="name" class="contact-input" placeholder="Your name">
-                <input type="text" name="company" id="company" class="contact-input" placeholder="Company name">
-                <input type="text" name="phone" id="phone" class="contact-input" placeholder="Phone number">
-                <input type="text" name="email" id="email" class="contact-input" placeholder="Email address">
+                <div class="message-sent js-message-sent">
+                    Message Sent
+                </div>
+
+                <div class="contact-info">
+                    <input type="text" name="name" id="name" class="contact-input" placeholder="Your name">
+                    <input type="text" name="company" id="company" class="contact-input" placeholder="Company name">
+                    <input type="text" name="phone" id="phone" class="contact-input" placeholder="Phone number">
+                    <input type="text" name="email" id="email" class="contact-input" placeholder="Email address">
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <div class="captcha-wrap">
+                    <button class="contact-submit" type="submit">SEND</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-channels">
+            <div class="contact-subtitle">
+                Our Location
             </div>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-            <button class="contact-submit" type="submit">SEND</button>
-        </form>
-        <div class="contact-buttons">
-            <a href="#" class="contact-button lets-talk">
-                <i class="icon"></i>
-                <span>Let's talk</span>
-            </a>
-            <a href="javascript:void(0);" id="chat_now_js" class="contact-button chat-now">
-                <i class="icon"></i>
-                <span>Chat now!</span>
-            </a>
+            <div class="contact-address">
+                5000 Yange Street,<br>
+                Suite 1901 Toronto,<br>
+                Ontario M2N 7E9
+            </div>
+            <div class="contact-buttons">
+                <a href="tel:+14162273400" class="contact-button lets-talk">
+                    <i class="icon"></i>
+                    <span>Let's talk</span>
+                </a>
+                <a href="javascript:void(0);" id="chat_now_js" class="contact-button chat-now">
+                    <i class="icon"></i>
+                    <span>Chat now!</span>
+                </a>
+            </div>
+            <div class="contact-mail">
+                <a href="mailto:admin@theworkloop.com">admin@theworkloop.com</a>
+                <a href="tel:+14162273400">+1 416 227 3400</a>
+            </div>
         </div>
     </div>
 </section>

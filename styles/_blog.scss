@@ -209,6 +209,10 @@
 		grid-area: thumbnail;
 	}
 
+	b, strong {
+		font-weight: 500;
+	}
+
 	&-share {
 		width: em(118);
 		display: block;
@@ -377,6 +381,7 @@
 
 			.author {
 				margin-left: em(24);
+                text-transform: uppercase;
 			}
 		}
 	}

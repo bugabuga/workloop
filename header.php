@@ -31,15 +31,18 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Social Sharing -->
-	<meta property="og:image" content="Social - FB image" />
-	<meta property="og:description" content="Social - description" />
-	<meta property="og:url" content="Social - link" />
-	<meta property="og:title" content="Social - title" />
+	<meta property="og:image" content="/wp-content/themes/workloop/images/home/brain_illu.svg.svg" />
+	<meta property="og:description" content="We provide our partners with with outstanding customer engagement and back office support." />
+	<meta property="og:url" content="<?php global $wp; echo home_url( $wp->request ) ?>" />
+	<meta property="og:title" content="Workloop - employee owned outsourcing company" />
 
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
 	<?php endif; ?>
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	<?php if (is_page (95)){?>
+	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<?php } ?>
 </head>
 
 <body <?php body_class(); ?>>

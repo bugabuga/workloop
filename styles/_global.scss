@@ -91,3 +91,16 @@ i[class*="svg-"] {
 		display: none;
 	}
 }
+
+.page-template-home-page .olark-launch-button,
+.page-template-contact-page .olark-launch-button {
+	display: none !important;
+}
+
+body {
+	#olark-wrapper .olark-launch-button {
+		background-color: #6635FF !important;
+		bottom: 40px !important;
+		right: 40px !important;
+	}
+}

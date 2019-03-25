@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2"></script>
+
 <section id="article" class="article">
     <div class="article-red-shape"></div>
     <div class="article-purple-shape"></div>
@@ -7,59 +10,67 @@
     <div class="right-border"></div>
     <div class="article-container">
 
+        <?php
+            while ( have_posts() ) : the_post();
+                get_template_part( 'content', 'page' );
+            endwhile;
+        ?>
         <div class="article-thumbnail">
             <?php the_post_thumbnail() ?>
             <div class="article-share">
                 <div class="article-share-title">SHARE:</div>
                 <div class="article-share-links">
                     <a href="#" class="article-share-link _linkedin"></a>
-                    <a href="#" class="article-share-link _facebook"></a>
-                    <a href="#" class="article-share-link _twitter"></a>
+                    <div class="fb-share-button"
+                        data-href="http://connex.thebuga.com/our-people-our-people/"
+                        data-layout="button"
+                        data-size="small"><a target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fconnex.thebuga.com%2Four-people-our-people%2F&amp;src=sdkpreparse"
+                            class="fb-xfbml-parse-ignore fb-share article-share-link _facebook"></a>
+                    </div>
+                    <a href="javascript"void(0); class="twitter-share article-share-link _twitter"></a>
                 </div>
             </div>
         </div>
 
         <div class="article-related blog">
-            <div class="article-related-title">Related posts</div>
-            <div class="article-related-post blog-post">
-                <div class="blog-image">
-                    <img src="./images/home/blog_1.png" alt="" width="100%" height="100%">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-specs">
-                        Jan 15 | Admin
+
+        <?php
+
+        if( $my_related_post_ids = get_post_meta($post->ID, 'my_related_posts', true)) :
+            $related_args = array(
+                'posts_per_page' => -1,
+                'post__in'=> explode(',', $my_related_post_ids),
+                'orderby' => 'post__in'
+            );
+            $related_posts = new WP_Query( $related_args );
+
+            if( $related_posts->have_posts() ) :
+
+                echo '<div class="article-related-title">Related posts</div>';
+
+                while( $related_posts->have_posts() ) : $related_posts->the_post(); ?>
+                    <div class="article-related-post blog-post">
+                        <div class="blog-image">
+                           <?php the_post_thumbnail() ?>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-specs">
+                                <?php echo get_the_date('M j'); ?> | <?php the_author(); ?>
+                            </div>
+                            <div class="blog-title">
+                                <a class="blog-title-link" href="<?php the_permalink() ?>"><?php the_title() ?></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="blog-title">
-                        <a class="blog-title-link" href="#">Customer Experience is Way to Success in Automotive Industry</a>
-                    </div>
-                </div>
-            </div>
-            <div class="article-related-post blog-post">
-                <div class="blog-image">
-                    <img src="./images/home/blog_2.png" alt="" width="100%" height="100%">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-specs">
-                        Jan 15 | Admin
-                    </div>
-                    <div class="blog-title">
-                        <a class="blog-title-link" href="#">Customer Experience is Way to Success in Automotive Industry</a>
-                    </div>
-                </div>
-            </div>
-            <div class="article-related-post blog-post">
-                <div class="blog-image">
-                    <img src="./images/home/blog_3.png" alt="" width="100%" height="100%">
-                </div>
-                <div class="blog-content">
-                    <div class="blog-specs">
-                        Jan 15 | Admin
-                    </div>
-                    <div class="blog-title">
-                        <a class="blog-title-link" href="#">Customer Experience is Way to Success in Automotive Industry</a>
-                    </div>
-                </div>
-            </div>
+                    <?php
+                endwhile;
+            endif;
+
+            wp_reset_postdata();
+        endif;
+        ?>
+
         </div>
 
         <div class="article-post">
@@ -68,7 +79,7 @@
                 <div class="article-specs-info">
                     <div class="date">
                         <span>POSTED:</span>
-                        03/11/19
+                        <?php echo get_the_date('m/d/y'); ?>
                     </div>
                     <div class="author">
                         <span>BY:</span>
@@ -77,7 +88,7 @@
                 </div>
             </div>
             <div class="article-post-title">
-                Customer Experience is Way to Success in Automotive Industry
+                <?php the_title(); ?>
             </div>
             <div class="article-post-excerpt">
                 <?php the_excerpt(); ?>
@@ -88,6 +99,8 @@
             </div>
         </div>
     </div>
+
+
 </section>
 
 <section id="interested" class="interested">
@@ -99,4 +112,5 @@
         <a href="#" class="btn btn-primary">Contact details</a>
     </div>
 </section>
+
 <?php get_footer(); ?>

@@ -8,7 +8,7 @@
 .contact {
     width: 100%;
     @include flexbox();
-    @include flex_util(between, middle);
+    @include flex_util(between, top);
 
     &-form {
         width: em(654);
@@ -20,6 +20,55 @@
         @include flexbox();
         @include flex_util(between);
         flex-wrap: wrap;
+    }
+
+    &-channels {
+        margin-left: em(35);
+
+        .contact-subtitle {
+            padding-left: em(80, 24);
+        }
+
+        .contact-buttons .contact-button + .contact-button {
+            margin-left: em(16);
+        }
+    }
+
+    &-address {
+        font-size: em(18);
+        margin-bottom: em(26, 18);
+        line-height: em(41, 18);
+        padding-left: em(80, 18);
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            width: em(27);
+            height: em(36);
+            position: absolute;
+            left: em(30);
+            top: 0;
+            background: url("./images/contact/pin.svg") center no-repeat;
+        }
+    }
+
+    &-mail {
+        font-size: em(18);
+        line-height: em(41, 18);
+        font-weight: 500;
+        padding-left: em(80, 18);
+        margin-top: em(16, 18);
+
+        a {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     &-input {
@@ -136,6 +185,11 @@
         right: em(-20, 18);
         bottom: em(-20, 18);
         cursor: pointer;
+        @include transition(opacity);
+
+        &:hover {
+            opacity: 0.7;
+        }
     }
 
     &-buttons {
@@ -153,12 +207,17 @@
             text-align: center;
             padding: em(24, 16) 0;
 
+            @include transition(background-color);
             @include flexbox();
             @include flex_util(middle, center);
             flex-wrap: wrap;
 
             & + .contact-button {
                 margin-left: em(64, 16);
+            }
+
+            &:hover {
+                background-color: rgba(0,0,0,0.1);
             }
 
             span {
@@ -191,7 +250,7 @@
 
     .left-border {
         width: em(21);
-        height: 40%;
+        height: 60%;
         position: absolute;
         left: 0;
         top: em(610);
@@ -263,6 +322,28 @@
             width: em(303, 16);
         }
     }
+
+    .contact-submit {
+        font-size: em(18);
+        position: relative;
+        right: em(-30, 18);
+        bottom: auto;
+        width: em(166, 18);
+        height: em(65, 18);
+        border-radius: em(65, 18);
+        font-weight: 500;
+    }
+
+    .captcha-wrap {
+        @include flexbox();
+        @include flex_util(between, middle);
+        margin-top: em(30);
+        margin-bottom: em(65);
+
+        .g-recaptcha {
+            display: inline-block;
+        }
+    }
 }
 
 .message-sent {
@@ -306,8 +387,4 @@
     &.hide {
         transition: opacity 0.7s ease-out, visibility 0.1s linear 0.7s;
     }
-}
-
-body .olark-launch-button {
-    display: none !important;
 }
