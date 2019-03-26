@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="589px" height="1239px" viewBox="0 0 589 1239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Mask</title>
-    <desc>Created with Sketch.</desc>
+<svg width="580px" height="836px" viewBox="0 0 580 836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>B623816D-DDAD-4768-B4F4-2E635224977D</title>
+    <desc>Created with sketchtool.</desc>
     <defs>
-        <linearGradient x1="0%" y1="55.3235943%" x2="42.8768647%" y2="46.6346032%" id="linearGradient-1">
+        <linearGradient x1="25.9774455%" y1="63.3524684%" x2="46.5776819%" y2="41.5590198%" id="linearGradient-1">
             <stop stop-color="#D5F1FF" offset="0%"></stop>
             <stop stop-color="#F4FBFF" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="11.9475554%" y1="58.1981352%" x2="60.9472052%" y2="62.1136732%" id="linearGradient-2">
+        <linearGradient x1="31.7176615%" y1="70.5622995%" x2="55.2595966%" y2="80.3831261%" id="linearGradient-2">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#F4FBFF" offset="100%"></stop>
         </linearGradient>
-        <path d="M1324.45701,512.497514 C1640.99799,437.530042 2060.79569,400.017604 2583.85011,399.960199 L2583.85011,399.960201 C2628.03289,399.955352 2663.85404,435.76864 2663.85889,479.951419 C2663.86151,503.86015 2653.17051,526.5169 2634.71436,541.715525 L1575.09556,1414.31101 C1547.22432,1437.26296 1509.14503,1443.40856 1475.46848,1430.38978 C1393.49944,1398.70194 1293.42224,1360.15595 1175.23687,1314.75183 C956.535959,1230.73192 768.013251,1202.80098 749.678902,1009.87348 C738.287237,890.002012 871.020097,629.387809 1147.87748,228.030876 C1197.51845,433.798614 1256.37829,528.620827 1324.45701,512.497514 Z" id="path-3"></path>
+        <path d="M578.469883,836 C367.469883,836 226.469883,811 131.469883,740 C36.4698825,669 1.09600992,533.573771 0.00765581627,410.709308 C-1.08069829,287.844845 114.162295,199.088354 159.895371,163.318571 C205.628447,127.548788 349.469883,23 579.469883,-5.68434189e-14 C578.469883,191 579.044394,698.282181 578.469883,836 Z" id="path-3"></path>
     </defs>
     <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="CONNEX-OUR-EDGE" transform="translate(-851.000000, -328.000000)">
-            <g id="OUR-EDGE" transform="translate(119.000000, 222.000000)">
+        <g id="CONNEX-CONTACT" transform="translate(-783.000000, -126.000000)">
+            <g id="Group-5" transform="translate(783.000000, 126.000000)">
                 <mask id="mask-4" fill="white">
                     <use xlink:href="#path-3"></use>
                 </mask>
-                <g id="Mask" opacity="0.571661086" transform="translate(1706.431243, 832.574520) rotate(-345.000000) translate(-1706.431243, -832.574520) ">
+                <g id="Path" opacity="0.450985863">
                     <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
                     <use fill-opacity="0.5" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
                 </g>

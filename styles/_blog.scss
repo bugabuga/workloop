@@ -11,22 +11,27 @@
 	}
 
 	.right-border {
-		width: em(24);
-		height: 250%;
-		max-height: 300%;
-		position: absolute;
-		right: 0;
+		height: em(10);
+		max-height: em(2300);
 		top: em(760);
 		z-index: 3;
 		background-color: #693AF9;
 		overflow: visible !important;
+
+		&:before {
+			content: '';
+			background: url("./images/blog/blog_shape_part.png") center no-repeat;
+			background-size: contain;
+			width: 100%;
+			height: em(20);
+			position: absolute;
+			right: 0;
+			bottom: em(-16);
+		}
 	}
 
 	.left-border {
-		width: em(21);
-		height: 200%;
-		position: absolute;
-		left: 0;
+		height: em(1900);
 		top: em(1170);
 		z-index: 2;
 		background: #FFD002;
@@ -154,11 +159,13 @@
 		top: em(300);
 		z-index: 3;
 		background-color: #693AF9;
-		overflow: visible !important;
 	}
 
 	.left-border {
+		width: em(21);
 		height: 200%;
+		position: absolute;
+		left: 0;
 		top: em(630);
 		z-index: 2;
 		background: #F1055C;

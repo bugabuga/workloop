@@ -42,11 +42,10 @@ bullets.on('click', function () {
 
 	bar_height = border_height - border_position + bullet_position + (25);
 
-	border.stop().animate({ height: bar_height + 'px' }, 300);
-	border.css('min-height', bar_height + 'px');
+	border.stop().animate({ height: bar_height + 'px', minHeight: bar_height + 'px' }, 300);
 
 	var index = $(this).index();
-	console.log($('#services_swiper_pagination').offset().top - (140 * height_ratio) + 30 * index);
+	// console.log($('#services_swiper_pagination').offset().top - (140 * height_ratio) + 30 * index);
 	if ( index < 4 ) {
 
 		setTimeout(function(){
@@ -168,7 +167,7 @@ var scroll = function () {
 
 	// console.log('window_ratio ' + window_ratio);
 	// console.log('scrollPosition ' + scrollPosition + 'px');
-	console.log('scroll_trigger ' + scroll_trigger);
+	// console.log('scroll_trigger ' + scroll_trigger);
 	// console.log('left_bar_height ' + left_bar_height);
 
 	if (this.oldScroll > this.scrollY) {
@@ -248,7 +247,7 @@ var scroll = function () {
 			fired_release = true;
 		}
 
-		if (scroll_trigger < 1450) {
+		if (scroll_trigger < 1550) {
 			fired_bottom = false;
 
 			right_border.removeClass('_full _animate-down').addClass('_animate');

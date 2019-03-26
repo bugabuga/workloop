@@ -144,12 +144,10 @@
 		height: em(305);
 		border: 1px dashed #afecf4;
 		border-radius: em(60);
-		margin: 0 auto em(200);
 		position: relative;
-		top: em(-65);
-		left: em(7);
 		z-index: 10;
-		transform: rotate(30deg) translate(em(206), em(-101));
+		transform: rotate(30deg) translate(em(630), em(-410));
+		display: inline-block;
 
 		&-item {
 			color: #FFFFFF;
@@ -387,6 +385,7 @@
 			@include flexbox();
 			@include flex_util(between);
 			@include container();
+			margin-top: em(200);
 
 			&-item {
 				width: em(300);
@@ -448,12 +447,12 @@
 
 			&-middle {
 				position: relative;
-				top: 500px;
+				top: em(500);
 			}
 
 			&-bottom {
 				position: relative;
-				top: 600px;
+				top: em(600);
 			}
 
 			.dot {

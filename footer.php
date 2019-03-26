@@ -22,34 +22,35 @@
 				</div>
 
 				<div class="footer-links footer-flex-col">
-					<div class="footer-links-block">
-						<div class="footer-links-block-title">SOLUTIONS</div>
-						<a href="/solutions" class="footer-link">Customer Engagement</a>
-						<a href="/back-office" class="footer-link">Back Office Solutions</a>
-					</div>
-					<div class="footer-links-block">
-						<div class="footer-links-block-title">OUR EDGE</div>
-						<a href="#our-edge" class="footer-link">Our Edge</a>
-					</div>
-					<div class="footer-links-block">
-						<div class="footer-links-block-title">OUR STORY</div>
-						<a href="/our-story" class="footer-link">Our Story</a>
-					</div>
-					<div class="footer-links-block">
-						<div class="footer-links-block-title">CAREERS</div>
-						<a href="/careers" class="footer-link">Careers</a>
-					</div>
-				</div>
+                    <div class="footer-links-block">
+                        <div class="footer-links-block-title">SOLUTIONS</div>
+                        <a href="/solutions" class="footer-link">Customer Engagement</a>
+                        <a href="/back-office" class="footer-link">Back Office Solutions</a>
+                    </div>
+                    <div class="footer-links-block">
+                        <div class="footer-links-block-title"><a href="/our-edge" class="">OUR EDGE</a></div>
+                        <div class="footer-links-block-title"><a href="/our-story" class="">OUR STORY</a></div>
+                        <div class="footer-links-block-title"><a href="/careers" class="">CAREERS</a></div>
+                    </div>
+                    <div class="footer-links-block">
+                        <div class="footer-links-block-title"><a href="/blog" class="">RESOURCES</a></div>
+                        <div class="footer-links-block-title"><a href="/contact" class="">CONTACT</a></div>
+                    </div>
+                </div>
 			</div>
 
 			<div class="footer-social footer-flex">
-				<div class="footer-social-links footer-flex-col">
-					<a href="#" class="footer-social-link _linkedin"></a>
-					<a href="#" class="footer-social-link _facebook"></a>
-					<a href="#" class="footer-social-link _instagram"></a>
-					<a href="#" class="footer-social-link _twitter"></a>
-				</div>
-			</div>
+                <div class="footer-social-links footer-flex-col">
+                    <a href="#" class="footer-social-link _linkedin"></a>
+                    <a href="#" class="footer-social-link _facebook"></a>
+                    <a href="#" class="footer-social-link _instagram"></a>
+                    <a href="#" class="footer-social-link _twitter"></a>
+                </div>
+
+                <div class="footer-location footer-flex-col">
+                    <a href="https://goo.gl/maps/FTn7WrHuHhE2" target="_blank" class="footer-location-link">150 SE 2nd Ave, Miami, USA</a>
+                </div>
+            </div>
 
 			<div class="footer-copyright footer-flex">
 				<div class="footer-copyright-text footer-flex-col">
@@ -98,7 +99,7 @@
 	  <script type="text/javascript" src="/wp-content/themes/workloop/js/scripts_contact.js"></script>
 	  <script type="text/javascript" src="/wp-content/themes/workloop/js/ajax_email.js"></script>
 
-	<?php } elseif ( is_blog() ) { ?>
+	<?php } elseif ( is_single() ) { ?>
 
 	  <script type="text/javascript" src="/wp-content/themes/workloop/js/scripts_article.js"></script>
 	  <script>

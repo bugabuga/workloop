@@ -1,5 +1,5 @@
 function rightBar(height) {
-	$('#right_border').css('height', height + 'px');
+	$('#right_border').css('height', height / 14 + 'em');
 }
 
 var dots_top = $('.dots-top');

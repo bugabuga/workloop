@@ -48,11 +48,11 @@ $(document).ready(function() {
 });
 
 function rightBar(height) {
-	$('#right_border').css('height', height + 'px');
+	$('#right_border').css('height', height / 14 + 'em');
 }
 
 function leftBar (height) {
-	$('#left_border').css('height', height + 'px');
+	$('#left_border').css('height', height / 14 + 'em');
 }
 
 var bullets = $('#services_swiper_pagination .swiper-pagination-bullet');
@@ -68,9 +68,7 @@ bullets.on('click', function () {
 
 	bar_height = border_height - border_position + bullet_position + (25);
 
-	border.stop().animate({ height: bar_height + 'px' }, 300);
-	border.css('min-height', bar_height + 'px');
-
+	border.stop().animate({ height: bar_height + 'px', minHeight: bar_height + 'px' }, 300);
 
 	setTimeout(function(){
 		$('html, body').stop().animate({
@@ -153,7 +151,7 @@ var scroll = function () {
 
 	if (scroll_trigger >= 1400) {
 
-		var left_bar_height = (((scrollPosition - 1400) / window_ratio) / 1.2) * 1.66 / speed_ratio;
+		var left_bar_height = (((scrollPosition - 1450) / window_ratio) / 1.2) * 1.66 / speed_ratio;
 		var left_bar_height_boost = (((scrollPosition - (1990 * window_ratio)) / window_ratio) / 2 ) * 1.66 / speed_ratio; // 20
 
 		if (scroll_trigger < 1990) {
@@ -163,8 +161,8 @@ var scroll = function () {
 		}
 	}
 
-	if (scroll_trigger >= 1500) {
-		var channels_movement = - (scroll_trigger - 1500) / (24 * 2);
+	if (scroll_trigger >= 1650) {
+		var channels_movement = - (scroll_trigger - 1650) / (24 * 2);
 
 		if (channels_movement < -200/24) {
 			channels_trigger = true;

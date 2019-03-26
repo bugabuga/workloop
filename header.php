@@ -100,14 +100,15 @@
 			</div>
 			<ul>
 				<li>
-					<a class="nav-link <?php if (is_page(10) or is_page(14)) echo 'active'; ?>" href="javascript:void(0);">
-						SOLUTIONS
-					</a>
-					<div class="submenu">
-						<a class="nav-link" href="/solutions">Customer Engagement</a>
-						<a class="nav-link" href="/back-office">Back Office Solutions</a>
-					</div>
-				</li>
+                    <div class="nav-link _solutions">
+                        <span>SOLUTIONS</span>
+                        <div class="submenu">
+                            <a class="nav-link" href="/solutions">Customer Engagement</a>
+                            <a class="nav-link" href="/back-office">Back Office Solutions</a>
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+                </li>
 				<li><a class="nav-link <?php if (is_page(37)) echo 'active'; ?>" href="/our-edge">OUR EDGE</a></li>
 				<li><a class="nav-link <?php if (is_page(43)) echo 'active'; ?>" href="/our-story">OUR STORY</a></li>
 				<li><a class="nav-link <?php if (is_page(51)) echo 'active'; ?>" href="/careers">CAREERS</a></li>

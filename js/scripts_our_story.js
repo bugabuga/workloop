@@ -13,7 +13,7 @@ var story_swiper = new Swiper('#story_swiper', {
 });
 
 function leftBar(height) {
-	$('#left_border').css('height', height + 'px');
+	$('#left_border').css('height', height / 14 + 'em');
 }
 
 var navigation = $('#navigation');

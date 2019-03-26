@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="blog-purple-shape"></div>
         <div class="blog-yellow-shape"></div>
         <div class="left-border"></div>
-        <div class="right-border"></div>
+        <div id="right_border" class="right-border"></div>
 		<div class="blog">
 
 

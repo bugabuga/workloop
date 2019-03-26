@@ -7,7 +7,7 @@
 	text-decoration: none;
 	padding: em(14, 16) em(24, 16);
 
-	@include transition(all);
+	transition: background-color 0.2s ease-out;
 
 	&-primary {
 		background-color: #0B7CFE;
@@ -15,14 +15,13 @@
 		box-shadow: 0 em(7) em(21) 0 rgba(11,124,254,0.31);
 
 		.contact-link & {
-			font-size: 16px;
-			line-height: 20px;
+			font-size: em(15);
+			height: em(40, 15);
+			line-height: em(42, 15);
 			text-align: center;
-			border-radius: 5px;
-			letter-spacing: -0.2px;
+			border-radius: em(8, 15);
 			text-decoration: none;
-			padding: 10px 30px;
-			vertical-align: 2px;
+			text-transform: uppercase;
 		}
 
 		&:hover {

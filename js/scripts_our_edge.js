@@ -1,7 +1,3 @@
-
-
-
-
 $('.toggle').click(function(e) {
 	e.preventDefault();
 
@@ -26,7 +22,7 @@ $('.toggle').click(function(e) {
 });
 
 function leftBar(height) {
-	$('#left_border').css('height', height + 'px');
+	$('#left_border').css('height', height / 14 + 'em');
 }
 
 var navigation = $('#navigation');

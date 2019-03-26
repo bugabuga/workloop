@@ -30,10 +30,10 @@
 			content: '';
 			background: url("./images/careers/careers_shape_part.png") center no-repeat;
 			background-size: contain;
-			width: 101%;
+			width: 105%;
 			height: em(7);
 			position: absolute;
-			left: 0;
+			right: 0;
 			bottom: em(-5);
 		}
 	}
@@ -63,8 +63,8 @@
 	&-blue-shape {
 		background: url("./images/story/story_shape.svg") center no-repeat;
 		background-size: contain;
-		width: em(1440);
-		height: em(1230);
+		width: 100%;
+		height: em(1235);
 		position: absolute;
 		top: em(-250);
 		right: 0;

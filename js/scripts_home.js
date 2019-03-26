@@ -1,5 +1,5 @@
 function rightBar(height) {
-	$('#right_border').css('height', height + 'px');
+	$('#right_border').css('height', height / 14 + 'em');
 }
 
 var navigation = $('#navigation');
@@ -48,7 +48,7 @@ $(window).on('scroll', function(){
 		navigation.removeClass('_floating');
 	}
 
-	if (scroll_trigger >= 400) {
+	if (scroll_trigger >= 300) {
 		home_welcome.addClass('_move');
 	} else if (scroll_trigger < 200) {
 		home_welcome.removeClass('_move');
@@ -66,17 +66,17 @@ $(window).on('scroll', function(){
 		}
 	}
 
-	if (scroll_trigger >= 1500) {
+	if (scroll_trigger >= 1650) {
 
-		var edge_movement = - (scroll_trigger - 1500) / (14 * 2);
+		var edge_movement = - (scroll_trigger - 1650) / (14 * 2);
 
 		if (edge_movement < -200/14) {
 			edge_trigger = true;
-			channelsMove(-200/14, 100/14);
+			channelsMove(-200/14, 50/14);
 		}
 
 		if (edge_trigger === false) {
-			channelsMove(edge_movement, -edge_movement * 0.5);
+			channelsMove(edge_movement, -edge_movement * 0.25);
 			edge_images.css('background-position', 'center ' + edge_movement * 0.75 + 'em');
 		}
 	}
