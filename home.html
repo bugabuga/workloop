@@ -28,6 +28,13 @@
 </head>
 <body class="page-template-home-page">
 
+	<div class="top-mobile-bar">
+		<a href="/" class="logo"></a>
+		<div class="menu-toggle _open menu_toggle">
+			<span></span>
+		</div>
+	</div>
+
 	<nav id="navigation" class="navigation">
 		<div class="container">
 			<div class="logo-wrapper">
@@ -99,7 +106,8 @@
 				<li class="contact-link"><a href="#" class="btn btn-primary">Contact</a></li>
 			</ul>
 		</div>
-	</nav>
+        <div class="menu-toggle _close menu_toggle"></div>
+    </nav>
 
 	<section id="hero" class="hero hero-home">
 		<div class="hero-container">
@@ -108,8 +116,10 @@
 				Outsourcing by <br>
 				Thoughtful People
 			</h1>
-			<a href="#services_title" class="btn btn-primary nav-link">Customer Engagement</a>
-			<a href="#channels" class="btn btn-secondary nav-link">Back Office Solutions</a>
+			<div class="hero-buttons">
+				<a href="/solutions" class="btn btn-primary nav-link">Customer Engagement</a>
+				<a href="/back-office" class="btn btn-secondary nav-link">Back Office Solutions</a>
+			</div>
 		</div>
 	</section>
 
@@ -120,7 +130,9 @@
 			<div class="description-cloud-title">
 				Welcome to Workloop
 			</div>
-			Workloop is an employee owned outsourcing company that provides its partners with with outstanding customer engagement and back office support. Through our commitment to providing the most engaged workforce and most cutting edge technology, we are creating solutions that allow our partners to keep focus on their core business and to stay ahead of the competition.
+			<div class="description-cloud-text">
+				Workloop is an employee owned outsourcing company that provides its partners with outstanding customer engagement and back office support. Through our commitment to providing the most engaged workforce and most cutting edge technology, we are creating solutions that allow our partners to keep focus on their core business and to stay ahead of the competition.
+			</div>
 		</div>
 		<div class="solutions-block-title">
 			Solutions
@@ -150,28 +162,38 @@
 		<div class="edge-block-slides">
 			<div class="edge-block-slide _people">
 				<div class="edge-block-slide-image"></div>
-				<h3 class="edge-block-slide-title">Our People</h3>
-				<p class="edge-block-slide-text">We have the best people in the game. Period.</p>
+				<div class="edge-block-slide-desc">
+					<h3 class="edge-block-slide-title">Our People</h3>
+					<p class="edge-block-slide-text">We have the best people in the game. Period.</p>
+				</div>
 			</div>
 			<div class="edge-block-slide _agility">
 				<div class="edge-block-slide-image"></div>
-				<h3 class="edge-block-slide-title">Agility</h3>
-				<p class="edge-block-slide-text">If we can do it, we will. No cookie cutters here.</p>
-			</div>
-			<div class="edge-block-slide _tech">
-				<div class="edge-block-slide-image"></div>
-				<h3 class="edge-block-slide-title">Our Tech, Clouds, robots and AI</h3>
-				<p class="edge-block-slide-text">Clouds, robots, AI… we have love for tech and data.</p>
+				<div class="edge-block-slide-desc">
+					<h3 class="edge-block-slide-title">Agility</h3>
+					<p class="edge-block-slide-text">If we can do it, we will. No cookie cutters here.</p>
+				</div>
 			</div>
 			<div class="edge-block-slide _cultural">
 				<div class="edge-block-slide-image"></div>
-				<h3 class="edge-block-slide-title">Cultural alignment</h3>
-				<p class="edge-block-slide-text">We embody our partners’ culture to keep brands strong.</p>
+				<div class="edge-block-slide-desc">
+					<h3 class="edge-block-slide-title">Cultural alignment</h3>
+					<p class="edge-block-slide-text">We embody our partners’ culture to keep brands strong.</p>
+				</div>
+			</div>
+			<div class="edge-block-slide _tech">
+				<div class="edge-block-slide-image"></div>
+				<div class="edge-block-slide-desc">
+					<h3 class="edge-block-slide-title">Our Tech, Clouds, robots and AI</h3>
+					<p class="edge-block-slide-text">Clouds, robots, AI… we have love for tech and data.</p>
+				</div>
 			</div>
 			<div class="edge-block-slide _monsters">
 				<div class="edge-block-slide-image"></div>
-				<h3 class="edge-block-slide-title">Process Monsters</h3>
-				<p class="edge-block-slide-text">Repeatable and predictable results by repeatable and predicable processes.</p>
+				<div class="edge-block-slide-desc">
+					<h3 class="edge-block-slide-title">Process Monsters</h3>
+					<p class="edge-block-slide-text">Repeatable and predictable results by repeatable and predicable processes.</p>
+				</div>
 			</div>
 		</div>
 	</section>

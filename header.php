@@ -46,6 +46,13 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <div class="top-mobile-bar">
+        <a href="/" class="logo"></a>
+        <div class="menu-toggle _open menu_toggle">
+            <span></span>
+        </div>
+    </div>
 	<nav id="navigation" class="navigation">
 		<div class="container">
 			<div class="logo-wrapper">
@@ -116,4 +123,5 @@
 				<li class="contact-link"><a href="/contact" class="btn btn-primary">Contact</a></li>
 			</ul>
 		</div>
+        <div class="menu-toggle _close menu_toggle"></div>
 	</nav>

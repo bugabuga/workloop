@@ -107,11 +107,42 @@
 		&-post {
 			width: em(340);
 			margin-bottom: em(100);
+
+			@include breakpoint(768) {
+				width: 62vw;
+				text-align: center;
+			}
+
+			@include breakpoint(550px) {
+				width: 81vw;
+			}
+
+			& + .blog-post {
+
+				@include breakpoint(768) {
+					margin-top: 10vw;
+				}
+			}
+
+			.btn {
+
+				@include breakpoint(550px) {
+					font-size: 4vw;
+				}
+			}
 		}
 
 		&-image {
 			width: 100%;
 			height: em(200);
+
+			@include breakpoint(768) {
+				height: 36vw;
+			}
+
+			@include breakpoint(550px) {
+				height: 47vw;
+			}
 
 			img {
 				width: 100%;
@@ -124,13 +155,42 @@
 			line-height: em(24, 18);
 			margin-bottom: em(10);
 			margin-top: em(20);
+
+			@include breakpoint(1024) {
+				font-size: 17px;
+			}
+
+			@include breakpoint(768) {
+				font-size: 3vw;
+				text-align: left;
+			}
+
+			@include breakpoint(550px) {
+				font-size: 4vw;
+			}
 		}
 
 		&-title {
 			font-size: em(18);
 			line-height: em(24, 18);
 			font-weight: bold;
-			margin-bottom: em(10);
+			margin-bottom: em(10, 18);
+			min-height: em(48, 18);
+
+			@include breakpoint(1024) {
+				font-size: 17px;
+			}
+
+			@include breakpoint(768) {
+				font-size: 4vw;
+				text-align: left;
+				margin-bottom: 6vw;
+			}
+
+			@include breakpoint(550px) {
+				font-size: 5vw;
+				margin-bottom: 10vw;
+			}
 
 			&-link {
 				text-decoration: none;
@@ -145,7 +205,13 @@
 		&-text {
 			font-size: em(18);
 			line-height: em(24, 18);
-			margin-bottom: em(36);
+			margin-bottom: em(36, 18);
+			height: em(144, 18);
+			overflow: hidden;
+
+			@include breakpoint(1024) {
+				font-size: 17px;
+			}
 		}
 	}
 }
@@ -333,6 +399,8 @@
 			font-size: em(17);
 			line-height: em(26, 17);
 			margin-bottom: em(65, 17);
+			position: relative;
+			z-index: 10;
 		}
 
 		pre {

@@ -6,55 +6,59 @@
     <style>
 
         .pulse-1 {
-            -webkit-animation: pulse 1.25s infinite ease-out; /* Safari 4+ */
-            -moz-animation:    pulse 1.25s infinite ease-out; /* Fx 5+ */
-            -o-animation:      pulse 1.25s infinite ease-out; /* Opera 12+ */
-            animation:         pulse 1.25s infinite ease-out; /* IE 10+, Fx 29+ */
+             -webkit-animation: pulse 2.5s infinite ease-out; /* Safari 4+ */
+             -moz-animation:    pulse 2.5s infinite ease-out; /* Fx 5+ */
+             -o-animation:      pulse 2.5s infinite ease-out; /* Opera 12+ */
+             animation:         pulse 2.5s infinite ease-out; /* IE 10+, Fx 29+ */
 
         }
 
         .pulse-2 {
-             -webkit-animation: pulse 1.25s infinite ease-out; /* Safari 4+ */
-             -moz-animation:    pulse 1.25s infinite ease-out; /* Fx 5+ */
-             -o-animation:      pulse 1.25s infinite ease-out; /* Opera 12+ */
-             animation:         pulse 1.25s infinite ease-out; /* IE 10+, Fx 29+ */
+             -webkit-animation: pulse 2.5s infinite ease-out; /* Safari 4+ */
+             -moz-animation:    pulse 2.5s infinite ease-out; /* Fx 5+ */
+             -o-animation:      pulse 2.5s infinite ease-out; /* Opera 12+ */
+             animation:         pulse 2.5s infinite ease-out; /* IE 10+, Fx 29+ */
              animation-delay: 0.25s;
         }
 
         .pulse-3 {
-             -webkit-animation: pulse 1.25s infinite ease-out; /* Safari 4+ */
-             -moz-animation:    pulse 1.25s infinite ease-out; /* Fx 5+ */
-             -o-animation:      pulse 1.25s infinite ease-out; /* Opera 12+ */
-             animation:         pulse 1.25s infinite ease-out; /* IE 10+, Fx 29+ */
+             -webkit-animation: pulse 2.5s infinite ease-out; /* Safari 4+ */
+             -moz-animation:    pulse 2.5s infinite ease-out; /* Fx 5+ */
+             -o-animation:      pulse 2.5s infinite ease-out; /* Opera 12+ */
+             animation:         pulse 2.5s infinite ease-out; /* IE 10+, Fx 29+ */
              animation-delay: 0.5s;
         }
 
         .pulse-4 {
-             -webkit-animation: pulse 1.25s infinite ease-out; /* Safari 4+ */
-             -moz-animation:    pulse 1.25s infinite ease-out; /* Fx 5+ */
-             -o-animation:      pulse 1.25s infinite ease-out; /* Opera 12+ */
-             animation:         pulse 1.25s infinite ease-out; /* IE 10+, Fx 29+ */
+             -webkit-animation: pulse 2.5s infinite ease-out; /* Safari 4+ */
+             -moz-animation:    pulse 2.5s infinite ease-out; /* Fx 5+ */
+             -o-animation:      pulse 2.5s infinite ease-out; /* Opera 12+ */
+             animation:         pulse 2.5s infinite ease-out; /* IE 10+, Fx 29+ */
              animation-delay: 0.75s;
         }
 
         @-webkit-keyframes pulse {
             0%   { transform: scale(1); }
             10%  { transform: scale(1.15); }
+            30%  { transform: scale(1); }
             100% { transform: scale(1); }
         }
         @-moz-keyframes pulse {
             0%   { transform: scale(1); }
             10%  { transform: scale(1.15); }
+            30%  { transform: scale(1); }
             100% { transform: scale(1); }
         }
         @-o-keyframes pulse {
             0%   { transform: scale(1); }
             10%  { transform: scale(1.15); }
+            30%  { transform: scale(1); }
             100% { transform: scale(1); }
         }
         @keyframes pulse {
             0%   { transform: scale(1); }
             10%  { transform: scale(1.15); }
+            30%  { transform: scale(1); }
             100% { transform: scale(1); }
         }
 

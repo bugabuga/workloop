@@ -1,17 +1,39 @@
-<!-- Initialize Swiper -->
-var services_swiper = new Swiper('#services_swiper', {
-	spaceBetween: 30,
-	effect: 'fade',
-	speed: 100,
-	simulateTouch: false,
-	pagination: {
-		el: '#services_swiper_pagination',
-		clickable: true,
-		renderBullet: function (index, className) {
-			return '<span class="' + className + '"><span class="dots"></span><span class="bullet bullet-' + (index + 1) + '"></span></span>';
-		}
-	},
-});
+
+if (!$('.slider_js').is(":visible")) {
+	<!-- Initialize Swiper -->
+	var services_swiper = new Swiper('#services_swiper', {
+		spaceBetween: 30,
+		effect: 'fade',
+		speed: 100,
+		simulateTouch: false,
+		pagination: {
+			el: '#services_swiper_pagination',
+			clickable: true,
+			renderBullet: function (index, className) {
+				return '<span class="' + className + '"><span class="dots"></span><span class="bullet bullet-' + (index + 1) + '"></span></span>';
+			}
+		},
+	});
+} else {
+	<!-- Initialize Swiper -->
+	var services_mobile_swiper = new Swiper('#services_mobile_swiper', {
+		spaceBetween: 30,
+		effect: 'fade',
+		speed: 100,
+		mousewheel: true,
+		touchAngle: 90,
+		touchEventsTarget: 'container',
+		pagination: {
+			el: '#services_mobile_swiper_pagination',
+			type: 'bullets',
+		},
+	});
+}
+
+
+
+
+
 
 <!-- Initialize Swiper -->
 var channels_swiper = new Swiper('#channels_swiper', {
@@ -19,7 +41,7 @@ var channels_swiper = new Swiper('#channels_swiper', {
 	effect: 'fade',
 	speed: 100,
 	pagination: {
-		el: '#channels_swiper_pagination',
+		el: '.channels-pagination',
 		clickable: true,
 		renderBullet: function (index, className) {
 			return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"><i class="icon"></i></span>';
@@ -39,12 +61,14 @@ var navigation = $('#navigation');
 $(document).ready(function() {
 	var scrollPosition = $(window).scrollTop();
 
-	if (scrollPosition >= 50 ) {
+	if (scrollPosition >= 50 && window.innerWidth > 768 ) {
 		// Show back to top button
 		navigation.addClass('_floating animate');
 	}
 
-	services_swiper.slideTo(4);
+	if (window.innerWidth > 768) {
+		services_swiper.slideTo(4);
+	}
 });
 
 function rightBar(height) {
@@ -288,7 +312,7 @@ var raf = window.requestAnimationFrame ||
 var $window = $(window);
 var lastScrollTop = $window.scrollTop();
 
-if (raf) {
+if (raf && window.innerWidth > 768) {
 	loop();
 }
 

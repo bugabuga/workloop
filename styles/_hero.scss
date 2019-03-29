@@ -6,6 +6,10 @@
 		@include container();
 		padding-top: em(100);
 		padding-bottom: em(200);
+
+		@include breakpoint(1024) {
+			font-size: 1.3vw;
+		}
 	}
 
 	&:before {
@@ -24,7 +28,7 @@
 	}
 
 	&-solutions:before {
-		background-image: url("./images/solutions_hero_1440.png");
+		background-image: url("./images/solutions/hero_solutions.png");
 	}
 
 	&-solutions-2:before {
@@ -43,6 +47,20 @@
 			height: em(540);
 			right: em(170);
 			top: em(20);
+
+			@include breakpoint(1024) {
+				right: em(110);
+			}
+
+            @include breakpoint(768) {
+                position: static;
+                margin: em(110) auto 0;
+				font-size: 1.2vw;
+            }
+
+            @include breakpoint(550px) {
+                font-size: 1.6vw;
+            }
 		}
 
 		&:after {
@@ -59,7 +77,49 @@
 			top: em(-130);
 			right: 0;
 			z-index: -1;
+
+            @include breakpoint(768) {
+                content: none;
+            }
 		}
+
+        .hero-text {
+
+            @include breakpoint(768) {
+				font-size: 6vw;
+            }
+
+            @include breakpoint(768) {
+                font-size: 8vw;
+            }
+        }
+
+        .hero-container {
+
+            @include breakpoint(768) {
+                text-align: center;
+            }
+        }
+
+        .hero-buttons {
+            @include flexbox();
+            @include flex_util(start);
+            flex-wrap: wrap;
+
+            @include breakpoint(768) {
+                @include flex_util(center);
+				width: 50vw;
+                margin: 0 auto;
+            }
+
+            .btn {
+
+                @include breakpoint(768) {
+                    margin-bottom: em(20);
+                    margin-left: 0;
+                }
+            }
+        }
 	}
 
 	&-edge {
@@ -153,5 +213,9 @@
 		margin: 0 0 em(84, $hero_text_fsz);
 		position: relative;
 		z-index: 5;
+
+		//@include breakpoint(1024) {
+		//	font-size: 40px;
+		//}
 	}
 }

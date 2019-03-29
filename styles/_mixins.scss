@@ -155,6 +155,12 @@ $row_modifiers: start center end top middle bottom around between v-between reve
 	}
 }
 
+@mixin minBreakpoint($value) {
+	@media screen and (min-width: $value) {
+		@content;
+	}
+}
+
 @mixin resize_screen($screenSize, $screenSizeTo: 0) {
 	@media screen and (max-width: $screenSize) and  (min-width: $screenSizeTo) {
 		@content;
@@ -168,4 +174,19 @@ $row_modifiers: start center end top middle bottom around between v-between reve
 @mixin container() {
 	width: em(1170);
 	margin: 0 auto;
+
+	@media (max-width: 1024px) {
+		width: 90%;
+	}
+}
+
+@mixin clearfix() {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
 }

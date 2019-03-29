@@ -7,6 +7,11 @@
 	position: relative;
 	z-index: 10;
 
+	@include breakpoint(768) {
+		font-size: 2.4vw;
+		padding-top: em(60);
+	}
+
 	.left-border-bottom {
 		width: em(21);
 		height: 60%;
@@ -15,6 +20,10 @@
 		top: -59%;
 		z-index: 10;
 		background: linear-gradient(180deg, transparent 0%, transparent 60%, #6635FF 90%, #6635FF 100%);
+
+		@include breakpoint(768) {
+			display: none;
+		}
 	}
 
 	.right-border-bottom {
@@ -25,6 +34,10 @@
 		top: -59%;
 		z-index: 3;
 		background: linear-gradient(180deg, transparent 0%, transparent 60%, #6635FF 90%, #6635FF 100%);
+
+		@include breakpoint(768) {
+			display: none;
+		}
 	}
 
 	a {
@@ -39,10 +52,16 @@
 	&-flex {
 		@include flexbox();
 		@include flex_util(between);
+		flex-wrap: wrap;
 
 		&-col {
 			width: 50%;
 			flex: 0 0 50%;
+
+			@include breakpoint(768) {
+				width: 100%;
+				flex: 0 0 100%;
+			}
 		}
 	}
 
@@ -52,11 +71,17 @@
 		background-size: contain;
 		width: em(200);
 		height: em(40);
-		font-weight: 500;
 	}
 
 	&-content {
 		margin-bottom: em(46);
+	}
+
+	&-description {
+
+		@include breakpoint(768) {
+			margin-bottom: 10vw;
+		}
 	}
 
 	&-description-text {
@@ -69,6 +94,16 @@
 		@include flex_util(between);
 
 		&-block {
+
+			&:first-child {
+
+				.footer-links-block-title {
+
+					@include breakpoint(768) {
+						margin-bottom: em(25, 16);
+					}
+				}
+			}
 
 			&-title {
 				font-size: em(16);
@@ -87,6 +122,10 @@
 
 	&-social {
 		margin-bottom: em(64);
+
+		@include breakpoint(768) {
+			margin-bottom: em(30);
+		}
 
 		&-link {
 			display: inline-block;
@@ -124,6 +163,11 @@
 		font-size: em(18);
 		line-height: em(41, 18);
 
+		@include breakpoint(768) {
+			text-align: left;
+			margin-top: em(30, 18);
+		}
+
 		&-link {
 			position: relative;
 			padding-left: em(30, 18);
@@ -149,6 +193,10 @@
 	&-contacts {
 		font-size: em(18);
 		text-align: right;
+
+		@include breakpoint(768) {
+			display: none;
+		}
 
 		a + a {
 			margin-left: em(24, 18);

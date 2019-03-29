@@ -8,6 +8,14 @@ body {
 	background: #ffffff;
 	overflow-x: hidden;
 	width: 100%;
+
+	@include breakpoint(768) {
+		padding-top: em(150); // Spacing for top menu bar
+	}
+
+	@include breakpoint(550px) {
+		padding-top: em(150);
+	}
 }
 
 section {
@@ -122,10 +130,18 @@ body {
 
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0);
+
+	@include breakpoint(768) {
+		display: none;
+	}
 }
 
 .left-border {
 	width: em(21);
 	position: absolute;
 	left: 0;
+
+	@include breakpoint(768) {
+		display: none;
+	}
 }

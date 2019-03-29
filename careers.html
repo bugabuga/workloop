@@ -227,14 +227,24 @@
 		</div>
 	</section>
 
+	<link rel="stylesheet" href="/wp-content/plugins/simple-job-board/public/css/simple-job-board-public.css">
+
 	<section id="interested" class="interested">
 		<div class="interested-title">
 			Ready to find out more?
 		</div>
 		<div class="interested-buttons">
-			<a href="#" class="btn btn-primary">Apply now</a>
+			<a href="#modal" class="btn btn-primary">Apply now</a>
 		</div>
 	</section>
+
+	<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+		<div class="remodalBorder">
+			<button data-remodal-action="close" class="remodal-close" id="close_popup_button" aria-label="Close"></button>
+
+
+		</div>
+	</div>
 
 	<footer id="footer" class="footer">
 
@@ -307,5 +317,6 @@
 	<script src="./js/swiper.min.js"></script>
 	<script src="./js/scripts_careers.js"></script>
 	<script src="./js/smooth_scroll.js"></script>
+	<script src="./js/remodal.min.js"></script>
 </body>
 </html>

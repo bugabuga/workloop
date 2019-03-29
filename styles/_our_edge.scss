@@ -18,8 +18,8 @@
 
 		font-size: em($desc_cloud_fsz);
 		line-height: em(34, $desc_cloud_fsz);
-		color: #0E0E0E;
-		background-color: #FFD002;
+		color: #FFFFFF;
+		background-color: #0B7CFE;
 		font-weight: normal;
 
 		position: relative;
@@ -131,7 +131,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/bg_people.png");
+					background-image: url("./images/edge/edge_people.jpg");
 
 					&:before {
 						background-color: #693AF9;
@@ -221,7 +221,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/bg_agility.png");
+					background-image: url("./images/edge/edge_agility.jpg");
 
 					&:before {
 						background-color: #0A7CFE;
@@ -304,7 +304,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/bg_culture.png");
+					background-image: url("./images/edge/edge_culture.jpg");
 
 					&:before {
 						background-color: #00D2AB;
@@ -382,7 +382,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/bg_tech.png");
+					background-image: url("./images/edge/edge_tech.jpg");
 
 					&:before {
 						background-color: #FFD002;
@@ -464,7 +464,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/bg_process.png");
+					background-image: url("./images/edge/edge_process.jpg");
 
 					&:before {
 						background-color: #FF2963;
@@ -573,7 +573,7 @@
 				overflow: hidden;
 				background-position: center;
 				background-repeat: no-repeat;
-				background-size: 150%;
+				background-size: contain;
 				position: relative;
 				z-index: 3;
 

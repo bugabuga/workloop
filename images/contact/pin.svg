@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="36px" viewBox="0 0 27 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>BA75A5F3-4011-43D2-8E70-9C704F73BBBE</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONNEX-CONTACT" transform="translate(-882.000000, -558.000000)" fill="#693AF9" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(882.000000, 549.000000)">
+                <path d="M13.5,9 C6.0560598,9 0,14.8487415 0,22.0377815 C0,30.9596049 12.0811775,44.057363 12.5955443,44.6105825 C13.0786779,45.1302628 13.9221958,45.1293487 14.4044557,44.6105825 C14.9188225,44.057363 27,30.9596049 27,22.0377815 C26.9998544,14.8487415 20.9438674,9 13.5,9 Z M13.5,28.5974536 C9.75476872,28.5974536 6.70788235,25.6548015 6.70788235,22.0377815 C6.70788235,18.4207615 9.75484153,15.4781798 13.5,15.4781798 C17.2451585,15.4781798 20.2920448,18.4208318 20.2920448,22.0378518 C20.2920448,25.6548719 17.2451585,28.5974536 13.5,28.5974536 Z" id="pin"></path>
+            </g>
+        </g>
+    </g>
+</svg>

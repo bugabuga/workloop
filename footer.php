@@ -68,6 +68,7 @@
 	<script type="text/javascript" src="/wp-content/themes/workloop/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/workloop/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/workloop/js/swiper.min.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/workloop/js/scripts.js"></script>
 
 	<?php if (is_page (58)){?>
 
@@ -93,6 +94,7 @@
 	<?php } elseif ( is_page (51)) { ?>
 
 	  <script type="text/javascript" src="/wp-content/themes/workloop/js/scripts_careers.js"></script>
+	  <script type="text/javascript" src="/wp-content/themes/workloop/js/remodal.min.js"></script>
 
 	<?php } elseif ( is_page (95)) { ?>
 
