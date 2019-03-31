@@ -7,10 +7,23 @@ var story_swiper = new Swiper('#story_swiper', {
 		el: '#story_swiper_pagination',
 		clickable: true,
 		renderBullet: function (index, className) {
-			return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"><i class="icon"></i></span>';
+			return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"></span>';
 		}
 	}
 });
+
+if ( $('.principles_js').is(':visible') ) {
+	<!-- Initialize Swiper -->
+	var story_swiper = new Swiper('#story_mobile_swiper', {
+		spaceBetween: 30,
+		effect: 'fade',
+		speed: 200,
+		pagination: {
+			el: '#story_mobile_swiper_pagination',
+			dynamicBullets: true,
+		}
+	});
+}
 
 function leftBar(height) {
 	$('#left_border').css('height', height / 14 + 'em');

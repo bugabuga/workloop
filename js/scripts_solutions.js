@@ -1,37 +1,30 @@
+<!-- Initialize Swiper -->
+var services_swiper = new Swiper('#services_swiper', {
+	spaceBetween: 30,
+	effect: 'fade',
+	speed: 100,
+	simulateTouch: false,
+	pagination: {
+		el: '#services_swiper_pagination',
+		clickable: true,
+		renderBullet: function (index, className) {
+			return '<span class="' + className + '"><span class="dots"></span><span class="bullet bullet-' + (index + 1) + '"></span></span>';
+		}
+	},
+});
 
-if (!$('.slider_js').is(":visible")) {
-	<!-- Initialize Swiper -->
-	var services_swiper = new Swiper('#services_swiper', {
-		spaceBetween: 30,
-		effect: 'fade',
-		speed: 100,
-		simulateTouch: false,
-		pagination: {
-			el: '#services_swiper_pagination',
-			clickable: true,
-			renderBullet: function (index, className) {
-				return '<span class="' + className + '"><span class="dots"></span><span class="bullet bullet-' + (index + 1) + '"></span></span>';
-			}
-		},
-	});
-} else {
+if ( $('.slider_js').is(':visible')) {
 	<!-- Initialize Swiper -->
 	var services_mobile_swiper = new Swiper('#services_mobile_swiper', {
 		spaceBetween: 30,
 		effect: 'fade',
 		speed: 100,
-		mousewheel: true,
-		touchAngle: 90,
-		touchEventsTarget: 'container',
 		pagination: {
 			el: '#services_mobile_swiper_pagination',
-			type: 'bullets',
+			dynamicBullets: true,
 		},
 	});
 }
-
-
-
 
 
 
@@ -40,13 +33,29 @@ var channels_swiper = new Swiper('#channels_swiper', {
 	spaceBetween: 30,
 	effect: 'fade',
 	speed: 100,
-	pagination: {
-		el: '.channels-pagination',
-		clickable: true,
-		renderBullet: function (index, className) {
-			return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"><i class="icon"></i></span>';
+	breakpointsInverse: true,
+	breakpoints: {
+		768: {
+			pagination: {
+				el: '#channels_swiper_pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"><i class="icon"></i></span>';
+				}
+			}
+		},
+		320: {
+			pagination: {
+				el: '#channels_swiper_pagination',
+				clickable: true,
+				dynamicBullets: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + ' bullet bullet-' + (index + 1) + '"><i class="icon"></i></span>';
+				}
+			}
 		}
-	}
+	},
+	
 });
 
 

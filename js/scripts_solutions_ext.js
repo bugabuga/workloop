@@ -12,6 +12,19 @@ var services_swiper = new Swiper('#services_swiper', {
 	},
 });
 
+if ( $('.slider_js').is(':visible')) {
+	<!-- Initialize Swiper -->
+	var services_mobile_swiper = new Swiper('#services_mobile_swiper', {
+		spaceBetween: 30,
+		effect: 'fade',
+		speed: 100,
+		pagination: {
+			el: '#services_mobile_swiper_pagination',
+			dynamicBullets: true,
+		},
+	});
+}
+
 var navigation = $('#navigation');
 
 $(document).ready(function() {
@@ -22,7 +35,9 @@ $(document).ready(function() {
 		navigation.addClass('_floating animate');
 	}
 
-	services_swiper.slideTo(8);
+	if (window.innerWidth > 768) {
+		services_swiper.slideTo(8);
+	}
 });
 
 function rightBar(height) {
@@ -342,7 +357,7 @@ var raf = window.requestAnimationFrame ||
 var $window = $(window);
 var lastScrollTop = $window.scrollTop();
 
-if (raf) {
+if (raf && window.innerWidth > 768) {
 	loop();
 }
 

@@ -3,6 +3,13 @@
 	.right-border-bottom {
 		display: none;
 	}
+
+	.interested {
+
+		@include breakpoint(768) {
+			margin-top: em(200);
+		}
+	}
 }
 
 
@@ -82,12 +89,13 @@
 		margin: 0 auto em(230, 18);
 	}
 
-
-
-
 	&-accordion {
 		@include container();
 		margin-top: em(200);
+
+		@include breakpoint(768) {
+			font-size: 2vw;
+		}
 
 		li {
 			height: em(320);
@@ -96,14 +104,26 @@
 			transition: all 0.2s ease-out, transform 1s cubic-bezier(0.12, 0.79, 0.34, 0.97) 0.2s;
 			position: relative;
 
+			@include breakpoint(768) {
+				flex-wrap: wrap;
+				height: em(600);
+				margin-bottom: 0 !important;
+
+				&.show {
+				}
+			}
+
 			&:nth-child(even) {
 
-				.toggle {
-					order: 2;
-				}
+				@include minBreakpoint(769px) {
 
-				.inner {
-					order: 1;
+					.toggle {
+						order: 2;
+					}
+
+					.inner {
+						order: 1;
+					}
 				}
 			}
 
@@ -206,10 +226,18 @@
 
 				&.move-up .toggle {
 					transform: scale(0.78) translate(em(40),em(-100));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(40), 0);
+					}
 				}
 
 				&.move-down .toggle {
 					transform: scale(0.78) translate(em(40),em(100));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(40),em(300));
+					}
 				}
 
 				.toggle {
@@ -289,14 +317,26 @@
 
 				&.move-up .toggle {
 					transform: scale(0.78) translate(em(-70),em(-200));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(-70), 0);
+					}
 				}
 
 				&.move-down .toggle {
 					transform: scale(0.78) translate(em(-70),em(100));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(-70),em(300));
+					}
 				}
 
 				.toggle {
 					transform: scale(0.78) translate(em(-70), 0);
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(-70), em(100));
+					}
 
 					&:before {
 						background-image: url("./images/edge/mask_culture.png");
@@ -367,10 +407,18 @@
 
 				&.move-up .toggle {
 					transform: scale(0.78) translate(em(-90),em(-100));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(-90), 0);
+					}
 				}
 
 				&.move-down .toggle {
 					transform: scale(0.78) translate(em(-90),em(150));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(-90),em(300));
+					}
 				}
 
 				.toggle {
@@ -449,10 +497,18 @@
 
 				&.move-up .toggle {
 					transform: scale(0.78) translate(em(40),em(-100));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(40), 0);
+					}
 				}
 
 				&.move-down .toggle {
 					transform: scale(0.78) translate(em(40),em(200));
+
+					@include breakpoint(768) {
+						transform: scale(0.78) translate(em(40),em(350));
+					}
 				}
 
 				.toggle {
@@ -615,11 +671,17 @@
 			opacity: 0;
 			@include transition(all);
 
+			@include breakpoint(768) {
+				width: 100%;
+				padding: em(60);
+			}
+
 			&-title {
 				font-size: em(54);
 				line-height: em(34, 54);
 				margin-bottom: em(25, 54);
 				font-weight: 500;
+				white-space: nowrap;
 			}
 
 			&-text {

@@ -21,6 +21,10 @@
         font-size: 2.6vw;
     }
 
+    @include breakpoint(425px) {
+        font-size: 4vw;
+    }
+
 	&-primary {
 		background-color: #0B7CFE;
 		color: #FFFFFF;

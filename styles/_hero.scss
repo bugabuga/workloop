@@ -10,6 +10,10 @@
 		@include breakpoint(1024) {
 			font-size: 1.3vw;
 		}
+
+		@include breakpoint(425px) {
+			font-size: 2vw;
+		}
 	}
 
 	&:before {
@@ -27,17 +31,62 @@
 		z-index: 1;
 	}
 
-	&-solutions:before {
-		background-image: url("./images/solutions/hero_solutions.png");
+	&-solutions {
+
+		.hero-container {
+
+			@include breakpoint(768) {
+				padding-top: 50vw;
+				text-align: center;
+			}
+		}
+
+		&:before {
+			background-image: url("./images/solutions/hero_solutions.png");
+
+			@include breakpoint(768) {
+				width: 70vw;
+			    height: 50vw;
+			    right: 0;
+			    top: -4vw;
+			}
+		}
 	}
 
-	&-solutions-2:before {
-		background-image: url("./images/solutions_2_hero_1440.png");
-		width: em(960);
-		height: em(740);
-		top: em(0);
-		right: em(0);
+	&-solutions-2 {
+
+		.hero-container {
+
+			@include breakpoint(768) {
+				font-size: 2vw;
+				padding-top: 60vw;
+				padding-bottom: 20vw;
+				text-align: center;
+			}
+		}
+
+		.hero-text {
+
+			@include breakpoint(768) {
+				margin-bottom: 0;
+			}
+		}
+
+	    &:before {
+			background-image: url("./images/solutions_2_hero_1440.png");
+			width: em(960);
+			height: em(740);
+			top: em(0);
+			right: em(0);
+
+			@include breakpoint(768) {
+				width: 70vw;
+			    height: 55vw;
+			}
+		}
 	}
+
+	
 
 	&-home {
 
@@ -139,7 +188,7 @@
 		}
 
 		.hero-text {
-			width: em(480, 48);
+			width: em(576, 48);
 			margin-top: em(30, 48);
 			margin-bottom: em(220, 48);
 		}
@@ -153,11 +202,39 @@
 			height: em(753);
 			right: 0;
 			top: em(-72);
+
+			@include breakpoint(1024) {
+				right: em(-150);
+			}
+
+			@include breakpoint(768) {
+				font-size: 0.85em;
+			}
+
+			@include breakpoint(550px) {
+				right: 0;
+			    width: 90vw;
+			    height: 80vw;
+			    top: -17vw;
+			}
 		}
 
 		.hero-text {
 			width: em(500, 48);
 			margin-top: em(30, 48);
+
+			@include breakpoint(768) {
+				margin-top: em(-100, 48);
+			}
+
+			@include breakpoint(550px) {
+				margin-top: 55vw;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			    width: 80%;
+    			font-size: 6vw;
+			}
 		}
 
 		.hero-container {
