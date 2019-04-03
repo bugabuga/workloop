@@ -274,6 +274,28 @@
 
 	&-thumbnail {
 		grid-area: thumbnail;
+		position: relative;
+		overflow: hidden;
+		margin-left: em(-140);
+		z-index: 1;
+
+		&-mask {
+			background: url("./images/blog/mask_shape.png") center no-repeat;
+			background-size: 92%;
+			display: block;
+			width: em(770);
+			height: em(630);
+			position: absolute;
+			left: em(-114);
+			top: em(-45);
+			z-index: 10;
+		}
+
+		img	{
+			position: relative;
+			z-index: 5;
+			transform: scale(1.7) translate(-10%,10%);
+		}
 	}
 
 	b, strong {
@@ -283,7 +305,10 @@
 	&-share {
 		width: em(118);
 		display: block;
-		margin-left: auto;
+		position: absolute;
+		z-index: 10;
+		right: 0;
+		bottom: 0;
 
 		&-title {
 			width: 100%;

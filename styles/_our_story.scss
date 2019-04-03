@@ -100,7 +100,10 @@
 	}
 
 	.container {
-		margin-left: 0;
+
+		@include breakpoint(768) {
+			margin-left: 0;
+		}
 
 		@include breakpoint(550px) {
 			width: 96%;

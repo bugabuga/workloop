@@ -69,7 +69,7 @@ get_header(); ?>
 			Ready to connect?
 		</div>
 		<div class="interested-buttons">
-			<a href="/contact" class="btn btn-primary">Apply now</a>
+			<a href="https://workloop.breezy.hr/" target="_blank" rel="nofollow noopener noreferrer" class="btn btn-primary">Apply now</a>
 		</div>
 	</section>
 

@@ -15,16 +15,18 @@ $(document).ready(function() {
                 $.ajax({
                     type: "POST",
                     url: "/wp-content/themes/workloop/mail.php", //Change
-                    data: th.serialize()
-                }).done(function() {
-                    float.removeClass('hide').addClass('show');
-                    setTimeout(function() {
-                        // Done Functions
-                        float.addClass('hide').removeClass('show');
-                        th.trigger("reset");
-                        grecaptcha.reset();
-                    }, 3000);
+                    data: th.serialize(),
+                    success: function() {
+                        float.removeClass('hide').addClass('show');
+                        setTimeout(function() {
+                            // Done Functions
+                            float.addClass('hide').removeClass('show');
+                            th.trigger("reset");
+                            grecaptcha.reset();
+                        }, 3000);
+                    }
                 });
+                    // .done();
                 return false;
             });
         }

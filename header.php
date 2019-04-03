@@ -17,7 +17,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<!-- Styles -->
-	<link href="/wp-content/themes/workloop/style.css" rel="stylesheet">
+	<link href="https://theworkloop.com/wp-content/themes/workloop/style.css" rel="stylesheet">
 
 	<!-- Favicons -->
 	<!--<link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">-->

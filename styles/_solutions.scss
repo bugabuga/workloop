@@ -139,7 +139,7 @@
 
 	.left-border {
 		height: 105%;
-		top: em(30);
+		top: em(50);
 		z-index: 2;
 		background: linear-gradient(180deg, #08E1F2 0%, #08E1F2 70%, #FFD002 90%, #FFD002 100%, #FFD002 100%);
 	}
@@ -195,12 +195,12 @@
 		.services-blue-shape {
 			background: url("./images/services/services_shape.svg") center no-repeat;
 			background-size: contain;
-			width: em(290, $services_title_fsz);
+			width: em(300, $services_title_fsz);
 			height: em(510, $services_title_fsz);
 
 			position: absolute;
 			left: em(-240, $services_title_fsz);
-			top: em(-410, $services_title_fsz);
+			top: em(-400, $services_title_fsz);
 			z-index: -1;
 
 			@include breakpoint(768) {
@@ -278,7 +278,7 @@
 
 	.slider {
 		position: relative;
-		padding-top: em(220);
+		padding-top: em(230);
 		padding-bottom: em(230);
 
 		&.slider-desktop {
@@ -629,12 +629,12 @@
 	.services-green-shape {
 		background: url("./images/services/services_2_shape.svg") center no-repeat;
 		background-size: contain;
-		width: em(289, 74);
-		height: em(660, 74);
+		width: em(300, 74);
+		height: em(700, 74);
 
 		position: absolute;
 		left: em(-241, 74);
-		top: em(-290, 74);
+		top: em(-300, 74);
 		z-index: -1;
 
 		@include breakpoint(768) {

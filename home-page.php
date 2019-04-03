@@ -87,7 +87,7 @@ get_header(); ?>
                     <button class="contact-submit" type="submit">SEND</button>
                 </form>
                 <div class="contact-buttons">
-                    <a href="tel:+14162273400" class="contact-button lets-talk">
+                    <a href="tel:+18882241442" class="contact-button lets-talk">
                         <i class="icon"></i>
                         <span>Let's talk</span>
                     </a>

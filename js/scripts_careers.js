@@ -44,15 +44,6 @@ $(window).on('scroll', function(){
 		navigation.removeClass('_floating');
 	}
 
-
-	// if (scroll_trigger >= 1000) {
-	// 	$('.reasons-item').addClass('move');
-	// }
-	//
-	// if (scroll_trigger < 300) {
-	// 	$('.reasons-item').removeClass('move');
-	// }
-
 	if (scroll_trigger >= 20) {
 
 		var right_bar_height = (((scrollPosition - 200) / window_ratio) / 1.5) * 1.66 / speed_ratio;
@@ -69,8 +60,9 @@ $(window).on('scroll', function(){
 
 	var dots_movement = - (scroll_trigger - 1000) / (60 * 2);
 
-	dotsMoveTop(dots_movement * 2);
-	dotsMoveMiddle(dots_movement * 4);
-	dotsMoveBottom(dots_movement * 0.7);
-
+	if (window.innerWidth > 768 ) {
+		dotsMoveTop(dots_movement * 1.2);
+		dotsMoveMiddle(dots_movement * 2);
+		dotsMoveBottom(dots_movement * 0.3);
+	}
 });

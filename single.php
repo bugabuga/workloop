@@ -16,6 +16,7 @@
             endwhile;
         ?>
         <div class="article-thumbnail">
+            <div class="article-thumbnail-mask"></div>
             <?php the_post_thumbnail() ?>
             <div class="article-share">
                 <div class="article-share-title">SHARE:</div>
@@ -108,8 +109,7 @@
         <span>Got</span> interested?
     </div>
     <div class="interested-buttons">
-        <a href="#" class="btn btn-secondary">Contact form</a>
-        <a href="#" class="btn btn-primary">Contact details</a>
+       <a href="https://workloop.breezy.hr/" target="_blank" rel="nofollow noopener noreferrer" class="btn btn-primary">Apply now</a>
     </div>
 </section>
 
