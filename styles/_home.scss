@@ -308,7 +308,7 @@
 				flex: 0 0 26vw;
 			}
 
-			@include breakpoint(768) {
+			@include breakpoint(550px) {
 				width: 36vw;
 				height: 53vw;
 				flex: 0 0 36vw;
@@ -482,14 +482,20 @@
 		}
 	}
 
+	&-blog {
+
+		.blog-text {
+
+			@include breakpoint(768) {
+				display: none;
+			}
+		}
+	}
+
 	.blog {
 		@include flexbox();
 		@include flex_util(between);
 		flex-wrap: wrap;
-
-		@include breakpoint(768) {
-			@include flex_util(center);
-		}
 
 		&-image {
 			width: 100%;
@@ -521,10 +527,6 @@
 			font-size: em(18);
 			line-height: em(24, 18);
 			margin-bottom: em(36);
-			
-			@include breakpoint(768) {
-				display: none;
-			}
 		}
 	}
 }

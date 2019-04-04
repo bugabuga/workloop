@@ -21,12 +21,13 @@
             <div class="article-share">
                 <div class="article-share-title">SHARE:</div>
                 <div class="article-share-links">
-                    <a href="#" class="article-share-link _linkedin"></a>
+                    <?php $title = get_the_title(); ?>
+                    <a onclick="return linkedin_share('http://www.linkedin.com/shareArticle?&url=<?php the_permalink() ?>&source=theworkloop.com')" target="_blank" class="article-share-link _linkedin"></a>
                     <div class="fb-share-button"
-                        data-href="http://connex.thebuga.com/our-people-our-people/"
+                        data-href="<?php the_permalink() ?>"
                         data-layout="button"
                         data-size="small"><a target="_blank"
-                            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fconnex.thebuga.com%2Four-people-our-people%2F&amp;src=sdkpreparse"
+                            href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>&amp;src=sdkpreparse"
                             class="fb-xfbml-parse-ignore fb-share article-share-link _facebook"></a>
                     </div>
                     <a href="javascript"void(0); class="twitter-share article-share-link _twitter"></a>

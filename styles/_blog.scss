@@ -40,23 +40,35 @@
 	&-purple-shape {
 		background: url("./images/blog/blog_purple_shape.svg") center no-repeat;
 		background-size: contain;
-		width: em(285);
+		width: em(282);
 		height: em(491);
 		position: absolute;
 		top: em(299);
-		right: em(-6);
+		right: 0;
 		z-index: 10;
 	}
 
 	&-yellow-shape {
 		background: url("./images/blog/blog_yellow_shape.svg") center no-repeat;
 		background-size: contain;
-		width: em(585);
+		width: em(583);
 		height: em(890);
 		position: absolute;
 		top: em(299);
-		left: em(-1);
+		left: 0;
 		z-index: -1;
+
+        @include breakpoint(1024) {
+            top: em(350);
+        }
+
+		@include breakpoint(768) {
+			top: 60vw;
+		}
+
+		@include breakpoint(630px) {
+			top: 75vw;
+		}
 	}
 
 	.blog {
@@ -64,42 +76,65 @@
 		@include flex_util(between);
 		flex-wrap: wrap;
 
+		@include breakpoint(768) {
+			@include flex_util(center);
+		}
+
+		&._start {
+
+			@include minBreakpoint(769px) {
+				@include flex_util(start);
+
+				.blog-post:last-child {
+					margin-left: em(70);
+				}
+			}
+		}
+
 		&:not(.resources-blog) {
 
 			.blog-post:first-child {
-				width: 100%;
-				flex: 0 0 100%;
-				margin-bottom: em(160);
-				@include flexbox();
-				@include flex_util(between);
 
-				.blog-image {
-					width: 43%;
-					flex: 0 0 43%;
-					height: em(300);
-				}
+				@include minBreakpoint(769px) {
+					width: 100%;
+					flex: 0 0 100%;
+					margin-bottom: em(160);
+					@include flexbox();
+					@include flex_util(between);
 
-				.blog-content {
-					width: 51%;
-					flex: 0 0 51%;
-				}
+					.blog-image {
+						width: 43%;
+						flex: 0 0 43%;
+						height: em(300);
+					}
 
-				.blog-specs {
-					margin-top: em(22);
-				}
+					.blog-content {
+						width: 51%;
+						flex: 0 0 51%;
 
-				.blog-title {
-					font-size: em(24);
-					line-height: em(36,24);
-				}
+						@include breakpoint(1024) {
+							font-size: 1.4vw;
+						}
+					}
 
-				.blog-text {
-					font-size: em(20);
-					margin-bottom: em(60, 20);
-				}
+					.blog-specs {
+						margin-top: em(22);
+					}
 
-				.btn {
-					font-size: 19px;
+					.blog-title {
+						font-size: em(24);
+						line-height: em(36,24);
+					}
+
+					.blog-text {
+						font-size: em(20);
+						margin-bottom: em(60, 20);
+						height: auto;
+					}
+
+					.btn {
+						font-size: 19px;
+					}
 				}
 			}
 		}
@@ -135,6 +170,8 @@
 		&-image {
 			width: 100%;
 			height: em(200);
+			border-radius: em(18);
+			overflow: hidden;
 
 			@include breakpoint(768) {
 				height: 36vw;
@@ -210,7 +247,18 @@
 			overflow: hidden;
 
 			@include breakpoint(1024) {
-				font-size: 17px;
+				font-size: em(17);
+			}
+
+			@include breakpoint(768) {
+				font-size: em(40);
+				text-align: left;
+				height: auto;
+			}
+
+			@include breakpoint(550px) {
+				font-size: 4vw;
+				margin-bottom: 14vw;
 			}
 		}
 	}
@@ -218,6 +266,10 @@
 
 .article {
 	padding-top: em(200);
+
+    @include breakpoint(768) {
+        padding-top: 4vw;
+    }
 
 	.right-border {
 		height: 250%;
@@ -270,6 +322,17 @@
 		grid-row-gap: em(36);
 
 		@include container();
+
+		@include breakpoint(1024) {
+			font-size: 1.2vw;
+		}
+
+		@include breakpoint(768) {
+			grid-template-areas:
+				"thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail thumbnail"
+				"post post post post post post post post post post post post"
+				"related related related related related related related related related related related related";
+		}
 	}
 
 	&-thumbnail {
@@ -289,12 +352,28 @@
 			left: em(-114);
 			top: em(-45);
 			z-index: 10;
+
+			@include breakpoint(1024) {
+				left: -9vw;
+			}
+
+            @include breakpoint(768) {
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-size: 113% 120%;
+            }
 		}
 
 		img	{
 			position: relative;
 			z-index: 5;
 			transform: scale(1.7) translate(-10%,10%);
+
+            @include breakpoint(768) {
+                transform: scale(1) translate(-2px, -2px);
+            }
 		}
 	}
 
@@ -309,6 +388,10 @@
 		z-index: 10;
 		right: 0;
 		bottom: 0;
+
+        @include breakpoint(768) {
+            font-size: 2vw;
+        }
 
 		&-title {
 			width: 100%;
@@ -354,12 +437,27 @@
 	&-related {
 		grid-area: related;
 
+		@include breakpoint(1024) {
+			font-size: 1.6vw;
+		}
+
+        @include breakpoint(768) {
+            font-size: 3vw;
+        }
+
 		&-title {
 			color: #F1055C;
 			font-size: em(24);
 			line-height: em(42, 24);
 			font-weight: 500;
 			margin-bottom: em(10, 24);
+		}
+
+		.blog-content {
+
+			@include breakpoint(1024) {
+				padding-left: 2vw;
+			}
 		}
 	}
 
@@ -411,6 +509,10 @@
 	&-post {
 		grid-area: post;
 		padding-left: em(30);
+
+        @include breakpoint(768) {
+            font-size: 2.2vw;
+        }
 
 		&-title {
 			font-size: em(40);

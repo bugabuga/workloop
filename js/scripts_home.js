@@ -84,7 +84,7 @@ if (window.innerWidth > 768) {
 
 			if (edge_trigger === false) {
 				channelsMove(edge_movement, -edge_movement * 0.25);
-				edge_images.css('background-position', 'center ' + edge_movement * 0.6 + 'em');
+				edge_images.css('background-position', 'center ' + edge_movement * 0.3 + 'em');
 			}
 		}
 

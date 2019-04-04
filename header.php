@@ -32,9 +32,15 @@
 
 	<!-- Social Sharing -->
 	<meta property="og:image" content="/wp-content/themes/workloop/images/home/brain_illu.svg.svg" />
-	<meta property="og:description" content="We provide our partners with with outstanding customer engagement and back office support." />
-	<meta property="og:url" content="<?php global $wp; echo home_url( $wp->request ) ?>" />
+
+	<?php if ( is_single() ) { ?>
+	<meta property="og:title" content="<?php the_title(); ?>" />
+	<?php } else { ?>
 	<meta property="og:title" content="Workloop - employee owned outsourcing company" />
+	<?php } ?>
+
+	<meta property="og:url" content="<?php global $wp; echo home_url( $wp->request ) ?>" />
+	<meta property="og:description" content="We provide our partners with with outstanding customer engagement and back office support." />
 
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">

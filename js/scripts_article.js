@@ -26,4 +26,10 @@ $(window).on('scroll', function(){
     }
 });
 
+function linkedin_share(url) {
+    newwindow=window.open(url,'Share on LinkedIn','height=500,width=400');
+    if (window.focus) {newwindow.focus()}
+    return false;
+}
+
 

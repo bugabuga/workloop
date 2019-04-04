@@ -339,14 +339,35 @@
 		&:before {
 			background-image: url("./images/blog/hero_blog.png");
 			width: em(1083);
-			height: em(624);
-			right: em(-35);
-			top: em(3);
+			height: em(650);
+			right: 0;
+			top: 0;
 			z-index: -1;
+
+			@include breakpoint(630px) {
+				width: 94vw;
+				height: 56vw;
+				top: -8vw;
+			}
+		}
+
+		.hero-container {
+
+			@include breakpoint(630px) {
+				padding-bottom: 5vw;
+			}
 		}
 
 		.hero-text {
 			margin-top: em(36, 48);
+
+			@include breakpoint(630px) {
+				margin-top: 40vw;
+				width: 100%;
+				text-align: center;
+				font-size: 10vw;
+				margin-bottom: 0;
+			}
 		}
 	}
 
