@@ -16,28 +16,27 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
+	<title>Workloop - employee owned outsourcing company</title>
+    <meta name="keywords" content="Workloop - employee owned outsourcing company">
+    <meta name="description" content="We provide our partners with with outstanding customer engagement and back office support.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
 	<!-- Styles -->
 	<link href="https://theworkloop.com/wp-content/themes/workloop/style.css" rel="stylesheet">
 
-	<!-- Favicons -->
-	<!--<link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">-->
-	<!--<link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">-->
-	<!--<link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">-->
-	<!--<link rel="manifest" href="./images/favicons/site.webmanifest">-->
-	<!--<link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#5bbad5">-->
-	<!--<link rel="shortcut icon" href="./images/favicons/favicon.ico">-->
-	<meta name="msapplication-TileColor" content="#00172b">
-	<meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/workloop/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/workloop/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/workloop/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/workloop/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/wp-content/themes/workloop/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/wp-content/themes/workloop/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="/wp-content/themes/workloop/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
 	<!-- Social Sharing -->
 	<meta property="og:image" content="/wp-content/themes/workloop/images/home/brain_illu.svg.svg" />
-
-	<?php if ( is_single() ) { ?>
-	<meta property="og:title" content="<?php the_title(); ?>" />
-	<?php } else { ?>
-	<meta property="og:title" content="Workloop - employee owned outsourcing company" />
-	<?php } ?>
 
 	<meta property="og:url" content="<?php global $wp; echo home_url( $wp->request ) ?>" />
 	<meta property="og:description" content="We provide our partners with with outstanding customer engagement and back office support." />
@@ -49,6 +48,20 @@
 	<?php if (is_page (95)){?>
 	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<?php } ?>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47048895-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-47048895-6');
+    </script>
+
+
+    <?php wp_deregister_script('jquery'); ?>
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

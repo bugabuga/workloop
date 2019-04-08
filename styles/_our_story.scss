@@ -7,6 +7,10 @@
 
 .story {
 
+	@include breakpoint(768) {
+		overflow: hidden;
+	}
+
 	.left-border {
 		min-height: 4%;
 		max-height: 115%;
@@ -73,6 +77,20 @@
 		top: em(545);
 		right: 0;
 		z-index: 4;
+
+		@include resize_screen(768px, 551px) {
+			display: none;
+		}
+
+		@include breakpoint(550px) {
+			background-image: url("./images/story/story_yellow_shape_mobile.svg");
+			right: auto;
+			left: em(20);
+			height: em(130);
+			width: em(150);
+			top: em(280);
+			font-size: 2.7vw;
+		}
 	}
 
 	&-blue-shape {
@@ -271,6 +289,7 @@
 		position: relative;
 		padding-top: em(40);
 		height: em(1500);
+		overflow: hidden;
 
 		&.story-principles-desktop {
 

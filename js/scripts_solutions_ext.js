@@ -37,6 +37,9 @@ $(document).ready(function() {
 
 	if (window.innerWidth > 768) {
 		services_swiper.slideTo(8);
+		setTimeout(function() {
+			setMaxHeight();
+		}, 1000);
 	}
 });
 
@@ -167,12 +170,12 @@ var scroll = function () {
 
 	if (scroll_trigger >= 400) {
 
-		var right_bar_height = (((scrollPosition) / window_ratio) / 1.5) * 1.66 / speed_ratio;
-		var right_bar_height_boost = (((scrollPosition - (1000 * window_ratio)) / window_ratio) / 1.4) * 1.66 / speed_ratio;
+		var right_bar_height = (((scrollPosition) / window_ratio) / 1.5) * 1.2 / speed_ratio;
+		var right_bar_height_boost = (((scrollPosition - (1100 * window_ratio)) / window_ratio) / 1.4) * 2.2 / speed_ratio;
 
 		if (click === false) {
 
-			if (scroll_trigger > 1000) {
+			if (scroll_trigger > 1100) {
 				rightBar(right_bar_height + right_bar_height_boost);
 			} else if (scroll_trigger < 1450) {
 				rightBar(right_bar_height);
@@ -223,7 +226,7 @@ var scroll = function () {
 			fired_up_6 = true;
 		}
 
-		if (border_trigger < (page_8 + 20) && fired_fixed_up === false) {
+		if (border_trigger < (page_8 - 140) && fired_fixed_up === false) {
 			services_swiper_container.addClass('_fixed').removeClass('_fixed-bottom').css('top', services_swiper_container_top + 'px');
 			fired_fixed_up = true;
 		}
@@ -257,7 +260,7 @@ var scroll = function () {
 			services_swiper.slideTo(8);
 		}
 
-		if (border_trigger < (page_3 - 60) && fired_release === false) {
+		if (border_trigger < (page_3 - 160) && fired_release === false) {
 			services_swiper_container.removeClass('_fixed').css('top', 'auto');
 			fired_release = true;
 		}
@@ -310,7 +313,7 @@ var scroll = function () {
 			fired_3 = true;
 		}
 
-		if (border_trigger >= (page_3 - 60) && fired_fixed === false) {
+		if (border_trigger >= (page_3 - 160) && fired_fixed === false) {
 			services_swiper_container.addClass('_fixed').css('top', services_swiper_container_top + 'px');
 			fired_fixed = true;
 		}
@@ -335,13 +338,14 @@ var scroll = function () {
 			fired_7 = true;
 		}
 
-		if (border_trigger >= (page_8 + 20) && fired_fixed_down === false) {
+		if (border_trigger >= (page_8 - 180) && fired_fixed_down === false) {
 			services_swiper_container.removeClass('_fixed').addClass('_fixed-bottom').css('top', 'auto');
 			fired_fixed_down = true;
 		}
 
 		if (border_trigger >= (page_8 + 20) && fired_8 === false ) {
 			services_swiper.slideTo(8);
+			setMaxHeight();
 			fired_8 = true;
 		}
 	}

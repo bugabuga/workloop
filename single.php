@@ -6,8 +6,8 @@
 <section id="article" class="article">
     <div class="article-red-shape"></div>
     <div class="article-purple-shape"></div>
-    <div class="left-border"></div>
-    <div class="right-border"></div>
+    <div id="left_border_static" class="left-border"></div>
+    <div id="right_border" class="right-border"></div>
     <div class="article-container">
 
         <?php
@@ -89,12 +89,9 @@
                     </div>
                 </div>
             </div>
-            <div class="article-post-title">
+            <h1 class="article-post-title">
                 <?php the_title(); ?>
-            </div>
-            <div class="article-post-excerpt">
-                <?php the_excerpt(); ?>
-            </div>
+            </h1>
             <div class="article-post-text">
                 <?php $pagecopy = get_extended( $post->post_content ); ?>
                 <?=wpautop( $pagecopy['main'] )?>

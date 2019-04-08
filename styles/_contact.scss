@@ -39,6 +39,11 @@
     &-channels {
         margin-left: em(80);
 
+        @include breakpoint(1024) {
+            width: 100%;
+            flex: 0 0 100%;
+        }
+
         .contact-subtitle {
         }
 
@@ -326,6 +331,10 @@
     margin: 0 auto;
     padding-top: em(300);
 
+    @include breakpoint(768) {
+        width: 85%;
+    }
+
     .left-border {
         height: 60%;
         top: em(610);
@@ -334,6 +343,10 @@
     }
 
     .contact {
+
+        @include breakpoint(1024) {
+            flex-wrap: wrap;
+        }
 
         &-blue-shape {
             background: url("./images/contact/contact_blue_shape.svg") center no-repeat;
@@ -344,6 +357,19 @@
             top: em(90);
             right: 0;
             z-index: -1;
+
+            @include breakpoint(1024) {
+                top: 80vw;
+            }
+
+            @include breakpoint(768) {
+                top: 70vw;
+                font-size: 2vw;
+            }
+
+            @include breakpoint(550px) {
+                top: 290vw;
+            }
         }
 
         &-title {
@@ -354,6 +380,10 @@
             width: 100%;
             flex: 0 0 100%;
             position: relative;
+
+            @include breakpoint(768) {
+                font-size: 10vw;
+            }
 
             &:before {
                 content: 'G';
@@ -391,10 +421,62 @@
         &-form {
             width: em(622);
             flex: 0 0 em(622);
+
+            @include breakpoint(768) {
+                width: 100%;
+                flex: 0 0 100%;
+            }
+
+            &-wrapper {
+
+                @include breakpoint(1024) {
+                    width: 100%;
+                    flex: 0 0 100%;
+                }
+
+                @include breakpoint(768) {
+                    font-size: 3vw;
+                }
+            }
         }
 
         &-input {
             width: em(303, 16);
+        }
+
+        &-buttons {
+
+            @include breakpoint(1024) {
+                width: 100%;
+            }
+
+            .contact-button + .contact-button {
+
+                @include breakpoint(1024) {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        &-channels {
+
+            @include breakpoint(1024) {
+                width: em(500);
+                flex: 0 0 em(500);
+                margin-left: auto;
+                padding-bottom: em(100);
+                font-size: 1.3vw;
+            }
+
+            @include breakpoint(768) {
+                font-size: 2vw;
+            }
+
+            @include breakpoint(550px) {
+                font-size: 3vw;
+                width: 100%;
+                flex: 0 0 100%;
+            }
         }
     }
 
@@ -407,6 +489,12 @@
         height: em(65, 18);
         border-radius: em(65, 18);
         font-weight: 500;
+
+        @include breakpoint(550px) {
+            right: auto;
+            left: auto;
+            transform: translate(0,0);
+        }
     }
 
     .captcha-wrap {
@@ -414,6 +502,28 @@
         @include flex_util(between, middle);
         margin-top: em(30);
         margin-bottom: em(65);
+        position: relative;
+
+        @include breakpoint(550px) {
+            flex-wrap: wrap;
+            @include flex_util(center);
+        }
+
+        &._error {
+
+            &:before {
+                content: '>';
+                color: red;
+                font-size: em(30);
+                display: block;
+                width: em(30, 30);
+                height: em(30, 30);
+                position: absolute;
+                left: em(-30, 30);
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+        }
 
         .g-recaptcha {
             display: inline-block;

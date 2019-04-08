@@ -13,6 +13,20 @@
 		right: 0;
 		top: em(-170);
 		z-index: -1;
+		
+		@include breakpoint(768) {
+			background-image: url("./images/home/impact_mobile_768_bg.svg");
+			width: 95vw;
+			height: 93vw;
+			top: -17vw;
+		}
+
+		@include breakpoint(550px) {
+			background-image: url("./images/home/impact_mobile_bg.svg");
+			width: 95vw;
+			height: 140vw;
+			top: -29vw;
+		}
 	}
 
 	.description-cloud {
@@ -37,7 +51,12 @@
 			width: 90%;
 			transform: none;
 			opacity: 1;
-			background: #00d2ab;
+		}
+
+		@include breakpoint(550px) {
+			padding-top: 0;
+			padding-left: 9vw;
+			padding-right: 5vw;
 		}
 
 		&-title {
@@ -51,8 +70,9 @@
 			}
 
 			@include breakpoint(550px) {
-				font-size: 8vw;
-				line-height: 10vw;
+				font-size: 11vw;
+				line-height: 14vw;
+				margin-bottom: 4vw;
 			}
 		}
 
@@ -69,8 +89,8 @@
 			}
 
 			@include breakpoint(550px) {
-				font-size: 3.1vw;
-				line-height: 5vw;
+				font-size: 4.2vw;
+				line-height: 5.6vw;
 			}
 		}
 
@@ -496,6 +516,10 @@
 		@include flexbox();
 		@include flex_util(between);
 		flex-wrap: wrap;
+
+		@include breakpoint(768) {
+			@include flex_util(center);
+		}
 
 		&-image {
 			width: 100%;

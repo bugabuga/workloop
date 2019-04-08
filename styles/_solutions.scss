@@ -1,18 +1,19 @@
-.scrolling-wrapper {
-	width: 100%;
-	position: relative;
+.page-template-solutions-page {
 
-	.scrolling-content {
-		width: 100%;
-	}
-
-	&.fixed .scrolling-content {
-		position: fixed;
-		top: 0;
-	}
-
-	&.fixed-bottom .scrolling-content {
-		position: absolute;
+	&:before {
+		content: '';
+		background-image: 	url("./images/channels/channels_chat.svg"),
+							url("./images/channels/channels_voice.svg"),
+							url("./images/channels/channels_in_app.svg"),
+							url("./images/channels/channels_email.svg"),
+							url("./images/channels/channels_social.svg"),
+							url("./images/channels/channels_sms.svg"),
+							url("./images/channels/channels_chat_white.svg"),
+							url("./images/channels/channels_voice_white.svg"),
+							url("./images/channels/channels_in_app_white.svg"),
+							url("./images/channels/channels_email_white.svg"),
+							url("./images/channels/channels_social_white.svg"),
+							url("./images/channels/channels_sms_white.svg");
 	}
 }
 
@@ -94,6 +95,10 @@
 		    right: auto;
 		    left: 0;
 		    top: -78vw;
+		}
+
+		@include breakpoint(420px) {
+			top: -108vw;
 		}
 	}
 
@@ -1171,100 +1176,5 @@
 			width: em(122);
 			height: em(108);
 		}
-	}
-}
-
-.interested {
-	position: relative;
-	padding-top: em(300);
-	padding-bottom: em(135);
-
-	&:before {
-		content: '';
-		background: url("./images/interested_bg.svg") center no-repeat;
-		background-size: contain;
-		display: block;
-		width: em(770);
-		height: em(780);
-
-		position: absolute;
-		top: em(100);
-		left: 0;
-		z-index: 1;
-	}
-
-	&-title {
-		$interested_title_fsz: 56px;
-
-		text-align: center;
-		color: #dcb0f0;
-		font-size: em($interested_title_fsz);
-		line-height: em(74, $interested_title_fsz);
-		font-weight: bold;
-		margin-bottom: em(34, $interested_title_fsz);
-
-		span {
-			color: #00D2AB;
-		}
-	}
-
-	&-buttons {
-		position: relative;
-		z-index: 10;
-		@include flexbox();
-		@include flex_util(center);
-	}
-}
-
-.remodal-overlay {
-	z-index: 20000;
-}
-
-.remodal-wrapper {
-	padding: 0;
-	z-index: 20100;
-}
-
-.remodal {
-	max-width: 1170px;
-	padding: 0;
-	background: transparent;
-
-	@include breakpoint(1000px) {
-		max-width: 100%;
-		width: 100%;
-	}
-}
-
-.remodal-close {
-	z-index: 20101;
-	left: auto;
-	right: 20px;
-
-	@include breakpoint(1000px) {
-		top: 10px;
-	}
-
-	@include breakpoint(768px) {
-		top: 0;
-	}
-
-	&:before {
-		font-size: 45px;
-		line-height: 45px;
-	}
-}
-
-.remodalBorder {
-	width: 100%;
-	border: none;
-	padding: 0;
-
-	@include breakpoint(1600px) {
-		transform: scale(0.7);
-	}
-
-	@include breakpoint(1000px) {
-		transform: scale(1);
 	}
 }

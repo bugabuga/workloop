@@ -13,6 +13,12 @@
 		top: em(-60);
 		left: em(250);
 		z-index: -1;
+
+		@include breakpoint(768) {
+			width: 150vw;
+			left: -9vw;
+			top: 13vw;
+		}
 	}
 
 	&-title {
@@ -237,7 +243,8 @@
 				width: em(130, $careers_logo_fsz);
 				height: em(130, $careers_logo_fsz);
 				border-radius: em(30, $careers_logo_fsz);
-				background-color: #FFFFFF;
+				background: #FFFFFF url("./images/logo.svg") center no-repeat;
+				background-size: 75%;
 				box-shadow: 0 em(12, $careers_logo_fsz) em(22, $careers_logo_fsz) 0 rgba(0,0,0,0.09);
 				color: #0E0E0E;
 				line-height: em(140, $careers_logo_fsz);
@@ -248,16 +255,16 @@
 				transform: translate(-50%, -50%);
 			}
 
-			&._money {
-				font-size: em(29);
-				width: em(222, 29);
-				height: em(222, 29);
-				line-height: em(240, 29);
-				top: em(-180, 29);
-				left: em(-14, 29);
-				box-shadow: 0 em(2, 29) em(43, 29) 0 rgba(11,124,254,0.4);
+			&._opportunities {
+				font-size: em(24);
+				width: em(222, 24);
+				height: em(222, 24);
+				line-height: em(240, 24);
+				top: em(-180, 24);
+				left: em(-14, 24);
+				box-shadow: 0 em(2, 24) em(43, 24) 0 rgba(11,124,254,0.4);
 
-				transform: translate(em(-150, 29), em(50, 29));
+				transform: translate(em(-150, 24), em(50, 24));
 
 				&.move {
 					transform: translate(0, 0);
@@ -268,16 +275,16 @@
 				}
 			}
 
-			&._fame {
-				font-size: em(29);
-				width: em(212, 29);
-				height: em(212, 29);
-				line-height: em(230, 29);
-				bottom: em(-164,29);
-				right: em(-35,29);
-				box-shadow: 0 em(2, 29) em(43, 29) 0 rgba(254,208,2,0.38);
+			&._recognition {
+				font-size: em(24);
+				width: em(212, 24);
+				height: em(212, 24);
+				line-height: em(230, 24);
+				bottom: em(-164,24);
+				right: em(-35,24);
+				box-shadow: 0 em(2, 24) em(43, 24) 0 rgba(254,208,2,0.38);
 
-				transform: translate(em(150, 29), em(-50, 29));
+				transform: translate(em(150, 24), em(-50, 24));
 
 				&.move {
 					transform: translate(0, 0);
@@ -308,7 +315,7 @@
 				}
 			}
 
-			&._goodies {
+			&._rewards {
 				font-size: em(23);
 				width: em(155, 23);
 				height: em(155, 23);
@@ -386,7 +393,7 @@
 					color: #1E1E1E;
 				}
 
-				&._money {
+				&._opportunities {
 					transform: translate(em(10), em(-430));
 
 					@include breakpoint(768) {
@@ -398,7 +405,7 @@
 					}
 				}
 
-				&._fame {
+				&._recognition {
 					transform: translate(em(-180), em(-80));
 
 					@include breakpoint(1024) {
@@ -430,7 +437,7 @@
 					}
 				}
 
-				&._goodies {
+				&._rewards {
 					transform: translate(em(-10), em(20));
 
 					@include breakpoint(1024) {

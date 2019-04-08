@@ -145,3 +145,65 @@ body {
 		display: none;
 	}
 }
+
+
+.interested {
+	position: relative;
+	padding-top: em(300);
+	padding-bottom: em(135);
+
+	&:before {
+		content: '';
+		background: url("./images/interested_bg.svg") center no-repeat;
+		background-size: contain;
+		display: block;
+		width: em(800);
+		height: em(780);
+
+		position: absolute;
+		top: em(100);
+		left: em(-30);
+		z-index: 1;
+
+		@include breakpoint(768) {
+			width: 90vw;
+			height: 90vw;
+			left: -21vw;
+		}
+	}
+
+	&-title {
+		$interested_title_fsz: 56px;
+
+		text-align: center;
+		color: #dcb0f0;
+		font-size: em($interested_title_fsz);
+		line-height: em(74, $interested_title_fsz);
+		font-weight: bold;
+		margin-bottom: em(34, $interested_title_fsz);
+
+		@include breakpoint(768) {
+			font-size: 9vw;
+		}
+
+		.page-template-our-edge-page &,
+		.page-template-solutions-page &,
+		.page-template-back-office-page & {
+
+			@include breakpoint(768) {
+				font-size: 7vw;
+			}
+		}
+
+		span {
+			color: #00D2AB;
+		}
+	}
+
+	&-buttons {
+		position: relative;
+		z-index: 10;
+		@include flexbox();
+		@include flex_util(center);
+	}
+}

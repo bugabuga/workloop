@@ -193,52 +193,55 @@
 	.page-template-solutions-page &,
 	.page-template-back-office-page & {
 
-		&:not(._floating) {
+		@include minBreakpoint(769px) {
 
-			ul .nav-link {
-				color: #FFFFFF;
+			&:not(._floating) {
 
-				.submenu .nav-link {
+				ul .nav-link {
 					color: #FFFFFF;
+
+					.submenu .nav-link {
+						color: #FFFFFF;
+					}
 				}
 			}
-		}
-
-		.logo {
-			background: url("./images/logo_white.svg") center no-repeat;
-
-			svg {
-				opacity: 0;
-				transition: opacity 0.2s ease-out;
-			}
-		}
-
-		&:hover {
 
 			.logo {
-				background: none;
+				background: url("./images/logo_white.svg") center no-repeat;
 
 				svg {
-					opacity: 1;
+					opacity: 0;
+					transition: opacity 0.2s ease-out;
 				}
 			}
 
-			ul .nav-link {
-				color: #4B4B4B;
+			&:hover {
 
-				&:hover {
-					color: #FFFFFF;
+				.logo {
+					background: none;
+
+					svg {
+						opacity: 1;
+					}
+				}
+
+				ul .nav-link {
+					color: #4B4B4B;
+
+					&:hover {
+						color: #FFFFFF;
+					}
 				}
 			}
-		}
 
-		&._floating {
+			&._floating {
 
-			.logo {
-				background: none;
+				.logo {
+					background: none;
 
-				svg {
-					opacity: 1;
+					svg {
+						opacity: 1;
+					}
 				}
 			}
 		}
@@ -289,6 +292,7 @@
 
 			&._solutions:hover {
 				background: none !important;
+                cursor: default;
 			}
 
 			span {
@@ -502,7 +506,7 @@
 				.nav-link {
 					height: em(40);
 					line-height: em(42);
-					color: #FFFFFF;
+					color: #FFFFFF !important;
 					white-space: nowrap;
 
 					&:hover {
@@ -625,22 +629,6 @@
 					line-height: em(30);
 					height: em(30);
 					font-size: em(30, 30);
-				}
-			}
-		}
-	}
-
-	@include breakpoint(550px) {
-
-		ul {
-
-			.submenu {
-
-				.nav-link {
-					width: 50%;
-					flex: 0 0 50%;
-					line-height: em(30);
-					height: em(80);
 				}
 			}
 		}

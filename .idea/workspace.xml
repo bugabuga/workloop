@@ -2,24 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc4b638-5859-487e-ba23-51730e144fa3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/blog/hero_blog_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/careers/hero_careers_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/edge/hero_our_edge_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicons/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home/impact_mobile_768_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home/impact_mobile_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/story/hero_our_story_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/story/story_yellow_shape_mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ajax_email_home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap_index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_agility.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_agility.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_culture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_culture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_people.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_people.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_process.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_process.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_tech.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_agility.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_agility.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_culture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_culture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_people.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_people.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_process.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_process.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_tech.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/principles_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/principles_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax_email.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax_email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts_article.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts_blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts_our_edge.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_our_edge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts_solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts_solutions_ext.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts_solutions_ext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_edge.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_edge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions_ext.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutions_ext.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_careers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_careers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_navigation.scss copy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_our_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_our_story.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_solutions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_solutions.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,88 +72,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/_blog.scss">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="277" column="17" lean-forward="true" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
+            <state relative-caret-position="373">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts_home.js">
+        <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+            <state relative-caret-position="250">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts_blog.js">
+        <entry file="file://$PROJECT_DIR$/js/scripts_solutions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="337">
+              <caret line="207" column="5" lean-forward="true" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/our_story.html">
+        <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="109" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="164">
+              <caret line="258" column="44" selection-start-line="258" selection-start-column="44" selection-end-line="258" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources.html">
+        <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2289">
-              <caret line="109" column="10" selection-start-line="30" selection-start-column="4" selection-end-line="109" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1452">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/single.php">
+        <entry file="file://$PROJECT_DIR$/js/scripts_solutions_ext.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="29" column="103" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
+            <state relative-caret-position="315">
+              <caret line="228" column="41" selection-start-line="228" selection-start-column="41" selection-end-line="228" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+        <entry file="file://$PROJECT_DIR$/styles/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="505">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
             </state>
           </provider>
         </entry>
@@ -122,17 +137,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="135" column="4" lean-forward="true" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="14" />
+            <state relative-caret-position="504">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts_article.js">
+        <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="574">
+              <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -149,25 +173,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>right-</find>
-      <find>left-b</find>
-      <find>services-green-shape</find>
-      <find>pin</find>
-      <find>left-border</find>
-      <find>chan</find>
-      <find>agility</find>
-      <find>remodal</find>
-      <find>btn</find>
-      <find>submenu</find>
-      <find>logo</find>
-      <find>if (scrollPosition &gt;= 50 ) {</find>
-      <find>:</find>
-      <find>breakpoi</find>
-      <find>brea</find>
-      <find>BLUE</find>
-      <find>We are an employee obsessed company at Workloop. This means decisions we make are made to support our employees’ well-being and we do this as we believe this is surest way to get the best results for our partners. One way we showed this was by making Workloop employee-owned. This means our people have skin in the game, become fantastic brand ambassadors, and stay for the long haul which contributes to amazing results for our partners!We are an employee obsessed company at Workloop. This means decisions we make are made to support our employees’ well-being and we do this as we believe this is surest way to get the best results for our partners. One way we showed this was by making Workloop employee-owned. This means our people have skin in the game, become fantastic brand ambassadors, and stay for the long haul which contributes to amazing results for our partners!</find>
       <find>We are an employee obsessed company at Workloop. This means decisions we make are made to support our employees’ well-being and we do this as we believe this is surest way to get the best results for our partners. One way we showed this was by making Workloop employee-owned. This means our people have skin in the game, become fantastic brand ambassadors, and stay for the long haul which contributes to amazing results for our partners!</find>
-      <find>thumbna</find>
       <find>width: 90%</find>
       <find>interested</find>
       <find>flip</find>
@@ -177,8 +183,26 @@
       <find>yellow</find>
       <find>ye</find>
       <find>article</find>
-      <find>share</find>
       <find>permal</find>
+      <find>share</find>
+      <find>capt</find>
+      <find>reso</find>
+      <find>solution</find>
+      <find>purpl</find>
+      <find>reasons</find>
+      <find>_fame</find>
+      <find>_goodies</find>
+      <find>_money</find>
+      <find>post-title</find>
+      <find>submenu</find>
+      <find>_solutions</find>
+      <find>article-post-excerpt</find>
+      <find>img</find>
+      <find>thumbna</find>
+      <find>channesl</find>
+      <find>princip</find>
+      <find>yeloo</find>
+      <find>disable_embeds_rewrites</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -192,65 +216,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solutions_ext.html" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/images/home/icon-engagement.svg" />
-        <option value="$PROJECT_DIR$/images/home/icon-settings.svg" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/scripts_contact.js" />
-        <option value="$PROJECT_DIR$/js/scripts_solutions_ext.js" />
         <option value="$PROJECT_DIR$/js/scripts_our_story.js" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/careers-page.php" />
         <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/styles/libs/remodal-default-theme.css" />
         <option value="$PROJECT_DIR$/styles/_mixins.scss" />
         <option value="$PROJECT_DIR$/styles/_buttons.scss" />
         <option value="$PROJECT_DIR$/styles/_footer.scss" />
-        <option value="$PROJECT_DIR$/styles/_contact.scss" />
-        <option value="$PROJECT_DIR$/js/scripts_our_edge.js" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/styles/_global.scss" />
         <option value="$PROJECT_DIR$/images/home/brain_illu.svg" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/solutions.html" />
-        <option value="$PROJECT_DIR$/js/scripts_solutions.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess 2" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/home-page.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/contact-page.php" />
-        <option value="$PROJECT_DIR$/mail.php" />
-        <option value="$PROJECT_DIR$/js/ajax_email.js" />
-        <option value="$PROJECT_DIR$/styles/_navigation.scss" />
-        <option value="$PROJECT_DIR$/styles/_solutions.scss" />
-        <option value="$PROJECT_DIR$/our_edge.html" />
         <option value="$PROJECT_DIR$/our_story.html" />
         <option value="$PROJECT_DIR$/styles/_our_edge.scss" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/careers.html" />
-        <option value="$PROJECT_DIR$/styles/_our_story.scss" />
-        <option value="$PROJECT_DIR$/styles/_careers.scss" />
         <option value="$PROJECT_DIR$/js/scripts_careers.js" />
         <option value="$PROJECT_DIR$/resources.html" />
-        <option value="$PROJECT_DIR$/js/scripts_blog.js" />
-        <option value="$PROJECT_DIR$/styles/_home.scss" />
-        <option value="$PROJECT_DIR$/styles/_hero.scss" />
         <option value="$PROJECT_DIR$/article.html" />
         <option value="$PROJECT_DIR$/js/scripts_home.js" />
+        <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/js/ajax_email.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/styles/_contact.scss" />
+        <option value="$PROJECT_DIR$/styles/_home.scss" />
+        <option value="$PROJECT_DIR$/solutions.html" />
+        <option value="$PROJECT_DIR$/js/scripts_our_edge.js" />
+        <option value="$PROJECT_DIR$/our_edge.html" />
+        <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/styles/_navigation.scss" />
+        <option value="$PROJECT_DIR$/js/ajax_email_home.js" />
+        <option value="$PROJECT_DIR$/home-page.php" />
         <option value="$PROJECT_DIR$/styles/_blog.scss" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/js/scripts_article.js" />
+        <option value="$PROJECT_DIR$/js/scripts_blog.js" />
+        <option value="$PROJECT_DIR$/solutions_ext.html" />
         <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/styles/_careers.scss" />
+        <option value="$PROJECT_DIR$/styles/_solutions.scss" />
+        <option value="$PROJECT_DIR$/styles/_our_story.scss" />
+        <option value="$PROJECT_DIR$/styles/_hero.scss" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/js/scripts_solutions.js" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/styles/_global.scss" />
+        <option value="$PROJECT_DIR$/js/scripts_solutions_ext.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="y" value="343" />
-    <option name="width" value="1634" />
-    <option name="height" value="987" />
+    <option name="x" value="286" />
+    <option name="y" value="346" />
+    <option name="width" value="1816" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -258,36 +282,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="connex" type="b2602c69:ProjectViewProjectNode" />
               <item name="connex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connex" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connex" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connex" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="edge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connex" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connex" type="b2602c69:ProjectViewProjectNode" />
@@ -309,13 +309,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Archive/delta_landing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workloop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -677,7 +678,10 @@
       <workItem from="1553610032404" duration="8876000" />
       <workItem from="1553701115401" duration="39281000" />
       <workItem from="1554050988795" duration="56206000" />
-      <workItem from="1554381674446" duration="7277000" />
+      <workItem from="1554381674446" duration="40055000" />
+      <workItem from="1554719751767" duration="1301000" />
+      <workItem from="1554721770580" duration="122000" />
+      <workItem from="1554721960877" duration="11379000" />
     </task>
     <task id="LOCAL-00001" summary="Edits">
       <created>1553506638621</created>
@@ -721,24 +725,31 @@
       <option name="project" value="LOCAL" />
       <updated>1554318045795</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1554389131283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554389131283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478009000" />
+    <option name="totallyTimeSpent" value="523589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="638" y="343" width="1634" height="989" extended-state="0" />
+    <frame x="286" y="346" width="1816" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80136985" visible="true" weight="0.275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.797351" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" show_stripe_button="false" sideWeight="0.50865054" side_tool="true" weight="0.2800249" />
-      <window_info id="Gulp" order="3" sideWeight="0.19863014" side_tool="true" visible="true" weight="0.275" />
+      <window_info id="Gulp" order="3" sideWeight="0.20264901" side_tool="true" visible="true" weight="0.24626866" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49956635" visible="true" weight="0.12048193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49956635" visible="true" weight="0.116959065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,7 +758,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004336" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.67951804" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49956635" weight="0.32771084" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49956635" weight="0.14502925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -767,50 +778,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/careers-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/home/icon-settings.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/home/icon-engagement.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/remodal.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/libs/remodal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/libs/remodal-default-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="191" column="1" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -822,27 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts_our_edge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -861,113 +807,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts_solutions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess 2" />
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts_contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solutions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="266" column="139" selection-start-line="266" selection-start-column="12" selection-end-line="266" selection-end-column="139" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="71" column="138" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax_email.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="121" column="8" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -979,59 +823,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/our_edge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_careers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts_careers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7623">
-          <caret line="363" column="40" selection-start-line="363" selection-start-column="40" selection-end-line="363" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10437">
-          <caret line="497" column="24" selection-start-line="497" selection-start-column="24" selection-end-line="497" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -1047,36 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2289">
-          <caret line="109" column="10" selection-start-line="30" selection-start-column="4" selection-end-line="109" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts_home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="277" column="17" lean-forward="true" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1092,31 +861,290 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="135" column="4" lean-forward="true" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="14" />
+        <state relative-caret-position="735">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/contact-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="126">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="494" column="23" selection-start-line="494" selection-start-column="23" selection-end-line="494" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="514" column="11" selection-start-line="514" selection-start-column="11" selection-end-line="514" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts_our_edge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/our_edge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="212" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+          <caret line="172" column="19" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+          <caret line="178" column="19" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="134" column="42" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="294" column="32" selection-start-line="294" selection-start-column="32" selection-end-line="294" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax_email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5649">
+          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts_article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="103" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
+        <state relative-caret-position="168">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7140">
+          <caret line="340" column="29" selection-start-line="340" selection-start-column="29" selection-end-line="340" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions_ext.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2709">
+          <caret line="129" column="67" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax_email_home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_careers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="243" column="51" lean-forward="true" selection-start-line="243" selection-start-column="51" selection-end-line="243" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="258" column="44" selection-start-line="258" selection-start-column="44" selection-end-line="258" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log 2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="865" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts_solutions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="207" column="5" lean-forward="true" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts_solutions_ext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="228" column="41" selection-start-line="228" selection-start-column="41" selection-end-line="228" selection-end-column="41" />
         </state>
       </provider>
     </entry>

@@ -16,7 +16,7 @@ if ( $method === 'POST' ) {
 			";
 		}
 	}
-	if ($send == 'true') {
+	if ($c == 'true') {
         echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
 	} else {
         echo '<center><p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p></center>';
@@ -35,7 +35,7 @@ if ( $method === 'POST' ) {
 			";
 		}
 	}
-	if ($send == 'true') {
+	if ($c == 'true') {
 		echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
 	} else {
 		echo '<center><p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p></center>';

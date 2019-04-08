@@ -63,20 +63,20 @@
 
 	<script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/jquery.min.js"></script>
 	<script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/swiper.min.js"></script>
 	<script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts.js"></script>
 
 	<?php if (is_page (58)){?>
 
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_home.js"></script>
-	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/ajax_email.js"></script>
+	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/ajax_email_home.js"></script>
 
 	<?php } elseif ( is_page (10)){?>
 
+      <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/swiper.min.js"></script>
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_solutions.js"></script>
 
 	<?php } elseif ( is_page (14)) { ?>
-
+      <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/swiper.min.js"></script>
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_solutions_ext.js"></script>
 
 	<?php } elseif ( is_page (37)) { ?>
@@ -85,6 +85,7 @@
 
 	<?php } elseif ( is_page (43)) { ?>
 
+      <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/swiper.min.js"></script>
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_our_story.js"></script>
 
 	<?php } elseif ( is_page (51)) { ?>

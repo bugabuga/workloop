@@ -44,7 +44,7 @@ $(window).on('scroll', function(){
 	var scrollPosition = $(window).scrollTop();
 	var scroll_trigger = scrollPosition / window_ratio;
 
-	if (scrollPosition >= 50) {
+	if (scrollPosition >= 50 && window.innerWidth > 768) {
 		// Show back to top button
 		navigation.addClass('_floating animate');
 	} else {

@@ -170,13 +170,13 @@ var scroll = function () {
 	if (scroll_trigger >= 20) {
 
 		var right_bar_height = (((scrollPosition - 200) / window_ratio) / 1.5) * 1.66 / speed_ratio;
-		var right_bar_height_boost = (((scrollPosition - (1000 * window_ratio)) / window_ratio) / 1.1) * 1.66 / speed_ratio;
+		var right_bar_height_boost = (((scrollPosition - (1050 * window_ratio)) / window_ratio) / 1.1) * 2.3 / speed_ratio;
 
 		if (click === false) {
 
-			if (scroll_trigger > 1000 && scroll_trigger < 1450) {
+			if (scroll_trigger > 1050 && scroll_trigger < 1550) {
 				rightBar(right_bar_height + right_bar_height_boost);
-			} else if (scroll_trigger < 1450) {
+			} else if (scroll_trigger < 1550) {
 				rightBar(right_bar_height);
 			}
 		}
@@ -256,7 +256,7 @@ var scroll = function () {
 			services_swiper.slideTo(4);
 		}
 
-		if (scroll_trigger < 1450) {
+		if (scroll_trigger < 1550) {
 			fired_bottom = false;
 			channels_trigger = false;
 
@@ -304,7 +304,7 @@ var scroll = function () {
 			fired_4 = true;
 		}
 
-		if (scroll_trigger >= 1450 && fired_bottom === false) {
+		if (scroll_trigger >= 1550 && fired_bottom === false) {
 			right_border.addClass('_full _animate-down');
 			fired_bottom = true;
 		}

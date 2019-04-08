@@ -70,10 +70,9 @@ get_header(); ?>
             </div>
             <div class="contact">
                 <form action="" class="contact-form">
-                    <input type="hidden" name="project_name" value="Workloop Contact Page">
-                    <input type="hidden" name="admin_email" value="admin@theworkloop.com">
-                    <!--<input type="hidden" name="admin_email" value="buha903@gmail.com">-->
-                    <input type="hidden" name="form_subject" value="Workloop Contact Page">
+                    <input type="hidden" name="project_name" value="Workloop">
+                    <input type="hidden" name="admin_email" value="info@theworkloop.com">
+                    <input type="hidden" name="form_subject" value="Workloop Home Page">
 
                     <div class="message-sent js-message-sent">
                         Message Sent

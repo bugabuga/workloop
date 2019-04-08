@@ -47,9 +47,9 @@ get_header(); ?>
 						<div class="blog-specs">
 							<?php echo get_the_date('M j'); ?> | <?php the_author(); ?>
 						</div>
-						<div class="blog-title">
+						<h2 class="blog-title">
 							<a class="blog-title-link" href="<?php the_permalink(); ?>"><?php the_title() ?></a>
-						</div>
+						</h2>
 						<div class="blog-text">
 							<?php the_excerpt(); ?>
 						</div>
