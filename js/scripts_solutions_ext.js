@@ -168,17 +168,28 @@ var scroll = function () {
 		navigation.removeClass('_floating');
 	}
 
-	if (scroll_trigger >= 400) {
+	if (scroll_trigger >= 400 && window.innerWidth < 1800) {
 
 		var right_bar_height = (((scrollPosition) / window_ratio) / 1.5) * 1.2 / speed_ratio;
 		var right_bar_height_boost = (((scrollPosition - (1100 * window_ratio)) / window_ratio) / 1.4) * 2.2 / speed_ratio;
 
 		if (click === false) {
-
 			if (scroll_trigger > 1100) {
 				rightBar(right_bar_height + right_bar_height_boost);
-			} else if (scroll_trigger < 1450) {
+			} else if (scroll_trigger < 1400) {
 				rightBar(right_bar_height);
+			}
+		}
+	} else if (scroll_trigger >= 200 && window.innerWidth > 1800) {
+
+		var right_bar_height = (((scrollPosition) / window_ratio) / 1.5) * 1.2 / speed_ratio;
+		var right_bar_height_boost = (((scrollPosition - (1100 * window_ratio)) / window_ratio) / 1.4) * 2.2 / speed_ratio;
+
+		if (click === false) {
+			if (scroll_trigger > 1100) {
+				rightBar(right_bar_height * 2 + right_bar_height_boost);
+			} else if (scroll_trigger < 1400) {
+				rightBar(right_bar_height * 2);
 			}
 		}
 	}
@@ -226,7 +237,7 @@ var scroll = function () {
 			fired_up_6 = true;
 		}
 
-		if (border_trigger < (page_8 - 140) && fired_fixed_up === false) {
+		if (border_trigger < (page_8 + 30) && fired_fixed_up === false) {
 			services_swiper_container.addClass('_fixed').removeClass('_fixed-bottom').css('top', services_swiper_container_top + 'px');
 			fired_fixed_up = true;
 		}
@@ -338,7 +349,7 @@ var scroll = function () {
 			fired_7 = true;
 		}
 
-		if (border_trigger >= (page_8 - 180) && fired_fixed_down === false) {
+		if (border_trigger >= (page_8 + 70) && fired_fixed_down === false) {
 			services_swiper_container.removeClass('_fixed').addClass('_fixed-bottom').css('top', 'auto');
 			fired_fixed_down = true;
 		}

@@ -41,10 +41,10 @@
 
 			<div class="footer-social footer-flex">
                 <div class="footer-social-links footer-flex-col">
-                    <a href="#" class="footer-social-link _linkedin"></a>
-                    <a href="#" class="footer-social-link _facebook"></a>
-                    <a href="#" class="footer-social-link _instagram"></a>
-                    <a href="#" class="footer-social-link _twitter"></a>
+                    <a href="https://www.linkedin.com/company/theworkloop/about/" target="_blank" rel="nofollow" class="footer-social-link _linkedin"></a>
+                    <a href="https://www.facebook.com/theworkloop" target="_blank" rel="nofollow" class="footer-social-link _facebook"></a>
+                    <a href="https://www.instagram.com/theworkloop/" target="_blank" rel="nofollow" class="footer-social-link _instagram"></a>
+                    <a href="https://twitter.com/theworkloop" target="_blank" rel="nofollow" class="footer-social-link _twitter"></a>
                 </div>
             </div>
 

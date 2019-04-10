@@ -1305,9 +1305,6 @@ body #olark-wrapper #olark-container .olark-button {
     height: 53.78571em;
     right: 0;
     top: -5.14286em; }
-    @media (max-width: 1024px) {
-      .hero-story:before {
-        right: -10.71429em; } }
     @media (max-width: 768px) {
       .hero-story:before {
         font-size: 0.85em; } }
@@ -2488,7 +2485,7 @@ body #olark-wrapper #olark-container .olark-button {
     position: fixed; }
   .page-template-back-office-page .services .swiper-container._fixed-bottom {
     position: absolute;
-    bottom: -43.57143em; }
+    bottom: -58.57143em; }
   @media (max-width: 768px) {
     .page-template-back-office-page .services .swiper-container {
       height: 28.57143em; } }
@@ -3535,8 +3532,7 @@ body #olark-wrapper #olark-container .olark-button {
   text-align: center;
   position: relative;
   padding-top: 2.85714em;
-  height: 107.14286em;
-  overflow: hidden; }
+  height: 107.14286em; }
   @media (max-width: 768px) {
     .story-principles.story-principles-desktop {
       display: none; } }
@@ -3577,6 +3573,9 @@ body #olark-wrapper #olark-container .olark-button {
     left: 12.64286em;
     top: 6.42857em;
     z-index: -1; }
+    @media (max-width: 1024px) {
+      .story-principles:after {
+        width: 78.57143em; } }
     @media (max-width: 768px) {
       .story-principles:after {
         display: none; } }
@@ -4462,7 +4461,7 @@ body #olark-wrapper #olark-container .olark-button {
     .article {
       padding-top: 0; } }
   .article .right-border {
-    height: 250%;
+    height: 285.71429em;
     max-height: 300%;
     top: 21.42857em;
     z-index: 3;

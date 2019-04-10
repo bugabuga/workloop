@@ -14,11 +14,9 @@ get_header(); ?>
 	<section id="resources" class="resources">
 		<div class="blog-purple-shape"></div>
         <div class="blog-yellow-shape"></div>
-        <div class="left-border"></div>
+        <div id="left_border_static" class="left-border"></div>
         <div id="right_border" class="right-border"></div>
 		<div class="blog">
-
-
 			<?php $args = array(
 				'posts_per_page' => 7,
 				'offset' => 0,
@@ -69,7 +67,7 @@ get_header(); ?>
 			Ready to connect?
 		</div>
 		<div class="interested-buttons">
-			<a href="https://workloop.breezy.hr/" target="_blank" rel="nofollow noopener noreferrer" class="btn btn-primary">Apply now</a>
+			<a href="/contact" class="btn btn-primary">Contact us</a>
 		</div>
 	</section>
 

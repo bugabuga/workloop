@@ -59,11 +59,11 @@ $(window).on('scroll', function(){
 	if (scroll_trigger >= 400) {
 
 		var left_bar_height = (((scrollPosition - 400) / window_ratio) / 1.5) * 1.66 / speed_ratio;
-		var left_bar_height_boost = (((scrollPosition - (1600 * window_ratio)) / window_ratio) / 1.2) * 1.66 / speed_ratio;
+		var left_bar_height_boost = (((scrollPosition - (1300 * window_ratio)) / window_ratio) / 1.2) * 1.66 / speed_ratio;
 
-		if (scroll_trigger > 1600) {
+		if (scroll_trigger > 1300) {
 			leftBar(left_bar_height + left_bar_height_boost);
-		} else if (scroll_trigger < 1600) {
+		} else if (scroll_trigger < 1300) {
 			leftBar(left_bar_height);
 		}
 	}

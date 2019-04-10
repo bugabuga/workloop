@@ -63,8 +63,8 @@ if (window.innerWidth > 768) {
 
 		if (scroll_trigger >= 650) {
 
-			var right_bar_height = (((scrollPosition - 650) / window_ratio) / 1.5) * 1.66 / speed_ratio;
-			var right_bar_height_boost = (((scrollPosition - (1600 * window_ratio)) / window_ratio) / 2) * 1.66 / speed_ratio;
+			var right_bar_height = (((scrollPosition - 650) / window_ratio) / 1.5) * 1.8 / speed_ratio;
+			var right_bar_height_boost = (((scrollPosition - (1600 * window_ratio)) / window_ratio) / 2) * 1.8 / speed_ratio;
 
 			if (scroll_trigger > 1600) {
 				rightBar(right_bar_height + right_bar_height_boost);

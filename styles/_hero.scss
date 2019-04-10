@@ -267,10 +267,6 @@
 			right: 0;
 			top: em(-72);
 
-			@include breakpoint(1024) {
-				right: em(-150);
-			}
-
 			@include breakpoint(768) {
 				font-size: 0.85em;
 			}
