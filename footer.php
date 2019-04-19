@@ -133,6 +133,7 @@
 
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/ajax_pagination.js"></script>
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_blog.js"></script>
+	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/loadmore.js"></script>
 
 	<?php } ?>
 

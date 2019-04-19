@@ -512,14 +512,14 @@
         &._error {
 
             &:before {
-                content: '>';
-                color: red;
-                font-size: em(30);
+                content: '';
+                background: url("./images/arrow_red.svg") center no-repeat;
+                background-size: contain;
                 display: block;
-                width: em(30, 30);
-                height: em(30, 30);
+                width: em(30);
+                height: em(30);
                 position: absolute;
-                left: em(-30, 30);
+                left: em(-40);
                 top: 50%;
                 transform: translate(0, -50%);
             }

@@ -16,9 +16,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<title>Workloop - employee owned outsourcing company</title>
-    <meta name="keywords" content="Workloop - employee owned outsourcing company">
-    <meta name="description" content="We provide our partners with with outstanding customer engagement and back office support.">
+	<title>Workloop - customer engagement and back office solutions</title>
+    <meta name="keywords" content="Workloop theworkloop work loop back office customer engagement employee outsourcing company job offers hiring">
+    <meta name="description" content="We provide our partners with outstanding customer engagement and back office support.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
 
@@ -36,14 +36,10 @@
     <meta name="theme-color" content="#ffffff">
 
 	<!-- Social Sharing -->
-	<meta property="og:image" content="/wp-content/themes/workloop/images/home/brain_illu.svg.svg" />
+	<meta property="og:image" content="/wp-content/themes/workloop/images/home/brain_illu.svg" />
 
 	<meta property="og:url" content="<?php global $wp; echo home_url( $wp->request ) ?>" />
 	<meta property="og:description" content="We provide our partners with with outstanding customer engagement and back office support." />
-
-	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
-	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
-	<?php endif; ?>
 
 	<?php if (is_page (95)){?>
 	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>

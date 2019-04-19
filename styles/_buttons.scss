@@ -59,3 +59,21 @@
 		margin-left: em(20);
 	}
 }
+
+.back-to-list {
+	position: relative;
+	padding-left: em(30);
+
+	&:before {
+		content: '';
+		background: url("./images/arrow.svg") center no-repeat;
+		background-size: contain;
+		transform: rotate(180deg);
+		display: block;
+		width: em(20);
+		height: em(20);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}

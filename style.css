@@ -365,6 +365,21 @@ template {
   .btn + .btn {
     margin-left: 1.42857em; }
 
+.back-to-list {
+  position: relative;
+  padding-left: 2.14286em; }
+  .back-to-list:before {
+    content: '';
+    background: url("./images/arrow.svg") center no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+    display: block;
+    width: 1.42857em;
+    height: 1.42857em;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
 html {
   font-family: 'FuturaNDAlt', Arial,sans-serif;
   font-size: 14px;
@@ -4455,6 +4470,11 @@ body #olark-wrapper #olark-container .olark-button {
         font-size: 4vw;
         margin-bottom: 14vw; } }
 
+.blog .load-more {
+  width: 100%;
+  flex: 0 0 100%;
+  text-align: center; }
+
 .article {
   padding-top: 14.28571em; }
   @media (max-width: 768px) {
@@ -5120,14 +5140,14 @@ body #olark-wrapper #olark-container .olark-button {
         -webkit-justify-content: center;
         justify-content: center; } }
     .contact-wrapper .captcha-wrap._error:before {
-      content: '>';
-      color: red;
-      font-size: 2.14286em;
+      content: '';
+      background: url("./images/arrow_red.svg") center no-repeat;
+      background-size: contain;
       display: block;
-      width: 1em;
-      height: 1em;
+      width: 2.14286em;
+      height: 2.14286em;
       position: absolute;
-      left: -1em;
+      left: -2.85714em;
       top: 50%;
       transform: translate(0, -50%); }
     .contact-wrapper .captcha-wrap .g-recaptcha {
