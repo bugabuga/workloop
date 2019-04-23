@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="836px" viewBox="0 0 580 836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>B623816D-DDAD-4768-B4F4-2E635224977D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="25.9774455%" y1="63.3524684%" x2="46.5776819%" y2="41.5590198%" id="linearGradient-1">
+            <stop stop-color="#D5F1FF" offset="0%"></stop>
+            <stop stop-color="#F4FBFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.7176615%" y1="70.5622995%" x2="55.2595966%" y2="80.3831261%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F4FBFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M578.469883,836 C367.469883,836 226.469883,811 131.469883,740 C36.4698825,669 1.09600992,533.573771 0.00765581627,410.709308 C-1.08069829,287.844845 114.162295,199.088354 159.895371,163.318571 C205.628447,127.548788 349.469883,23 579.469883,-5.68434189e-14 C578.469883,191 579.044394,698.282181 578.469883,836 Z" id="path-3"></path>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONNEX-CONTACT" transform="translate(-783.000000, -126.000000)">
+            <g id="Group-5" transform="translate(783.000000, 126.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Path" opacity="0.450985863">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.5" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

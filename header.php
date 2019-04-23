@@ -23,7 +23,7 @@
     <meta name="HandheldFriendly" content="true">
 
 	<!-- Styles -->
-	<link href="https://theworkloop.com/wp-content/themes/workloop/style.css" rel="stylesheet">
+	<link href="https://theworkloop.com/wp-content/themes/workloop/style.css?v=20190422" rel="stylesheet">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/workloop/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/workloop/images/favicons/favicon-32x32.png">

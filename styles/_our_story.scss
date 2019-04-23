@@ -166,11 +166,7 @@
 		margin: em(160, 70) auto em(35, 70);
 		width: em(770, 70);
 		display: inline-block;
-		text-align: left;
-
-		@include breakpoint(1024) {
-			text-align: center;
-		}
+		text-align: center;
 
 		@include breakpoint(768) {
 			font-size: em(50);
@@ -312,7 +308,7 @@
 			background-repeat: no-repeat;
 			background-size: contain;
 			display: block;
-			background-image: url("./images/story/principles_bg.png");
+			background-image: url("./images/story/principles_bg.webp"), url("./images/story/principles_bg.png");
 			width: em(715);
 			height: em(1030);
 			position: absolute;
@@ -463,9 +459,6 @@
 
 					&.bullet {
 						font-size: em($story_bullet_fsz);
-						// background-size: 102%;
-						// background-position: center;
-						// background-repeat: no-repeat;
 						position: absolute;
 						box-shadow: 0 em(1, $story_bullet_fsz) em(15, $story_bullet_fsz) 0 rgba(0,0,0,0.1);
 
@@ -481,7 +474,6 @@
 						}
 
 						&-1 {
-							// background-image: url("./images/story/slide_now.png");
 							top: em(-26, $story_bullet_fsz);
 							left: em(195, $story_bullet_fsz);
 
@@ -492,7 +484,6 @@
 						}
 
 						&-2 {
-							// background-image: url("./images/story/slide_empower.png");
 							left: em(118, $story_bullet_fsz);
 							top: em(237, $story_bullet_fsz);
 
@@ -502,7 +493,6 @@
 						}
 
 						&-3 {
-							// background-image: url("./images/story/slide_thinking.png");
 							top: em(497, $story_bullet_fsz);
 							left: em(172, $story_bullet_fsz);
 
@@ -512,7 +502,6 @@
 						}
 
 						&-4 {
-							// background-image: url("./images/story/slide_enjoy.png");
 							bottom: em(197, $story_bullet_fsz);
 							left: em(396, $story_bullet_fsz);
 
@@ -522,7 +511,6 @@
 						}
 
 						&-5 {
-							// background-image: url("./images/story/slide_respect.png");
 							bottom: em(133, $story_bullet_fsz);
 							left: em(650, $story_bullet_fsz);
 
@@ -532,7 +520,6 @@
 						}
 
 						&-6 {
-							// background-image: url("./images/story/slide_introspection.png");
 							bottom: em(147, $story_bullet_fsz);
 							left: em(935, $story_bullet_fsz);
 
@@ -622,27 +609,27 @@
 				&.story-slide {
 
 					&-1 {
-						background-image: url("./images/story/doit.png");
+						background-image: url("./images/story/doit.webp"), url("./images/story/doit.png");
 					}
 
 					&-2 {
-						background-image: url("./images/story/empower.png");
+						background-image: url("./images/story/empower.webp"), url("./images/story/empower.png");
 					}
 
 					&-3 {
-						background-image: url("./images/story/forward.png");
+						background-image: url("./images/story/forward.webp"), url("./images/story/forward.png");
 					}
 
 					&-4 {
-						background-image: url("./images/story/improvement.png");
+						background-image: url("./images/story/improvement.webp"), url("./images/story/improvement.png");
 					}
 
 					&-5 {
-						background-image: url("./images/story/solutions.png");
+						background-image: url("./images/story/solutions.webp"), url("./images/story/solutions.png");
 					}
 
 					&-6 {
-						background-image: url("./images/story/positivity.png");
+						background-image: url("./images/story/positivity.webp"), url("./images/story/positivity.png");
 					}
 				}
 			}

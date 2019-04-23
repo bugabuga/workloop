@@ -91,7 +91,6 @@
 	<?php } elseif ( is_page (51)) { ?>
 
 	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/scripts_careers.js"></script>
-	  <script type="text/javascript" src="https://theworkloop.com/wp-content/themes/workloop/js/remodal.min.js"></script>
 
 	<?php } elseif ( is_page (95)) { ?>
 

@@ -50,7 +50,7 @@
 		}
 
 		&:before {
-			background-image: url("./images/solutions/solutions_hero_1440.png");
+			background-image: url("./images/solutions/solutions_hero_1440.webp"), url("./images/solutions/solutions_hero_1440.png");
 			width: 100%;
 			height: em(835);
 			top: em(-97);
@@ -93,7 +93,7 @@
 		}
 
 	    &:before {
-			background-image: url("./images/solutions/solutions_hero_1440.png");
+			background-image: url("./images/solutions/solutions_hero_1440.webp"), url("./images/solutions/solutions_hero_1440.png");
 			width: 100%;
 			height: em(835);
 			top: em(-95);
@@ -205,7 +205,7 @@
 		}
 
 		&:before {
-			background-image: url("./images/edge/hero_our_edge_1024.png");
+			background-image: url("./images/edge/hero_our_edge_1024.webp"), url("./images/edge/hero_our_edge_1024.png");
 			width: em(970);
 			height: em(582);
 			left: em(-20);
@@ -261,7 +261,7 @@
 		}
 
 		&:before {
-			background-image: url("./images/story/hero_our_story_1024.png");
+			background-image: url("./images/story/hero_our_story_1024.webp"), url("./images/story/hero_our_story_1024.png");
 			width: em(977);
 			height: em(753);
 			right: 0;
@@ -305,7 +305,7 @@
 	&-careers {
 
 		&:before {
-			background-image: url("./images/careers/hero_careers_1024.png");
+			background-image: url("./images/careers/hero_careers_1024.webp"), url("./images/careers/hero_careers_1024.png");
 			width: em(914);
 			height: em(564);
 			left: 0;
@@ -352,7 +352,7 @@
 	&-blog {
 
 		&:before {
-			background-image: url("./images/blog/hero_blog_1024.png");
+			background-image: url("./images/blog/hero_blog_1024.webp"), url("./images/blog/hero_blog_1024.png");
 			width: em(1083);
 			height: em(650);
 			right: 0;

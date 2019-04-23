@@ -2,20 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc4b638-5859-487e-ba23-51730e144fa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/header_article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/arrow_red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/loadmore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/blog_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog/blog_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/hero_blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog/hero_blog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/hero_blog_1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog/hero_blog_1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog/mask_shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog/mask_shape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/careers_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/careers_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/hero_careers.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/hero_careers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/hero_careers_1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/hero_careers_1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/channels/channels_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/channels/channels_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_agility.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_agility.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_culture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_culture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_people.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_people.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_process.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_process.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/edge_tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/edge_tech.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/hero_our_edge.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/hero_our_edge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/hero_our_edge_1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/hero_our_edge_1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/mask_agility.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/mask_agility.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/mask_culture.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/mask_culture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/mask_people.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/mask_people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/mask_process.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/mask_process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edge/mask_tech.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/edge/mask_tech.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicons/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicons/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/blog_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/blog_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/blog_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/blog_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/blog_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/blog_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/border_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/border_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_agility.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_agility.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_culture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_culture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_people.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_people.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_process.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_process.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home/edge/edge_tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/home/edge/edge_tech.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions/solutions_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions/solutions_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions/solutions_hero_1440.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions/solutions_hero_1440.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions/solutions_hero_1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions/solutions_hero_1920.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_2_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_2_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_2_hero_1440.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_2_hero_1440.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_2_hero_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_2_hero_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_ext_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_ext_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_hero_1440.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_hero_1440.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solutions_hero_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/solutions_hero_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/doit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/doit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/empower.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/empower.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/forward.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/forward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/gisc.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/gisc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/hero_our_story_1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/hero_our_story_1024.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/hero_our_story_1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/hero_our_story_1920.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/hero_story_1440.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/hipaa.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/hipaa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/improvement.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/improvement.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/pcidss.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/pcidss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/positivity.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/positivity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/principles_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/principles_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_empower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_enjoy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_introspection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_now.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_respect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/slide_thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/solutions.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/solutions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/story_shape_part.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/story_shape_part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/story/ungc.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/story/ungc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_our_story.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_our_story.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,55 +92,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="67" column="14" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="67" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts_article.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/_buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="69" column="33" selection-start-line="68" selection-start-column="8" selection-end-line="69" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/_contact.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="521" column="23" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="243" column="12" lean-forward="true" selection-start-line="243" selection-start-column="12" selection-end-line="243" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="525">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -91,11 +109,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="78" column="58" lean-forward="true" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+            <state relative-caret-position="2100">
+              <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3507">
+              <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="354" column="68" selection-start-line="354" selection-start-column="68" selection-end-line="354" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11676">
+              <caret line="556" column="6" selection-start-line="556" selection-start-column="6" selection-end-line="556" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2541">
+              <caret column="121988" selection-start-column="121988" selection-end-column="121988" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -112,8 +193,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>display: none</find>
-      <find>768</find>
       <find>yellow</find>
       <find>ye</find>
       <find>article</find>
@@ -121,7 +200,6 @@
       <find>share</find>
       <find>capt</find>
       <find>reso</find>
-      <find>solution</find>
       <find>purpl</find>
       <find>reasons</find>
       <find>_fame</find>
@@ -142,6 +220,9 @@
       <find>rel</find>
       <find>disable_embeds_rewrites</find>
       <find>flip</find>
+      <find>remodal</find>
+      <find>title</find>
+      <find>solution</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -155,8 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/careers-page.php" />
-        <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/styles/libs/remodal-default-theme.css" />
         <option value="$PROJECT_DIR$/styles/_mixins.scss" />
         <option value="$PROJECT_DIR$/styles/_footer.scss" />
@@ -181,21 +260,17 @@
         <option value="$PROJECT_DIR$/home-page.php" />
         <option value="$PROJECT_DIR$/js/scripts_article.js" />
         <option value="$PROJECT_DIR$/solutions_ext.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/styles/_careers.scss" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/js/scripts_solutions.js" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/styles/_global.scss" />
         <option value="$PROJECT_DIR$/our_story.html" />
-        <option value="$PROJECT_DIR$/styles/_our_story.scss" />
-        <option value="$PROJECT_DIR$/styles/_hero.scss" />
         <option value="$PROJECT_DIR$/js/scripts_blog.js" />
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/js/scripts_home.js" />
         <option value="$PROJECT_DIR$/js/scripts_our_story.js" />
         <option value="$PROJECT_DIR$/js/scripts_solutions_ext.js" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/styles/_blog.scss" />
         <option value="$PROJECT_DIR$/styles/_solutions.scss" />
         <option value="$PROJECT_DIR$/js/loadmore.js" />
@@ -206,6 +281,12 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/styles/_our_story.scss" />
+        <option value="$PROJECT_DIR$/styles/_hero.scss" />
       </list>
     </option>
   </component>
@@ -221,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +313,13 @@
             <path>
               <item name="connex" type="b2602c69:ProjectViewProjectNode" />
               <item name="connex" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connex" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connex" type="b2602c69:ProjectViewProjectNode" />
@@ -247,14 +335,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workloop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects/configurator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -282,12 +369,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build-css">
+  <component name="RunManager" selected="Gulp.js.image">
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="image-webp" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>image-webp</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="image" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>image</task>
+      </tasks>
       <arguments />
       <envs />
       <method v="2" />
@@ -314,27 +423,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="svg" type="js.build_tools.gulp" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>svg</task>
-      </tasks>
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build-css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build-css" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="watch-css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -348,10 +436,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gulp.js.sass" />
+        <item itemvalue="Gulp.js.image-webp" />
+        <item itemvalue="Gulp.js.image" />
         <item itemvalue="Gulp.js.sass:watch" />
         <item itemvalue="npm.watch-css" />
-        <item itemvalue="Gulp.js.svg" />
-        <item itemvalue="npm.build-css" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +709,13 @@
       <workItem from="1554719751767" duration="1301000" />
       <workItem from="1554721770580" duration="122000" />
       <workItem from="1554721960877" duration="43627000" />
-      <workItem from="1555576921488" duration="1903000" />
+      <workItem from="1555576921488" duration="2889000" />
+      <workItem from="1555940988754" duration="1505000" />
+      <workItem from="1556017023781" duration="1217000" />
+      <workItem from="1556019601327" duration="680000" />
+      <workItem from="1556022272577" duration="1738000" />
+      <workItem from="1556024136596" duration="1840000" />
+      <workItem from="1556026120266" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Edits">
       <created>1553506638621</created>
@@ -686,24 +780,31 @@
       <option name="project" value="LOCAL" />
       <updated>1554885429054</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updates and fixes">
+      <created>1555668176766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555668176766</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557740000" />
+    <option name="totallyTimeSpent" value="566248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="266" y="254" width="2172" height="1153" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7975376" visible="true" weight="0.20686369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6965035" visible="true" weight="0.21496664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" show_stripe_button="false" sideWeight="0.50865054" side_tool="true" weight="0.2800249" />
-      <window_info id="Gulp" order="3" sideWeight="0.20246238" side_tool="true" weight="0.24626866" />
+      <window_info id="Gulp" order="3" sideWeight="0.3034965" side_tool="true" visible="true" weight="0.21496664" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49956635" weight="0.116959065" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49956635" visible="true" weight="0.2806841" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,8 +812,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009533" side_tool="true" weight="0.12474849" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.67951804" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4990467" visible="true" weight="0.12173038" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38430583" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4990467" weight="0.11167002" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -733,18 +834,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="updates and fixes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1452">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -830,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_careers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -870,20 +952,6 @@
             <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="354" column="30" lean-forward="true" selection-start-line="354" selection-start-column="30" selection-end-line="354" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="281" column="20" lean-forward="true" selection-start-line="281" selection-start-column="20" selection-end-line="281" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -924,28 +992,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/error_log 2" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/loadmore.js" />
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="127" column="39" lean-forward="true" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -977,24 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1302">
-          <caret line="556" column="6" lean-forward="true" selection-start-line="556" selection-start-column="6" selection-end-line="556" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1012,6 +1045,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax_email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loadmore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="67" column="14" selection-start-line="60" selection-start-column="4" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts_article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -1026,10 +1080,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10941">
+          <caret line="521" column="23" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        <state relative-caret-position="525">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="87" />
         </state>
       </provider>
     </entry>
@@ -1040,45 +1122,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="67" column="14" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="243" column="12" lean-forward="true" selection-start-line="243" selection-start-column="12" selection-end-line="243" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax_email.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="521" column="23" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loadmore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="78" column="58" lean-forward="true" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+        <state relative-caret-position="2100">
+          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_our_story.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3507">
+          <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_solutions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11676">
+          <caret line="556" column="6" selection-start-line="556" selection-start-column="6" selection-end-line="556" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret column="121988" selection-start-column="121988" selection-end-column="121988" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="354" column="68" selection-start-line="354" selection-start-column="68" selection-end-line="354" selection-end-column="68" />
         </state>
       </provider>
     </entry>
