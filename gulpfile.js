@@ -18,10 +18,10 @@ gulp.task('sass:watch', function () {
 });
 
 gulp.task('image', function() {
-	gulp.src('./images_src/**/*')
+	gulp.src('./images_src_3/**/*')
 		.pipe(imagemin([
 			imagemin.jpegtran({progressive: true}),
-			imagemin.optipng({optimizationLevel: 5})
+			imagemin.optipng({optimizationLevel: 7})
 		]))
 		.pipe(gulp.dest('./images'))
 });

@@ -198,7 +198,7 @@
 					transform: scale(0.78);
 
 					&:before {
-						background-image: url("./images/edge/mask_people.png");
+						background-image: url("./images/edge/mask_people.webp"), url("./images/edge/mask_people.png");
 						width: em(550);
 						height: em(550);
 						top: em(-75);
@@ -207,7 +207,7 @@
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/edge_people.jpg");
+					background-image: url("./images/edge/edge_people.webp"), url("./images/edge/edge_people.jpg");
 
 					&:before {
 						background-color: #693AF9;
@@ -304,12 +304,12 @@
 					transform: scale(0.78) translate(em(40), 0);
 
 					&:before {
-						background-image: url("./images/edge/mask_agility.png");
+						background-image: url("./images/edge/mask_agility.webp"), url("./images/edge/mask_agility.png");
 					}
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/edge_agility.jpg");
+					background-image: url("./images/edge/edge_agility.webp"), url("./images/edge/edge_agility.jpg");
 
 					&:before {
 						background-color: #0A7CFE;
@@ -399,12 +399,12 @@
 					}
 
 					&:before {
-						background-image: url("./images/edge/mask_culture.png");
+						background-image: url("./images/edge/mask_culture.webp"), url("./images/edge/mask_culture.png");
 					}
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/edge_culture.jpg");
+					background-image: url("./images/edge/edge_culture.webp"), url("./images/edge/edge_culture.jpg");
 
 					&:before {
 						background-color: #00D2AB;
@@ -489,12 +489,12 @@
 					transform: scale(0.78) translate(em(-90), 0);
 
 					&:before {
-						background-image: url("./images/edge/mask_tech.png");
+						background-image: url("./images/edge/mask_tech.webp"), url("./images/edge/mask_tech.png");
 					}
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/edge_tech.jpg");
+					background-image: url("./images/edge/edge_tech.webp"), url("./images/edge/edge_tech.jpg");
 
 					&:before {
 						background-color: #FFD002;
@@ -579,12 +579,12 @@
 					transform: scale(0.78) translate(em(40), 0);
 
 					&:before {
-						background-image: url("./images/edge/mask_process.png");
+						background-image: url("./images/edge/mask_process.webp"), url("./images/edge/mask_process.png");
 					}
 				}
 
 				.toggle-mask {
-					background-image: url("./images/edge/edge_process.jpg");
+					background-image: url("./images/edge/edge_process.webp"), url("./images/edge/edge_process.jpg");
 
 					&:before {
 						background-color: #FF2963;
